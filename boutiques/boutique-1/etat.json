@@ -128,7 +128,13 @@
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
-      "statut": "libre"
+      "statut": "utilise",
+      "article_id": "gid://shopify/Article/631272833371",
+      "handle": "veilleuse-guide-complet",
+      "url": "https://latelier-veilleuse.com/blogs/le-blog-de-latelier-veilleuse/veilleuse-guide-complet",
+      "titre": "Veilleuse : Guide Complet pour Éclairer vos Nuits",
+      "date_publication": "2026-07-07",
+      "date_maj": "2026-07-07"
     },
     {
       "mot_cle": "lampe veilleuse",
