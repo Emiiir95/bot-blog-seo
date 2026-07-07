@@ -6,5 +6,13 @@
     "blog_handle": "le-blog-de-latelier-veilleuse",
     "langue": "fr",
     "niche": "veilleuses et accessoires de sommeil pour bébé"
+  },
+  {
+    "id": "boutique-2",
+    "domaine": "perchoirduchat.com",
+    "shopify_domain": "qxcphb-wu.myshopify.com",
+    "blog_handle": "actualites",
+    "langue": "fr",
+    "niche": "arbres à chat, perchoirs et accessoires pour chat"
   }
 ]
