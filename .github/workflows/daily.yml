@@ -1,0 +1,38 @@
+name: Daily SEO Blogs
+
+on:
+  schedule:
+    # 06:00 UTC ≈ 08:00 Paris (été). Ajuster selon la saison / le fuseau voulu.
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write # nécessaire pour committer les boutiques/*/etat.json
+
+concurrency:
+  group: daily-seo
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run bot
+        run: node src/index.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          STORES_SECRETS: ${{ secrets.STORES_SECRETS }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          COMMIT_STATE: "1"
+          # Sécurité : "1" = publie en BROUILLON (rien en public). Passer à "0" pour publier en public.
+          FORCE_DRAFT: "1"

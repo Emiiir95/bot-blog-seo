@@ -1,0 +1,20 @@
+{
+  "name": "bot-seo",
+  "version": "1.0.0",
+  "description": "Bot d'automatisation de blogs SEO multi-boutiques Shopify",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "run:once": "node --env-file=.env src/index.js",
+    "crawl": "node --env-file=.env src/crawl.js",
+    "themes": "node --env-file=.env src/themes.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "csv-parse": "^5.5.6",
+    "franc-min": "^6.2.0"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "boutique": "boutique-1",
+  "derniere_generation_themes": "2026-07-06",
+  "dernier_refresh": null,
+  "themes": [
+    {
+      "mot_cle": "veilleuse bébé",
+      "volume": 12100,
+      "kd": 24,
+      "cluster": "veilleuse bébé",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse enfant",
+      "volume": 8100,
+      "kd": 32,
+      "cluster": "veilleuse bébé",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "à quel âge mettre une veilleuse à bébé",
+      "volume": 140,
+      "kd": 11,
+      "cluster": "veilleuse bébé",
+      "role": "satellite",
+      "intention": "informationnelle",
+      "archetype": "explicatif",
+      "est_question": true,
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "quelle veilleuse pour bébé",
+      "volume": 90,
+      "kd": 12,
+      "cluster": "veilleuse bébé",
+      "role": "satellite",
+      "intention": "informationnelle",
+      "archetype": "explicatif",
+      "est_question": true,
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse projecteur plafond",
+      "volume": 1600,
+      "kd": 22,
+      "cluster": "veilleuse projecteur",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse qui aide bébé à dormir",
+      "volume": 320,
+      "kd": 18,
+      "cluster": "veilleuse projecteur",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "comment choisir une veilleuse pour bébé",
+      "volume": 210,
+      "kd": 15,
+      "cluster": "veilleuse projecteur",
+      "role": "satellite",
+      "intention": "how_to",
+      "archetype": "guide_etape",
+      "est_question": true,
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse prise bébé",
+      "volume": 880,
+      "kd": 29,
+      "cluster": "veilleuse prise",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse musicale bébé",
+      "volume": 720,
+      "kd": 26,
+      "cluster": "veilleuse prise",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse nomade bébé",
+      "volume": 390,
+      "kd": 20,
+      "cluster": "veilleuse prise",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "statut": "libre"
+    }
+  ]
+}
