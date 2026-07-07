@@ -265,7 +265,7 @@ La validation tourne **AVANT** l'appel de publication Shopify. Rien ne passe en 
 
 ## 18. Le strict minimum MANUEL par boutique (onboarding)
 
-1. Créer un blog « Blog » dans Shopify (2 min).
+1. Blog Shopify nommé **« Le blog de [Nom de la boutique] »** (convention, ex. « Le blog du Perchoir du Chat »). Peut être renommé via l'API (`blogUpdate` : `title` + `handle` type `le-blog-de-xxx`). Reporter le `blog_handle` dans `stores.json`.
 2. Exporter 2 CSV SEMrush : `keywords.csv` (filtré KD<30) + `clusters.csv`.
 3. Écrire **3 lignes** dans `infos.md` (ton, persona, auteur).
 4. Ajouter le token Shopify + clé Pexels au secret `STORES_SECRETS`.
