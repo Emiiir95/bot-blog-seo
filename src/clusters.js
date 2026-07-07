@@ -8,6 +8,10 @@ import { addUsage } from "./cost.js";
 
 const client = new Anthropic({ apiKey: env.anthropicKey });
 
+// Filtres appliqués aux exports SEMrush volumineux (l'utilisateur peut exporter tout le fichier).
+const KD_MAX = 30; // on ne garde que les mots-clés "faciles" (stratégie easy-first)
+const MAX_KEYWORDS = 250; // plafond : ~250 mots-clés = ~8 mois de contenu à 1/jour, et clustering IA gérable
+
 function storeDir(storeId) {
   return join(ROOT, "boutiques", storeId, "semrush");
 }
@@ -15,7 +19,16 @@ function storeDir(storeId) {
 function readCsv(file) {
   if (!existsSync(file)) return [];
   const raw = readFileSync(file, "utf8");
-  return parse(raw, { columns: true, skip_empty_lines: true, trim: true, bom: true });
+  // Tolérant : les exports SEMrush réels ont parfois des lignes malformées / guillemets non échappés.
+  return parse(raw, {
+    columns: true,
+    skip_empty_lines: true,
+    trim: true,
+    bom: true,
+    relax_column_count: true,
+    relax_quotes: true,
+    skip_records_with_error: true,
+  });
 }
 
 /** Normalise l'accès aux colonnes SEMrush (les noms peuvent varier légèrement). */
@@ -29,12 +42,17 @@ function col(row, ...names) {
 }
 
 export function loadKeywordRows(storeId) {
-  return readCsv(join(storeDir(storeId), "keywords.csv")).map((r) => ({
-    mot_cle: col(r, "Keyword", "keyword"),
-    volume: Number(col(r, "Volume", "search volume") || 0),
-    kd: Number(col(r, "Keyword Difficulty", "KD", "difficulty") || 0),
-    intent: (col(r, "Intent", "intention") || "").toLowerCase(),
-  })).filter((r) => r.mot_cle);
+  const rows = readCsv(join(storeDir(storeId), "keywords.csv"))
+    .map((r) => ({
+      mot_cle: col(r, "Keyword", "keyword"),
+      volume: Number(col(r, "Volume", "search volume") || 0),
+      kd: Number(col(r, "Keyword Difficulty", "KD", "difficulty", "kd %", "keyword difficulty %") || 0),
+      intent: (col(r, "Intent", "intention") || "").toLowerCase(),
+    }))
+    .filter((r) => r.mot_cle && r.kd <= KD_MAX);
+  // Garde le top par volume → gère les exports énormes (repo léger + clustering IA faisable).
+  rows.sort((a, b) => b.volume - a.volume);
+  return rows.slice(0, MAX_KEYWORDS);
 }
 
 /** Charge le mapping mot-clé -> cluster depuis clusters.csv, ou null si le fichier est absent. */
@@ -78,7 +96,7 @@ export async function clusterWithAI(keywordRows, niche) {
 
   const resp = await client.messages.create({
     model: "claude-haiku-4-5",
-    max_tokens: 4000,
+    max_tokens: 8000,
     messages: [
       {
         role: "user",
