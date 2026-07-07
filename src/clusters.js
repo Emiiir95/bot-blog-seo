@@ -41,8 +41,24 @@ function col(row, ...names) {
   return undefined;
 }
 
+const STOPWORDS = new Set(["a", "à", "au", "aux", "de", "des", "du", "en", "et", "le", "la", "les", "un", "une", "pour", "avec", "sur", "dans", "par", "chez", "the"]);
+
+/** Forme canonique d'un mot-clé : sert à détecter les quasi-doublons (accents, pluriels, mots-outils, ordre). */
+export function normaliserMotCle(k) {
+  return String(k)
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9 ]/g, " ")
+    .split(/\s+/)
+    .filter((w) => w && !STOPWORDS.has(w))
+    .map((w) => w.replace(/s$/, "")) // singulier grossier
+    .sort()
+    .join(" ");
+}
+
 export function loadKeywordRows(storeId) {
-  const rows = readCsv(join(storeDir(storeId), "keywords.csv"))
+  const brut = readCsv(join(storeDir(storeId), "keywords.csv"))
     .map((r) => ({
       mot_cle: col(r, "Keyword", "keyword"),
       volume: Number(col(r, "Volume", "search volume") || 0),
@@ -50,9 +66,25 @@ export function loadKeywordRows(storeId) {
       intent: (col(r, "Intent", "intention") || "").toLowerCase(),
     }))
     .filter((r) => r.mot_cle && r.kd <= KD_MAX);
-  // Garde le top par volume → gère les exports énormes (repo léger + clustering IA faisable).
-  rows.sort((a, b) => b.volume - a.volume);
-  return rows.slice(0, MAX_KEYWORDS);
+
+  // Déduplication anti-cannibalisation : les variantes quasi-identiques fusionnent en UN thème.
+  const groupes = new Map();
+  for (const r of brut) {
+    const clef = normaliserMotCle(r.mot_cle);
+    if (!clef) continue;
+    if (!groupes.has(clef)) groupes.set(clef, []);
+    groupes.get(clef).push(r);
+  }
+  const dedup = [];
+  for (const grp of groupes.values()) {
+    grp.sort((a, b) => b.volume - a.volume);
+    const primaire = grp[0];
+    primaire.variantes = grp.slice(1).map((g) => g.mot_cle); // variantes = mots-clés secondaires du même article
+    dedup.push(primaire);
+  }
+  // Top par volume → gère les exports énormes (repo léger + clustering IA faisable).
+  dedup.sort((a, b) => b.volume - a.volume);
+  return dedup.slice(0, MAX_KEYWORDS);
 }
 
 /** Charge le mapping mot-clé -> cluster depuis clusters.csv, ou null si le fichier est absent. */
@@ -159,8 +191,19 @@ export function buildThemes(storeId, clusterMap) {
   for (const [cluster, list] of byCluster) {
     // Pilier = plus gros volume du cluster.
     const sorted = [...list].sort((a, b) => b.volume - a.volume);
+    let iSat = 0;
     sorted.forEach((r, i) => {
-      const { intention, archetype } = deriveIntentAndArchetype(r.mot_cle, r.intent);
+      const { intention } = deriveIntentAndArchetype(r.mot_cle, r.intent);
+      const question = isQuestion(r.mot_cle);
+      let archetype;
+      if (i === 0) {
+        archetype = "guide_complet"; // pilier
+      } else {
+        // Rotation d'archétypes INTRA-CLUSTER (variété de structure, anti-empreinte) — restant cohérent avec l'intention.
+        const pool = question ? ARCH_QUESTION : ARCH_COMMERCIAL;
+        archetype = pool[iSat % pool.length];
+        iSat++;
+      }
       themes.push({
         mot_cle: r.mot_cle,
         volume: r.volume,
@@ -168,11 +211,16 @@ export function buildThemes(storeId, clusterMap) {
         cluster,
         role: i === 0 ? "pilier" : "satellite",
         intention,
-        archetype: i === 0 ? "guide_complet" : archetype,
-        est_question: isQuestion(r.mot_cle),
+        archetype,
+        est_question: question,
+        variantes: r.variantes || [], // mots-clés secondaires à couvrir dans le même article
         statut: "libre",
       });
     });
   }
   return themes;
 }
+
+// Pools d'archétypes pour la rotation intra-cluster (cohérents avec l'intention).
+const ARCH_QUESTION = ["explicatif", "guide_etape", "listicle", "erreurs"];
+const ARCH_COMMERCIAL = ["guide_achat", "comparatif", "listicle", "narratif"];

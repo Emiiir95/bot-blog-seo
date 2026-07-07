@@ -7,11 +7,28 @@
       "mot_cle": "veilleuse bébé",
       "volume": 18100,
       "kd": 26,
-      "cluster": "Veilleuses bébé - Générique",
+      "cluster": "Veilleuses générales",
       "role": "pilier",
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "bebe veilleuse",
+        "veilleuse bebe",
+        "veilleuse pour bebe",
+        "veilleuse pour bébé",
+        "veilleuses bébés",
+        "veilleuses bebe",
+        "veilleuses bébé",
+        "veilleuse de bebe",
+        "veilleuse.bebe",
+        "bébé veilleuse",
+        "une veilleuse pour bébé",
+        "veilleuses pour bebe",
+        "bebe et veilleuse",
+        "bebe-veilleuse",
+        "les veilleuses pour bébé"
+      ],
       "statut": "utilise",
       "article_id": "gid://shopify/Article/631272178011",
       "handle": "veilleuse-bebe-guide-complet",
@@ -21,113 +38,28 @@
       "date_maj": "2026-07-07"
     },
     {
-      "mot_cle": "bebe veilleuse",
-      "volume": 4400,
-      "kd": 29,
-      "cluster": "Veilleuses bébé - Générique",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe",
-      "volume": 4400,
-      "kd": 29,
-      "cluster": "Veilleuses bébé - Générique",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pour bebe",
-      "volume": 720,
-      "kd": 22,
-      "cluster": "Veilleuses bébé - Générique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse enfant 3 ans",
-      "volume": 590,
-      "kd": 18,
-      "cluster": "Veilleuses bébé - Générique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pour bébé",
-      "volume": 390,
-      "kd": 23,
-      "cluster": "Veilleuses bébé - Générique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "lampe veilleuse bebe",
-      "volume": 320,
-      "kd": 19,
-      "cluster": "Veilleuses bébé - Générique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuses bébés",
-      "volume": 320,
-      "kd": 22,
-      "cluster": "Veilleuses bébé - Générique",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse enfant 6 ans",
-      "volume": 260,
-      "kd": 24,
-      "cluster": "Veilleuses bébé - Générique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse chambre bebe",
-      "volume": 210,
-      "kd": 27,
-      "cluster": "Veilleuses bébé - Générique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
       "mot_cle": "veilleuse",
       "volume": 12100,
       "kd": 24,
-      "cluster": "Veilleuses génériques",
-      "role": "pilier",
+      "cluster": "Veilleuses générales",
+      "role": "satellite",
       "intention": "generale",
-      "archetype": "guide_complet",
+      "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "veilleuses",
+        "veilleuse.",
+        "une veilleuse",
+        "en veilleuse",
+        "les veilleuses",
+        "les veilleuse",
+        "un veilleuse",
+        "des veilleuses",
+        "veilleuse les",
+        "veilleuse pour",
+        "avec la veilleuse",
+        "pour une veilleuse"
+      ],
       "statut": "utilise",
       "article_id": "gid://shopify/Article/631272833371",
       "handle": "veilleuse-guide-complet",
@@ -140,2629 +72,3862 @@
       "mot_cle": "lampe veilleuse",
       "volume": 1300,
       "kd": 26,
-      "cluster": "Veilleuses génériques",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "ampoule veilleuse",
-      "volume": 880,
-      "kd": 24,
-      "cluster": "Veilleuses génériques",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "ampoules veilleuse",
-      "volume": 720,
-      "kd": 25,
-      "cluster": "Veilleuses génériques",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse ampoule",
-      "volume": 590,
-      "kd": 18,
-      "cluster": "Veilleuses génériques",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuses",
-      "volume": 590,
-      "kd": 21,
-      "cluster": "Veilleuses génériques",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "ampoule pour veilleuse",
-      "volume": 320,
-      "kd": 18,
-      "cluster": "Veilleuses génériques",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse lampe",
-      "volume": 320,
-      "kd": 22,
-      "cluster": "Veilleuses génériques",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse.",
-      "volume": 320,
-      "kd": 0,
-      "cluster": "Veilleuses génériques",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "une veilleuse",
-      "volume": 260,
-      "kd": 20,
-      "cluster": "Veilleuses génériques",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse tortue",
-      "volume": 2900,
-      "kd": 21,
-      "cluster": "Veilleuses avec forme animal - Tortue",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "tortue veilleuse",
-      "volume": 1900,
-      "kd": 16,
-      "cluster": "Veilleuses avec forme animal - Tortue",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "tortue veilleuse bebe",
-      "volume": 480,
-      "kd": 16,
-      "cluster": "Veilleuses avec forme animal - Tortue",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe tortue",
-      "volume": 480,
-      "kd": 15,
-      "cluster": "Veilleuses avec forme animal - Tortue",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse tortue bebe",
-      "volume": 480,
-      "kd": 16,
-      "cluster": "Veilleuses avec forme animal - Tortue",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse tortue cloud b",
-      "volume": 480,
-      "kd": 10,
-      "cluster": "Veilleuses avec forme animal - Tortue",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "cloud b veilleuse tortue",
-      "volume": 390,
-      "kd": 21,
-      "cluster": "Veilleuses avec forme animal - Tortue",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "tortue veilleuse cloud b",
-      "volume": 390,
-      "kd": 16,
-      "cluster": "Veilleuses avec forme animal - Tortue",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse tortue rose",
-      "volume": 260,
-      "kd": 18,
-      "cluster": "Veilleuses avec forme animal - Tortue",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "tortue bleu veilleuse",
-      "volume": 210,
-      "kd": 16,
-      "cluster": "Veilleuses avec forme animal - Tortue",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "pabobo veilleuse",
-      "volume": 2400,
-      "kd": 29,
-      "cluster": "Marques de veilleuses",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pabobo",
-      "volume": 2400,
-      "kd": 25,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse b cloud",
-      "volume": 880,
-      "kd": 20,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse liewood",
-      "volume": 880,
-      "kd": 16,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "tonies veilleuse",
-      "volume": 720,
-      "kd": 28,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse vtech",
-      "volume": 720,
-      "kd": 21,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "cloud b veilleuse",
-      "volume": 590,
-      "kd": 23,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse beaba",
-      "volume": 590,
-      "kd": 27,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse cloud b",
-      "volume": 590,
-      "kd": 19,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse nomade pabobo",
-      "volume": 590,
-      "kd": 21,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse moulin roty",
-      "volume": 480,
-      "kd": 19,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse nature et decouverte",
-      "volume": 480,
-      "kd": 21,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "momcozy veilleuse",
-      "volume": 390,
-      "kd": 28,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "nature et decouverte veilleuse",
-      "volume": 390,
-      "kd": 23,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "pabobo veilleuse nomade",
-      "volume": 390,
-      "kd": 20,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "tonie veilleuse",
-      "volume": 390,
-      "kd": 28,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuses pabobo",
-      "volume": 390,
-      "kd": 24,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "beaba veilleuse",
-      "volume": 320,
-      "kd": 19,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "gifi veilleuse",
-      "volume": 320,
-      "kd": 20,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "liewood veilleuse",
-      "volume": 320,
-      "kd": 19,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "moulin roty veilleuse",
-      "volume": 320,
-      "kd": 16,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse gifi",
-      "volume": 320,
-      "kd": 27,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse moonie",
-      "volume": 320,
-      "kd": 15,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "etoile veilleuse pabobo",
-      "volume": 260,
-      "kd": 17,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse badabulle",
-      "volume": 260,
-      "kd": 15,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse etoile pabobo",
-      "volume": 260,
-      "kd": 19,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse tommee tippee",
-      "volume": 260,
-      "kd": 28,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "aubert veilleuse",
-      "volume": 210,
-      "kd": 22,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "moonie veilleuse",
-      "volume": 210,
-      "kd": 14,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "orchestra veilleuse",
-      "volume": 210,
-      "kd": 24,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse babymoov",
-      "volume": 210,
-      "kd": 19,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe vtech",
-      "volume": 210,
-      "kd": 26,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse chicco",
-      "volume": 210,
-      "kd": 21,
-      "cluster": "Marques de veilleuses",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse baleine",
-      "volume": 1900,
-      "kd": 16,
-      "cluster": "Veilleuses avec forme animal - Baleine",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "baleine veilleuse",
-      "volume": 1300,
-      "kd": 18,
-      "cluster": "Veilleuses avec forme animal - Baleine",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse baleine pabobo",
-      "volume": 210,
-      "kd": 21,
-      "cluster": "Veilleuses avec forme animal - Baleine",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse coranique",
-      "volume": 1900,
-      "kd": 27,
-      "cluster": "Veilleuses avec thème littéraire/cinématographique",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse coran",
-      "volume": 720,
-      "kd": 10,
-      "cluster": "Veilleuses avec thème littéraire/cinématographique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse coranique bebe",
-      "volume": 590,
-      "kd": 9,
-      "cluster": "Veilleuses avec thème littéraire/cinématographique",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse la reine des neiges",
-      "volume": 260,
-      "kd": 19,
-      "cluster": "Veilleuses avec thème littéraire/cinématographique",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse le petit prince",
-      "volume": 260,
-      "kd": 17,
-      "cluster": "Veilleuses avec thème littéraire/cinématographique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse minecraft",
-      "volume": 260,
-      "kd": 19,
-      "cluster": "Veilleuses avec thème littéraire/cinématographique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse petit prince",
-      "volume": 260,
-      "kd": 11,
-      "cluster": "Veilleuses avec thème littéraire/cinématographique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse harry potter",
-      "volume": 210,
-      "kd": 16,
-      "cluster": "Veilleuses avec thème littéraire/cinématographique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse musical pour bebe",
-      "volume": 1900,
-      "kd": 19,
-      "cluster": "Veilleuses musicales",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse musicale bébé",
-      "volume": 1000,
-      "kd": 16,
-      "cluster": "Veilleuses musicales",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse musical bebe",
-      "volume": 880,
-      "kd": 16,
-      "cluster": "Veilleuses musicales",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse musicale",
-      "volume": 720,
-      "kd": 18,
-      "cluster": "Veilleuses musicales",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse musicale bebe",
-      "volume": 590,
-      "kd": 19,
-      "cluster": "Veilleuses musicales",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse musicale pour bébé",
-      "volume": 590,
-      "kd": 15,
-      "cluster": "Veilleuses musicales",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bébé musicale",
-      "volume": 480,
-      "kd": 18,
-      "cluster": "Veilleuses musicales",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse musique",
-      "volume": 480,
-      "kd": 14,
-      "cluster": "Veilleuses musicales",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse musique bébé",
-      "volume": 480,
-      "kd": 16,
-      "cluster": "Veilleuses musicales",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe musical",
-      "volume": 390,
-      "kd": 17,
-      "cluster": "Veilleuses musicales",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe musique",
-      "volume": 390,
-      "kd": 15,
-      "cluster": "Veilleuses musicales",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse lapin",
-      "volume": 1600,
-      "kd": 24,
-      "cluster": "Veilleuses avec forme animal - Lapin",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "lapin veilleuse",
-      "volume": 590,
-      "kd": 15,
-      "cluster": "Veilleuses avec forme animal - Lapin",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe lapin",
-      "volume": 210,
-      "kd": 19,
-      "cluster": "Veilleuses avec forme animal - Lapin",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse prise",
-      "volume": 1600,
-      "kd": 21,
-      "cluster": "Veilleuses avec type de connexion - Prise",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse sur prise",
-      "volume": 1600,
-      "kd": 23,
-      "cluster": "Veilleuses avec type de connexion - Prise",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pour prise",
-      "volume": 1000,
-      "kd": 22,
-      "cluster": "Veilleuses avec type de connexion - Prise",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "prise veilleuse",
-      "volume": 880,
-      "kd": 20,
-      "cluster": "Veilleuses avec type de connexion - Prise",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse à prise",
-      "volume": 880,
-      "kd": 19,
-      "cluster": "Veilleuses avec type de connexion - Prise",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse prise bebe",
-      "volume": 480,
-      "kd": 21,
-      "cluster": "Veilleuses avec type de connexion - Prise",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse sur secteur",
-      "volume": 480,
-      "kd": 19,
-      "cluster": "Veilleuses avec type de connexion - Prise",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe prise",
-      "volume": 390,
-      "kd": 18,
-      "cluster": "Veilleuses avec type de connexion - Prise",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe sur prise",
-      "volume": 390,
-      "kd": 19,
-      "cluster": "Veilleuses avec type de connexion - Prise",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse secteur",
-      "volume": 390,
-      "kd": 19,
-      "cluster": "Veilleuses avec type de connexion - Prise",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse prise murale",
-      "volume": 260,
-      "kd": 25,
-      "cluster": "Veilleuses avec type de connexion - Prise",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse stitch",
-      "volume": 1600,
-      "kd": 26,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse astronaute",
-      "volume": 880,
-      "kd": 26,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse licorne",
-      "volume": 880,
-      "kd": 28,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "loutre veilleuse",
-      "volume": 720,
-      "kd": 21,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse champignon",
-      "volume": 720,
-      "kd": 14,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse loutre",
-      "volume": 720,
-      "kd": 25,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse nuage",
-      "volume": 720,
-      "kd": 17,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse ours",
-      "volume": 720,
-      "kd": 16,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse ourson",
-      "volume": 720,
-      "kd": 14,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "licorne veilleuse",
-      "volume": 590,
-      "kd": 25,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse chat",
-      "volume": 590,
-      "kd": 14,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse renard",
-      "volume": 590,
-      "kd": 15,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "mouton veilleuse",
-      "volume": 480,
-      "kd": 16,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "nuage veilleuse",
-      "volume": 480,
-      "kd": 6,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "renard veilleuse",
-      "volume": 480,
-      "kd": 10,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse dinosaure",
-      "volume": 480,
-      "kd": 9,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse mouton",
-      "volume": 480,
-      "kd": 19,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse panda",
-      "volume": 480,
-      "kd": 19,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pat patrouille",
-      "volume": 480,
-      "kd": 21,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pingouin",
-      "volume": 480,
-      "kd": 16,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pokemon",
-      "volume": 480,
-      "kd": 24,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "champignon veilleuse",
-      "volume": 390,
-      "kd": 10,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "panda veilleuse",
-      "volume": 390,
-      "kd": 11,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pikachu",
-      "volume": 390,
-      "kd": 19,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse poire",
-      "volume": 390,
-      "kd": 9,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse spiderman",
-      "volume": 390,
-      "kd": 22,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse chien",
-      "volume": 320,
-      "kd": 8,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse elephant",
-      "volume": 320,
-      "kd": 12,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse miffy",
-      "volume": 320,
-      "kd": 14,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "poire veilleuse",
-      "volume": 260,
-      "kd": 5,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "sophie la girafe veilleuse",
-      "volume": 260,
-      "kd": 17,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe renard",
-      "volume": 260,
-      "kd": 10,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse girafe sophie",
-      "volume": 260,
-      "kd": 24,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse hello kitty",
-      "volume": 260,
-      "kd": 8,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse hippopotame",
-      "volume": 260,
-      "kd": 12,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse koala",
-      "volume": 260,
-      "kd": 17,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse poussin",
-      "volume": 260,
-      "kd": 6,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse chaton",
-      "volume": 210,
-      "kd": 7,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse hibou",
-      "volume": 210,
-      "kd": 12,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse hippo",
-      "volume": 210,
-      "kd": 20,
-      "cluster": "Veilleuses avec forme animal - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "la mer veilleuse beach club plage privée",
-      "volume": 1300,
-      "kd": 17,
-      "cluster": "Contexte - Cuisine/Littérature",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "la madeleine à la veilleuse",
-      "volume": 590,
-      "kd": 19,
-      "cluster": "Contexte - Cuisine/Littérature",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "madeleine à la veilleuse",
-      "volume": 590,
-      "kd": 29,
-      "cluster": "Contexte - Cuisine/Littérature",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "mère veilleuse",
-      "volume": 590,
-      "kd": 17,
-      "cluster": "Contexte - Cuisine/Littérature",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "mere veilleuse",
-      "volume": 260,
-      "kd": 7,
-      "cluster": "Contexte - Cuisine/Littérature",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "cluster": "Veilleuses générales",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse lampe",
+        "lampes veilleuses",
+        "lampe de veilleuse",
+        "lampe et veilleuse",
+        "lampe pour veilleuse",
+        "+lampe +veilleuse",
+        "des lampes veilleuses",
+        "la lampe veilleuse",
+        "lampe avec veilleuse",
+        "lampe.veilleuse",
+        "lampes de veilleuse",
+        "lampes veilleuse"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "veilleuse adulte",
       "volume": 1300,
       "kd": 21,
-      "cluster": "Veilleuses pour adulte",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pour adulte",
-      "volume": 1000,
-      "kd": 19,
-      "cluster": "Veilleuses pour adulte",
+      "cluster": "Veilleuses générales",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse chambre à coucher adulte",
-      "volume": 260,
-      "kd": 16,
-      "cluster": "Veilleuses pour adulte",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "lampe veilleuse adulte",
-      "volume": 210,
-      "kd": 15,
-      "cluster": "Veilleuses pour adulte",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bruit blanc",
-      "volume": 1300,
-      "kd": 15,
-      "cluster": "Veilleuses avec bruit blanc",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse white noise",
-      "volume": 880,
-      "kd": 24,
-      "cluster": "Veilleuses avec bruit blanc",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bruit blanc bébé",
-      "volume": 390,
-      "kd": 21,
-      "cluster": "Veilleuses avec bruit blanc",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bruits blancs",
-      "volume": 390,
-      "kd": 11,
-      "cluster": "Veilleuses avec bruit blanc",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bruits blancs bebe",
-      "volume": 390,
-      "kd": 22,
-      "cluster": "Veilleuses avec bruit blanc",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bébé bruit blanc",
-      "volume": 390,
-      "kd": 18,
-      "cluster": "Veilleuses avec bruit blanc",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bruits blanc",
-      "volume": 320,
-      "kd": 13,
-      "cluster": "Veilleuses avec bruit blanc",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe bruit blanc",
-      "volume": 260,
-      "kd": 12,
-      "cluster": "Veilleuses avec bruit blanc",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "veilleuse pour adulte",
+        "veilleuse pour adultes",
+        "veilleuse adultes",
+        "adulte veilleuse"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "veilleuse de nuit",
       "volume": 1300,
       "kd": 15,
-      "cluster": "Veilleuses pour contexte spécifique",
-      "role": "pilier",
+      "cluster": "Veilleuses générales",
+      "role": "satellite",
       "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuses de nuit",
+        "veilleuse nuit",
+        "veilleuse pour la nuit",
+        "une veilleuse de nuit",
+        "la veilleuse de nuit",
+        "les veilleuses de nuit",
+        "la veilleuse de la nuit",
+        "les veilleuses de nuits"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse lumineuse",
+      "volume": 210,
+      "kd": 28,
+      "cluster": "Veilleuses générales",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse tortue",
+      "volume": 2900,
+      "kd": 21,
+      "cluster": "Veilleuses animaux",
+      "role": "pilier",
+      "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "tortue veilleuse",
+        "tortues veilleuse",
+        "la tortue veilleuse",
+        "la veilleuse tortue"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "veilleuses de nuit",
-      "volume": 590,
-      "kd": 14,
-      "cluster": "Veilleuses pour contexte spécifique",
+      "mot_cle": "veilleuse baleine",
+      "volume": 1900,
+      "kd": 16,
+      "cluster": "Veilleuses animaux",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "baleine veilleuse",
+        "baleine veilleuses"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "ampoule veilleuse voiture",
-      "volume": 480,
-      "kd": 20,
-      "cluster": "Veilleuses pour contexte spécifique",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse voiture",
-      "volume": 480,
-      "kd": 23,
-      "cluster": "Veilleuses pour contexte spécifique",
+      "mot_cle": "veilleuse lapin",
+      "volume": 1600,
+      "kd": 24,
+      "cluster": "Veilleuses animaux",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "comparatif",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "voiture veilleuse",
-      "volume": 320,
-      "kd": 10,
-      "cluster": "Veilleuses pour contexte spécifique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse de nuit ehpad",
-      "volume": 260,
-      "kd": 23,
-      "cluster": "Veilleuses pour contexte spécifique",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pour chien",
-      "volume": 260,
-      "kd": 9,
-      "cluster": "Veilleuses pour contexte spécifique",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "ampoules veilleuse voiture",
-      "volume": 210,
-      "kd": 22,
-      "cluster": "Veilleuses pour contexte spécifique",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse de nuit en ehpad",
-      "volume": 210,
-      "kd": 19,
-      "cluster": "Veilleuses pour contexte spécifique",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse personnalisable",
-      "volume": 1300,
-      "kd": 9,
-      "cluster": "Veilleuses personnalisées",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse personnalisé",
-      "volume": 1300,
-      "kd": 9,
-      "cluster": "Veilleuses personnalisées",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bébé personnalisé",
-      "volume": 590,
-      "kd": 7,
-      "cluster": "Veilleuses personnalisées",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe personnalisable",
-      "volume": 390,
-      "kd": 7,
-      "cluster": "Veilleuses personnalisées",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse personnalisée",
-      "volume": 390,
-      "kd": 6,
-      "cluster": "Veilleuses personnalisées",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse personnalisé bébé",
-      "volume": 320,
-      "kd": 6,
-      "cluster": "Veilleuses personnalisées",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "lapin veilleuse",
+        "la veilleuse lapin"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "peluche veilleuse",
       "volume": 1000,
       "kd": 19,
-      "cluster": "Veilleuses hybrides - Peluche",
-      "role": "pilier",
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
       "intention": "generale",
-      "archetype": "guide_complet",
+      "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "veilleuse peluche",
+        "veilleuse en peluche",
+        "peluches veilleuses",
+        "peluche avec veilleuse"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "veilleuse peluche",
+      "mot_cle": "veilleuse astronaute",
       "volume": 880,
-      "kd": 18,
-      "cluster": "Veilleuses hybrides - Peluche",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "doudou veilleuse",
-      "volume": 480,
-      "kd": 12,
-      "cluster": "Veilleuses hybrides - Peluche",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse doudou",
-      "volume": 320,
-      "kd": 18,
-      "cluster": "Veilleuses hybrides - Peluche",
+      "kd": 26,
+      "cluster": "Veilleuses animaux",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "narratif",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "peluche veilleuse bebe",
-      "volume": 210,
-      "kd": 14,
-      "cluster": "Veilleuses hybrides - Peluche",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse projection bebe",
-      "volume": 1000,
-      "kd": 13,
-      "cluster": "Veilleuses avec projection",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
+      "variantes": [
+        "astronaute veilleuse",
+        "veilleuse astronautes"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "veilleuse etoile",
       "volume": 880,
       "kd": 19,
-      "cluster": "Veilleuses avec projection",
+      "cluster": "Veilleuses animaux",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "veilleuse étoile",
+        "veilleuse etoiles",
+        "etoile veilleuse",
+        "veilleuse étoiles",
+        "étoile veilleuse",
+        "etoile de veilleuse",
+        "etoiles veilleuse",
+        "les étoiles veilleuses"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "veilleuse projection",
-      "volume": 880,
-      "kd": 16,
-      "cluster": "Veilleuses avec projection",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "projecteur veilleuse",
-      "volume": 590,
-      "kd": 19,
-      "cluster": "Veilleuses avec projection",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bébé projection plafond",
-      "volume": 480,
-      "kd": 16,
-      "cluster": "Veilleuses avec projection",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse projecteur",
-      "volume": 390,
-      "kd": 25,
-      "cluster": "Veilleuses avec projection",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse etoile plafond",
-      "volume": 320,
-      "kd": 15,
-      "cluster": "Veilleuses avec projection",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse projecteur bébé",
-      "volume": 320,
-      "kd": 16,
-      "cluster": "Veilleuses avec projection",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse projection plafond",
-      "volume": 260,
-      "kd": 17,
-      "cluster": "Veilleuses avec projection",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe projecteur",
-      "volume": 210,
-      "kd": 14,
-      "cluster": "Veilleuses avec projection",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe projection plafond",
-      "volume": 210,
-      "kd": 15,
-      "cluster": "Veilleuses avec projection",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse led",
+      "mot_cle": "veilleuse licorne",
       "volume": 880,
       "kd": 28,
-      "cluster": "Veilleuses avec type de connexion - Autres",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse nomade",
-      "volume": 880,
-      "kd": 16,
-      "cluster": "Veilleuses avec type de connexion - Autres",
+      "cluster": "Veilleuses animaux",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "licorne veilleuse",
+        "licorne veilleuses"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "veilleuse rechargeable",
-      "volume": 880,
-      "kd": 19,
-      "cluster": "Veilleuses avec type de connexion - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse à led",
-      "volume": 590,
-      "kd": 28,
-      "cluster": "Veilleuses avec type de connexion - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse rechargeable usb",
-      "volume": 390,
-      "kd": 20,
-      "cluster": "Veilleuses avec type de connexion - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse à pile",
-      "volume": 390,
-      "kd": 24,
-      "cluster": "Veilleuses avec type de connexion - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse nomade rechargeable",
-      "volume": 320,
-      "kd": 18,
-      "cluster": "Veilleuses avec type de connexion - Autres",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pile",
-      "volume": 320,
-      "kd": 22,
-      "cluster": "Veilleuses avec type de connexion - Autres",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse murale",
-      "volume": 880,
-      "kd": 23,
-      "cluster": "Veilleuses murale",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse murale bebe",
-      "volume": 880,
-      "kd": 30,
-      "cluster": "Veilleuses murale",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse chambre",
-      "volume": 590,
-      "kd": 25,
-      "cluster": "Veilleuses murale",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bébé murale",
-      "volume": 320,
-      "kd": 26,
-      "cluster": "Veilleuses murale",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse mural bebe",
-      "volume": 320,
-      "kd": 21,
-      "cluster": "Veilleuses murale",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuses murales",
-      "volume": 260,
-      "kd": 21,
-      "cluster": "Veilleuses murale",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "reveil veilleuse",
+      "mot_cle": "loutre veilleuse",
       "volume": 720,
-      "kd": 25,
-      "cluster": "Veilleuses avec réveil",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
+      "kd": 21,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "veilleuse loutre",
+        "la loutre veilleuse",
+        "veilleuse la loutre"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "réveil et veilleuse",
+      "mot_cle": "veilleuse champignon",
+      "volume": 720,
+      "kd": 14,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "champignon veilleuse",
+        "veilleuse champignons"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse nuage",
       "volume": 720,
       "kd": 17,
-      "cluster": "Veilleuses avec réveil",
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "nuage veilleuse",
+        "nuage en veilleuse",
+        "nuages veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse ours",
+      "volume": 720,
+      "kd": 16,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "ours veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse ourson",
+      "volume": 720,
+      "kd": 14,
+      "cluster": "Veilleuses animaux",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "ourson veilleuse"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "veilleuse reveil",
+      "mot_cle": "veilleuse chat",
       "volume": 590,
-      "kd": 18,
-      "cluster": "Veilleuses avec réveil",
+      "kd": 14,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pour chat",
+        "chat veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse renard",
+      "volume": 590,
+      "kd": 15,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "renard veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "doudou veilleuse",
+      "volume": 480,
+      "kd": 12,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse doudou",
+        "doudous veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "mouton veilleuse",
+      "volume": 480,
+      "kd": 16,
+      "cluster": "Veilleuses animaux",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "veilleuse mouton",
+        "le mouton veilleuse"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "reveil veilleuse enfant",
+      "mot_cle": "veilleuse dinosaure",
+      "volume": 480,
+      "kd": 9,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "dinosaure veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse panda",
       "volume": 480,
       "kd": 19,
-      "cluster": "Veilleuses avec réveil",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "réveil veilleuse",
-      "volume": 260,
-      "kd": 20,
-      "cluster": "Veilleuses avec réveil",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse detecteur mouvement",
-      "volume": 590,
-      "kd": 13,
-      "cluster": "Veilleuses avec détecteur de mouvement",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse detecteur de mouvement",
-      "volume": 390,
-      "kd": 23,
-      "cluster": "Veilleuses avec détecteur de mouvement",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse détecteur de mouvement",
-      "volume": 320,
-      "kd": 11,
-      "cluster": "Veilleuses avec détecteur de mouvement",
+      "cluster": "Veilleuses animaux",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse à détecteur de mouvement",
-      "volume": 260,
-      "kd": 22,
-      "cluster": "Veilleuses avec détecteur de mouvement",
-      "role": "satellite",
-      "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "panda veilleuse"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "veilleuse avec détecteur de mouvement",
-      "volume": 210,
-      "kd": 22,
-      "cluster": "Veilleuses avec détecteur de mouvement",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "bougie veilleuse sans cire",
+      "mot_cle": "veilleuse pingouin",
       "volume": 480,
-      "kd": 23,
-      "cluster": "bougie veilleuse sans cire",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "lampe veilleuse enfant",
-      "volume": 480,
-      "kd": 26,
-      "cluster": "Lampe veilleuse enfant",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse lumière rouge",
-      "volume": 480,
-      "kd": 13,
-      "cluster": "Veilleuses avec lumière rouge",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse lumiere rouge",
-      "volume": 390,
-      "kd": 21,
-      "cluster": "Veilleuses avec lumière rouge",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse rouge",
-      "volume": 320,
-      "kd": 14,
-      "cluster": "Veilleuses avec lumière rouge",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse rouge bébé",
-      "volume": 320,
-      "kd": 13,
-      "cluster": "Veilleuses avec lumière rouge",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse rouge bebe",
-      "volume": 260,
-      "kd": 11,
-      "cluster": "Veilleuses avec lumière rouge",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pabobo nomade",
-      "volume": 480,
-      "kd": 11,
-      "cluster": "veilleuse pabobo nomade",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pour chambre",
-      "volume": 480,
-      "kd": 23,
-      "cluster": "veilleuse pour chambre",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "reveil et veilleuse",
-      "volume": 390,
-      "kd": 27,
-      "cluster": "reveil et veilleuse",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse allaitement",
-      "volume": 390,
-      "kd": 11,
-      "cluster": "Veilleuses pour allaitement",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse maternité",
-      "volume": 390,
-      "kd": 6,
-      "cluster": "Veilleuses pour allaitement",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pour allaitement",
-      "volume": 320,
-      "kd": 11,
-      "cluster": "Veilleuses pour allaitement",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse pour allaiter",
-      "volume": 320,
-      "kd": 13,
-      "cluster": "Veilleuses pour allaitement",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse animaux",
-      "volume": 390,
-      "kd": 7,
-      "cluster": "veilleuse animaux",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bébé fille",
-      "volume": 390,
-      "kd": 25,
-      "cluster": "Veilleuses par genre",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe garcon",
-      "volume": 320,
-      "kd": 24,
-      "cluster": "Veilleuses par genre",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bebe fille",
-      "volume": 260,
-      "kd": 21,
-      "cluster": "Veilleuses par genre",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse fille",
-      "volume": 260,
-      "kd": 21,
-      "cluster": "Veilleuses par genre",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "pat patrouille veilleuse",
-      "volume": 320,
       "kd": 16,
-      "cluster": "pat patrouille veilleuse",
-      "role": "pilier",
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "pingouin veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse pikachu",
+      "volume": 390,
+      "kd": 19,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "pikachu veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse poire",
+      "volume": 390,
+      "kd": 9,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
       "intention": "generale",
-      "archetype": "guide_complet",
+      "archetype": "narratif",
       "est_question": false,
+      "variantes": [
+        "poire veilleuse"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "pingouin veilleuse",
+      "mot_cle": "veilleuse chien",
+      "volume": 320,
+      "kd": 8,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pour chien",
+        "chien veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse elephant",
       "volume": 320,
       "kd": 12,
-      "cluster": "pingouin veilleuse",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse bébé tortue",
-      "volume": 320,
-      "kd": 12,
-      "cluster": "veilleuse bébé tortue",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse enfant rechargeable",
-      "volume": 320,
-      "kd": 23,
-      "cluster": "Veilleuses enfant rechargeable",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
+      "variantes": [
+        "elephant veilleuse",
+        "veilleuse éléphant",
+        "elephants veilleuse"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "veilleuse lune",
       "volume": 320,
       "kd": 7,
-      "cluster": "veilleuse lune",
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "lune veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse miffy",
+      "volume": 320,
+      "kd": 14,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "miffy veilleuse",
+        "les veilleuse miffy"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "sophie la girafe veilleuse",
+      "volume": 260,
+      "kd": 17,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse girafe sophie",
+        "veilleuse sophie la girafe",
+        "sophie girafe veilleuse",
+        "girafe sophie veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse hippopotame",
+      "volume": 260,
+      "kd": 12,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "hippopotame veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse koala",
+      "volume": 260,
+      "kd": 17,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "koala veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse poussin",
+      "volume": 260,
+      "kd": 6,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "poussin veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse chaton",
+      "volume": 210,
+      "kd": 7,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse hibou",
+      "volume": 210,
+      "kd": 12,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "hibou veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse hippo",
+      "volume": 210,
+      "kd": 20,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "hippo veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse lion",
+      "volume": 210,
+      "kd": 10,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "lion veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse aquarium bébé",
+      "volume": 170,
+      "kd": 22,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe aquarium",
+        "aquarium bebe veilleuse",
+        "aquarium veilleuse bebe"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse canard",
+      "volume": 170,
+      "kd": 11,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "canard veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse chouette",
+      "volume": 170,
+      "kd": 16,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "chouette veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse herisson",
+      "volume": 170,
+      "kd": 11,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse hérisson",
+        "herisson veilleuse",
+        "hérisson veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse oie",
+      "volume": 170,
+      "kd": 6,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "oie veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse arc en ciel",
+      "volume": 140,
+      "kd": 12,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse arc-en-ciel"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse capybara",
+      "volume": 140,
+      "kd": 14,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "capybara veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse cosmonaute",
+      "volume": 140,
+      "kd": 14,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "cosmonaute veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse nounours",
+      "volume": 140,
+      "kd": 23,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "nounours veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse pinguin",
+      "volume": 140,
+      "kd": 14,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse poisson",
+      "volume": 140,
+      "kd": 21,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "poisson veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse toast",
+      "volume": 140,
+      "kd": 17,
+      "cluster": "Veilleuses animaux",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "pabobo veilleuse",
+      "volume": 2400,
+      "kd": 29,
+      "cluster": "Marques et modèles",
       "role": "pilier",
       "intention": "commerciale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "veilleuse pabobo",
+        "veilleuses pabobo",
+        "la veilleuse pabobo",
+        "pabobo veilleuses"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse stitch",
+      "volume": 1600,
+      "kd": 26,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "stitch veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse b cloud",
+      "volume": 880,
+      "kd": 20,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "cloud b veilleuse",
+        "veilleuse cloud b"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse liewood",
+      "volume": 880,
+      "kd": 16,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "liewood veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "tonies veilleuse",
+      "volume": 720,
+      "kd": 28,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "tonie veilleuse",
+        "veilleuse tonie",
+        "veilleuses tonies",
+        "la tonie veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse vtech",
+      "volume": 720,
+      "kd": 21,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "vtech veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse beaba",
+      "volume": 590,
+      "kd": 27,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "beaba veilleuse",
+        "veilleuse béaba",
+        "béaba veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse nomade pabobo",
+      "volume": 590,
+      "kd": 21,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pabobo nomade",
+        "pabobo veilleuse nomade",
+        "pabobo nomade veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse moulin roty",
+      "volume": 480,
+      "kd": 19,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "moulin roty veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse nature et decouverte",
+      "volume": 480,
+      "kd": 21,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "nature et decouverte veilleuse",
+        "nature et découverte veilleuse",
+        "veilleuse nature et découverte",
+        "veilleuse nature et découvertes",
+        "nature decouverte veilleuses",
+        "nature et decouvertes veilleuse",
+        "natures et decouvertes veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse pat patrouille",
+      "volume": 480,
+      "kd": 21,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "pat patrouille veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse pokemon",
+      "volume": 480,
+      "kd": 24,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pokémon",
+        "pokemon veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse tortue cloud b",
+      "volume": 480,
+      "kd": 10,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "cloud b veilleuse tortue",
+        "tortue veilleuse cloud b",
+        "veilleuse cloud b tortue",
+        "cloud b tortue veilleuse",
+        "tortue cloud b veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "momcozy veilleuse",
+      "volume": 390,
+      "kd": 28,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse spiderman",
+      "volume": 390,
+      "kd": 22,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "spiderman veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse moonie",
+      "volume": 320,
+      "kd": 15,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "moonie veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "etoile veilleuse pabobo",
+      "volume": 260,
+      "kd": 17,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse etoile pabobo",
+        "pabobo veilleuse etoile",
+        "veilleuse pabobo etoile",
+        "veilleuse étoiles pabobo",
+        "veilleuse étoile pabobo",
+        "pabobo veilleuse étoile",
+        "veilleuse pabobo étoile",
+        "pabobo etoile veilleuse",
+        "veilleuse pabobo étoilé",
+        "pabobo veilleuse étoilé",
+        "pabobo veilleuse etoiles",
+        "pabobo veilleuse étoiles"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse badabulle",
+      "volume": 260,
+      "kd": 15,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "badabulle veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse hello kitty",
+      "volume": 260,
+      "kd": 8,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "hello kitty veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse la reine des neiges",
+      "volume": 260,
+      "kd": 19,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse reine des neiges",
+        "veilleuse reines des neiges",
+        "reine des neiges veilleuse",
+        "veilleuse reine des neige",
+        "la reine des neiges veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse le petit prince",
+      "volume": 260,
+      "kd": 17,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse petit prince",
+        "le petit prince veilleuse",
+        "petit prince veilleuse",
+        "petit princes veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse minecraft",
+      "volume": 260,
+      "kd": 19,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "minecraft veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse tommee tippee",
+      "volume": 260,
+      "kd": 28,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "tommee tippee veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse babymoov",
+      "volume": 210,
+      "kd": 19,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "babymoov veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse baleine pabobo",
+      "volume": 210,
+      "kd": 21,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "pabobo veilleuse baleine",
+        "veilleuse pabobo baleine",
+        "baleine veilleuse pabobo",
+        "pabobo baleine veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse chicco",
+      "volume": 210,
+      "kd": 21,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "chicco veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse harry potter",
+      "volume": 210,
+      "kd": 16,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "harry potter veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse trousselier",
+      "volume": 210,
+      "kd": 18,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "trousselier veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse vertbaudet",
+      "volume": 210,
+      "kd": 22,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "vertbaudet veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "doudou et compagnie veilleuse",
+      "volume": 170,
+      "kd": 16,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse doudou et compagnie"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "reveil veilleuse stitch",
+      "volume": 170,
+      "kd": 23,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "réveil veilleuse stitch",
+        "reveil et veilleuse stitch",
+        "reveil stitch veilleuse",
+        "veilleuse reveil stitch",
+        "veilleuse stitch reveil"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse baleine cloud b",
+      "volume": 170,
+      "kd": 15,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse cloud b baleine",
+        "cloud b veilleuse baleine",
+        "baleine veilleuse cloud b"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse disney",
+      "volume": 170,
+      "kd": 23,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "disney veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse infantino",
+      "volume": 170,
+      "kd": 15,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "infantino veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse mary's",
+      "volume": 170,
+      "kd": 11,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "mary's veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse ourson vtech",
+      "volume": 170,
+      "kd": 23,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "ourson veilleuse vtech",
+        "ourson vtech veilleuse",
+        "veilleuse vtech ourson",
+        "vtech ourson veilleuse",
+        "vtech veilleuse ourson"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse stich",
+      "volume": 170,
+      "kd": 26,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse tortue nature et découverte",
+      "volume": 170,
+      "kd": 25,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "nature et decouverte veilleuse tortue",
+        "nature et decouverte tortue veilleuse",
+        "nature et découverte tortue veilleuse",
+        "tortue nature et decouverte veilleuse",
+        "veilleuse nature et decouverte tortue",
+        "veilleuse nature et découverte tortue",
+        "veilleuse tortue nature et decouverte",
+        "nature et decouvertes tortue veilleuse",
+        "nature et découverte veilleuse tortue",
+        "tortue veilleuse nature et decouverte",
+        "la veilleuse tortue de chez nature et decouverte",
+        "nature découverte tortue veilleuse",
+        "nature et decouvertes veilleuse tortue",
+        "nature et découvertes tortue veilleuse",
+        "natures et decouvertes tortues veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "lapin miffy veilleuse",
+      "volume": 140,
+      "kd": 30,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "lapin veilleuse miffy",
+        "veilleuse lapin miffy",
+        "miffy lapin veilleuse",
+        "veilleuse miffy lapin"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "ours veilleuse vtech",
+      "volume": 140,
+      "kd": 18,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "ours vtech veilleuse",
+        "vtech ours veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "tchoupi veilleuse",
+      "volume": 140,
+      "kd": 20,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse tchoupi"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse atmosphera",
+      "volume": 140,
+      "kd": 22,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "atmosphera veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse baby einstein",
+      "volume": 140,
+      "kd": 23,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "baby einstein veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse barbapapa",
+      "volume": 140,
+      "kd": 13,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "barbapapa veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse nattou",
+      "volume": 140,
+      "kd": 14,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "nattou veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse pabobo tortue",
+      "volume": 140,
+      "kd": 19,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse tortue pabobo",
+        "pabobo veilleuse tortue",
+        "tortue veilleuse pabobo"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse smiski",
+      "volume": 140,
+      "kd": 6,
+      "cluster": "Marques et modèles",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "smiski veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse coranique",
+      "volume": 1900,
+      "kd": 27,
+      "cluster": "Veilleuses coranique",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuses coraniques",
+        "la veilleuse coranique",
+        "une veilleuse coranique",
+        "veilleuses coranique",
+        "coranique veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse coran",
+      "volume": 720,
+      "kd": 10,
+      "cluster": "Veilleuses coranique",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "coran veilleuse",
+        "veilleuse avec coran",
+        "la veilleuse au coran"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse coranique bebe",
+      "volume": 590,
+      "kd": 9,
+      "cluster": "Veilleuses coranique",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse coranique pour bebe",
+        "veilleuse bébé coranique",
+        "veilleuse coranique pour bébé",
+        "veilleuse coranique bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse musical pour bebe",
+      "volume": 1900,
+      "kd": 19,
+      "cluster": "Veilleuses sonores",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse musical bebe",
+        "veilleuse bebe musical",
+        "veilleuse musical bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bruit blanc",
+      "volume": 1300,
+      "kd": 15,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bruits blancs",
+        "veilleuse bruits blanc",
+        "veilleuse avec bruit blanc",
+        "bruit blanc veilleuse",
+        "veilleuse a bruit blanc",
+        "veilleuse avec bruits blancs",
+        "veilleuse et bruit blanc"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse musicale bébé",
+      "volume": 1000,
+      "kd": 16,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse musicale bebe",
+        "veilleuse musicale pour bébé",
+        "veilleuse bébé musicale",
+        "veilleuse bebe musicale",
+        "veilleuse musicale pour bebe"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse white noise",
+      "volume": 880,
+      "kd": 24,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse musicale",
+      "volume": 720,
+      "kd": 18,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuses musicales"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse musique",
+      "volume": 480,
+      "kd": 14,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "musique de veilleuse",
+        "musique veilleuse",
+        "veilleuse avec musique",
+        "veilleuse et musique"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse musique bébé",
+      "volume": 480,
+      "kd": 16,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe musique",
+        "musique veilleuse bebe",
+        "musique bebe veilleuse",
+        "musique veilleuse bébé",
+        "veilleuse bébé musique",
+        "veilleuse musique bebe",
+        "bébé veilleuse musique",
+        "musique veilleuse pour bébé",
+        "musiques sur veilleuse bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bruit blanc bébé",
+      "volume": 390,
+      "kd": 21,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bruits blancs bebe",
+        "veilleuse bébé bruit blanc",
+        "veilleuse bebe bruit blanc",
+        "veilleuse bruit blanc bebe",
+        "veilleuse bébé bruits blancs",
+        "bruit blanc bébé veilleuse",
+        "veilleuse bébé avec bruit blanc",
+        "veilleuse bruit blanc pour bébé",
+        "veilleuse bruit blanc bébé",
+        "veilleuse et bruit blanc bebe",
+        "bebe veilleuse bruit blanc"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse musicale et lumineuse",
+      "volume": 210,
+      "kd": 15,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse lumineuse et musicale",
+        "veilleuse lumineuse musicale",
+        "veilleuse musicale lumineuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse musicale rechargeable",
+      "volume": 170,
+      "kd": 19,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse musicale rechargeable usb",
+      "volume": 170,
+      "kd": 21,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "peluche veilleuse bruit blanc",
+      "volume": 140,
+      "kd": 11,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "peluche bruit blanc et veilleuse",
+        "peluche bruit blanc veilleuse",
+        "veilleuse peluche bruit blanc"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "peluche veilleuse musicale et lumineuse",
+      "volume": 140,
+      "kd": 17,
+      "cluster": "Veilleuses sonores",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse musicale et lumineuse peluche",
+        "peluche veilleuse lumineuse et musicale"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse prise",
+      "volume": 1600,
+      "kd": 21,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse sur prise",
+        "veilleuse pour prise",
+        "prise veilleuse",
+        "veilleuse à prise",
+        "prise avec veilleuse",
+        "veilleuse a prise",
+        "veilleuse avec prise",
+        "veilleuse de prise",
+        "prise et veilleuse",
+        "prise pour veilleuse",
+        "prises veilleuses"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "ampoule veilleuse",
+      "volume": 880,
+      "kd": 24,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "ampoules veilleuse",
+        "veilleuse ampoule",
+        "ampoule pour veilleuse",
+        "ampoule de veilleuse",
+        "ampoule avec veilleuse",
+        "ampoules pour veilleuses"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse led",
+      "volume": 880,
+      "kd": 28,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse à led",
+        "led pour veilleuse",
+        "led veilleuse",
+        "veilleuse a led",
+        "veilleuses led",
+        "led en veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "ampoule veilleuse voiture",
+      "volume": 480,
+      "kd": 20,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "ampoules veilleuse voiture",
+        "ampoule de veilleuse voiture",
+        "ampoule voiture veilleuse",
+        "veilleuse ampoule voiture",
+        "ampoule de veilleuse pour voiture",
+        "ampoule veilleuse pour voiture",
+        "ampoule veilleuse voitures",
+        "ampoules veilleuse voitures",
+        "ampoules voitures veilleuses"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse prise bebe",
+      "volume": 480,
+      "kd": 21,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe prise",
+        "veilleuse bebe sur prise",
+        "veilleuse prise bébé",
+        "veilleuse bébé prise",
+        "veilleuse bebe a prise",
+        "veilleuse sur prise bebe",
+        "prise veilleuse bebe",
+        "prise veilleuse bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse sur secteur",
+      "volume": 480,
+      "kd": 19,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse secteur"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse prise murale",
+      "volume": 260,
+      "kd": 25,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse murale prise",
+        "prise murale veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse led rechargeable",
+      "volume": 210,
+      "kd": 22,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse led voiture",
+      "volume": 210,
+      "kd": 22,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse led pour voiture",
+        "veilleuse voiture led",
+        "led veilleuse voiture",
+        "veilleuse a led pour voiture",
+        "veilleuse a led voiture",
+        "veilleuse à led pour voiture",
+        "led voiture veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "ampoule led veilleuse",
+      "volume": 170,
+      "kd": 21,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "ampoule veilleuse led",
+        "ampoule de veilleuse led",
+        "ampoule led pour veilleuse",
+        "ampoule veilleuse a led",
+        "veilleuse ampoule led",
+        "ampoule de veilleuse a led",
+        "ampoules veilleuse led",
+        "ampoule led de veilleuse",
+        "ampoule leds veilleuse",
+        "ampoule à led veilleuse",
+        "ampoules de veilleuses led",
+        "ampoules led veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse led personnalisé",
+      "volume": 170,
+      "kd": 5,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "ampoule veilleuse clio 3",
+      "volume": 140,
+      "kd": 18,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "ampoule clio 3 veilleuse",
+        "ampoule de veilleuse de clio 3",
+        "ampoule veilleuse pour clio 3",
+        "ampoules veilleuse clio 3"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse a brancher",
+      "volume": 140,
+      "kd": 16,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse à brancher",
+        "brancher des veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse electrique",
+      "volume": 140,
+      "kd": 23,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse électrique",
+        "veilleuses electriques"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse led sans fil",
+      "volume": 140,
+      "kd": 18,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse prise gifi",
+      "volume": 140,
+      "kd": 27,
+      "cluster": "Veilleuses LED et électriques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "prise veilleuse gifi",
+        "gifi veilleuse prise"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "la mer veilleuse beach club plage privée",
+      "volume": 1300,
+      "kd": 17,
+      "cluster": "Expressions et contexte",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "la mer-veilleuse beach club plage privée"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "la madeleine à la veilleuse",
+      "volume": 590,
+      "kd": 19,
+      "cluster": "Expressions et contexte",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "madeleine à la veilleuse",
+        "madeleine a la veilleuse",
+        "la madeleine a la veilleuse",
+        "la madeleine de la veilleuse",
+        "la madeleine veilleuse",
+        "la veilleuse et madeleine",
+        "madeleine et la veilleuse",
+        "madeleine la veilleuse",
+        "madeleine veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "mère veilleuse",
+      "volume": 590,
+      "kd": 17,
+      "cluster": "Expressions et contexte",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "mere veilleuse",
+        "les mères veilleuses",
+        "la mère veilleuse",
+        "la mere veilleuse",
+        "mères veilleuses",
+        "les mere veilleuses",
+        "les meres veilleuses",
+        "meres veilleuses",
+        "mère-veilleuse",
+        "des mères veilleuses",
+        "les meres veilleuse",
+        "mere et veilleuse",
+        "mere-veilleuse",
+        "mère veilleuses"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "meilleur veilleuse pour bebe",
       "volume": 260,
       "kd": 14,
-      "cluster": "Évaluatif - Meilleure veilleuse",
-      "role": "pilier",
+      "cluster": "Expressions et contexte",
+      "role": "satellite",
       "intention": "comparatif",
-      "archetype": "guide_complet",
+      "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "meilleur veilleuse bebe",
+        "meilleur veilleuse bébé",
+        "meilleurs veilleuse bebe",
+        "les meilleurs veilleuse bébé",
+        "les meilleurs veilleuse pour bébé",
+        "meilleur veilleuse pour bébé",
+        "meilleurs veilleuse pour bébé",
+        "meilleurs veilleuses bebe"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "meilleure veilleuse bebe",
       "volume": 260,
       "kd": 14,
-      "cluster": "Évaluatif - Meilleure veilleuse",
+      "cluster": "Expressions et contexte",
       "role": "satellite",
       "intention": "comparatif",
-      "archetype": "comparatif",
+      "archetype": "narratif",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "meilleure veilleuse bébé",
-      "volume": 260,
-      "kd": 14,
-      "cluster": "Évaluatif - Meilleure veilleuse",
-      "role": "satellite",
-      "intention": "comparatif",
-      "archetype": "comparatif",
-      "est_question": false,
+      "variantes": [
+        "meilleure veilleuse bébé",
+        "meilleures veilleuse bebe",
+        "meilleures veilleuses bébé",
+        "la meilleure veilleuse pour bébé",
+        "les meilleures veilleuses bébé",
+        "les meilleures veilleuses pour bébé",
+        "meilleure veilleuse pour bebe",
+        "meilleure veilleuse pour bébé",
+        "meilleure veilleuse pour bébé"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "mise en veilleuse",
       "volume": 260,
       "kd": 27,
-      "cluster": "Contexte - Électronique/Informatique",
-      "role": "pilier",
+      "cluster": "Expressions et contexte",
+      "role": "satellite",
       "intention": "generale",
-      "archetype": "guide_complet",
+      "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [],
       "statut": "libre"
     },
     {
       "mot_cle": "mode veilleuse",
       "volume": 210,
       "kd": 30,
-      "cluster": "Contexte - Électronique/Informatique",
+      "cluster": "Expressions et contexte",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "en mode veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "lumiere veilleuse",
+      "volume": 170,
+      "kd": 22,
+      "cluster": "Expressions et contexte",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse lumiere",
+        "lumière veilleuse",
+        "veilleuse lumière",
+        "lumiere de veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "hotel des meres veilleuses",
+      "volume": 140,
+      "kd": 0,
+      "cluster": "Expressions et contexte",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "la mer veilleuse marseille",
+      "volume": 140,
+      "kd": 19,
+      "cluster": "Expressions et contexte",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "mer veilleuse marseille"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "la veilleuse belleville",
+      "volume": 140,
+      "kd": 23,
+      "cluster": "Expressions et contexte",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "la veilleuse de belleville",
+        "belleville la veilleuse",
+        "belleville la.veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "mettre en veilleuse",
+      "volume": 140,
+      "kd": 27,
+      "cluster": "Expressions et contexte",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "la mettre en veilleuse"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "tortue veilleuse rose",
-      "volume": 260,
+      "mot_cle": "petite veilleuse bébé",
+      "volume": 140,
+      "kd": 23,
+      "cluster": "Expressions et contexte",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "petite veilleuse bebe"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse personnalisable",
+      "volume": 1300,
+      "kd": 9,
+      "cluster": "Veilleuses personnalisables",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse personnalisé",
+      "volume": 1300,
+      "kd": 9,
+      "cluster": "Veilleuses personnalisables",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse personnalise"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bébé personnalisé",
+      "volume": 590,
+      "kd": 7,
+      "cluster": "Veilleuses personnalisables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse personnalisé bébé",
+        "veilleuse personnalisé bebe",
+        "veilleuse bebe personnalise",
+        "veilleuse bebe personnalisé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bebe personnalisable",
+      "volume": 390,
+      "kd": 7,
+      "cluster": "Veilleuses personnalisables",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bébé personnalisable",
+        "veilleuse personnalisable bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse personnalisée",
+      "volume": 390,
+      "kd": 6,
+      "cluster": "Veilleuses personnalisables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse personnalisee",
+        "veilleuses personnalisées"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse personnalisable prenom",
+      "volume": 210,
+      "kd": 6,
+      "cluster": "Veilleuses personnalisables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse personnalisée prénom",
+      "volume": 210,
+      "kd": 6,
+      "cluster": "Veilleuses personnalisables",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse enfant personnalisé",
+      "volume": 140,
+      "kd": 5,
+      "cluster": "Veilleuses personnalisables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse personnalisé enfant"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse projection bebe",
+      "volume": 1000,
+      "kd": 13,
+      "cluster": "Veilleuses projection",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe projection",
+        "veilleuse bebe avec projection",
+        "veilleuse bébé projection",
+        "bebe projection veilleuse",
+        "projection veilleuse bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse projection",
+      "volume": 880,
       "kd": 16,
-      "cluster": "tortue veilleuse rose",
-      "role": "pilier",
+      "cluster": "Veilleuses projection",
+      "role": "satellite",
       "intention": "generale",
-      "archetype": "guide_complet",
+      "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "veilleuse à projection",
+        "projection veilleuse",
+        "veilleuse a projection",
+        "veilleuse avec projection"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "veilleuse automatique",
-      "volume": 260,
-      "kd": 20,
-      "cluster": "Veilleuses avec fonction automatique",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse lampe bebe",
-      "volume": 260,
-      "kd": 20,
-      "cluster": "veilleuse lampe bebe",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "veilleuse sophie la girafe",
-      "volume": 260,
+      "mot_cle": "projecteur veilleuse",
+      "volume": 590,
       "kd": 19,
-      "cluster": "veilleuse sophie la girafe",
+      "cluster": "Veilleuses projection",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse projecteur",
+        "veilleuse avec projecteur",
+        "projecteur avec veilleuse",
+        "projecteur de veilleuse",
+        "projecteur veilleuses"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bébé projection plafond",
+      "volume": 480,
+      "kd": 16,
+      "cluster": "Veilleuses projection",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe projection plafond",
+        "veilleuse projection plafond bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse projecteur bébé",
+      "volume": 320,
+      "kd": 16,
+      "cluster": "Veilleuses projection",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe projecteur",
+        "projecteur veilleuse bebe",
+        "veilleuse projecteur bebe",
+        "projecteur veilleuse bébé",
+        "veilleuse bébé projecteur",
+        "bébé projecteur veilleuse",
+        "projecteur bébé veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse projection plafond",
+      "volume": 260,
+      "kd": 17,
+      "cluster": "Veilleuses projection",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse projection au plafond",
+        "veilleuse avec projection au plafond",
+        "veilleuse avec projection plafond"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse projection etoile",
+      "volume": 210,
+      "kd": 17,
+      "cluster": "Veilleuses projection",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse projection étoile",
+        "veilleuse etoile projection",
+        "veilleuse projection étoiles",
+        "veilleuse projection etoiles"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "meilleure veilleuse bébé projection plafond",
+      "volume": 170,
+      "kd": 16,
+      "cluster": "Veilleuses projection",
+      "role": "satellite",
+      "intention": "comparatif",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse projection ciel étoilé",
+      "volume": 170,
+      "kd": 21,
+      "cluster": "Veilleuses projection",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse projecteur etoile",
+      "volume": 140,
+      "kd": 24,
+      "cluster": "Veilleuses projection",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "projecteur veilleuse etoile",
+        "veilleuse projecteur étoile",
+        "projecteur etoile veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse murale",
+      "volume": 880,
+      "kd": 23,
+      "cluster": "Veilleuses murales",
       "role": "pilier",
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "veilleuses murales"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse murale bebe",
+      "volume": 880,
+      "kd": 30,
+      "cluster": "Veilleuses murales",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bébé murale",
+        "veilleuse murale bébé",
+        "veilleuse bebe murale"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse etoile plafond",
+      "volume": 320,
+      "kd": 15,
+      "cluster": "Veilleuses murales",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse plafond etoile",
+        "veilleuse étoile plafond",
+        "veilleuse étoiles plafond",
+        "veilleuse avec etoile au plafond",
+        "veilleuse etoile au plafond",
+        "veilleuse etoiles plafond"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse mural bebe",
+      "volume": 320,
+      "kd": 21,
+      "cluster": "Veilleuses murales",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse ciel étoilé",
+      "volume": 170,
+      "kd": 21,
+      "cluster": "Veilleuses murales",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse ciel etoile",
+        "ciel etoile veilleuse",
+        "ciel étoilé veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse plafond",
+      "volume": 140,
+      "kd": 17,
+      "cluster": "Veilleuses murales",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse au plafond"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse plafond bébé",
+      "volume": 140,
+      "kd": 15,
+      "cluster": "Veilleuses murales",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bébé plafond",
+        "veilleuse plafond bebe"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse nomade",
+      "volume": 880,
+      "kd": 16,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "la veilleuse nomade"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse rechargeable",
+      "volume": 880,
+      "kd": 19,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuses rechargeables"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse rechargeable usb",
+      "volume": 390,
+      "kd": 20,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse usb rechargeable"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse à pile",
+      "volume": 390,
+      "kd": 24,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pile",
+        "veilleuse a pile",
+        "veilleuse à piles",
+        "veilleuse a piles",
+        "pile pour veilleuse",
+        "veilleuse avec pile",
+        "veilleuse sur pile",
+        "veilleuse piles",
+        "pile veilleuse",
+        "piles pour veilleuse",
+        "piles veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse enfant rechargeable",
+      "volume": 320,
+      "kd": 23,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse rechargeable enfant"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse nomade rechargeable",
+      "volume": 320,
+      "kd": 18,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse rechargeable nomade"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse sans fil",
+      "volume": 210,
+      "kd": 19,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse connectée",
+      "volume": 170,
+      "kd": 17,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse connectee",
+        "la veilleuse connectée"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse portable",
+      "volume": 170,
+      "kd": 21,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "portable en veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse solaire",
+      "volume": 170,
+      "kd": 18,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse portative",
+      "volume": 140,
+      "kd": 21,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse sans fil rechargeable",
+      "volume": 140,
+      "kd": 13,
+      "cluster": "Veilleuses rechargeables et portables",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "reveil veilleuse",
+      "volume": 720,
+      "kd": 25,
+      "cluster": "Veilleuses interactives",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "réveil et veilleuse",
+        "veilleuse reveil",
+        "reveil et veilleuse",
+        "réveil veilleuse",
+        "veilleuse réveil",
+        "reveil avec veilleuse",
+        "veilleuse et reveil"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse detecteur mouvement",
+      "volume": 590,
+      "kd": 13,
+      "cluster": "Veilleuses interactives",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse detecteur de mouvement",
+        "veilleuse détecteur de mouvement",
+        "veilleuse à détecteur de mouvement",
+        "veilleuse avec détecteur de mouvement",
+        "veilleuse détecteur mouvement",
+        "veilleuse avec detecteur de mouvement",
+        "veilleuse a detecteur mouvement",
+        "veilleuse avec detecteur mouvement",
+        "veilleuse a détecteur de mouvement",
+        "detecteur mouvement veilleuses",
+        "détecteur de mouvement veilleuses"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "veilleuse tactile",
       "volume": 260,
       "kd": 8,
-      "cluster": "Veilleuses avec fonction tactile",
-      "role": "pilier",
+      "cluster": "Veilleuses interactives",
+      "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_complet",
+      "archetype": "comparatif",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "astronaute veilleuse",
-      "volume": 210,
-      "kd": 19,
-      "cluster": "astronaute veilleuse",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "hello kitty veilleuse",
-      "volume": 210,
-      "kd": 6,
-      "cluster": "hello kitty veilleuse",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "miffy veilleuse",
-      "volume": 210,
-      "kd": 11,
-      "cluster": "miffy veilleuse",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "pabobo veilleuse etoile",
-      "volume": 210,
-      "kd": 18,
-      "cluster": "pabobo veilleuse etoile",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
+      "variantes": [],
       "statut": "libre"
     },
     {
       "mot_cle": "veilleuse jour nuit",
       "volume": 210,
       "kd": 21,
-      "cluster": "Veilleuse jour/nuit",
+      "cluster": "Veilleuses interactives",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse nuit jour",
+        "veilleuse jour et nuit",
+        "jour et nuit veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "lampadaire veilleuse",
+      "volume": 170,
+      "kd": 16,
+      "cluster": "Veilleuses interactives",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "lampadaire avec veilleuse",
+        "lampadaire et veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse chambre",
+      "volume": 590,
+      "kd": 25,
+      "cluster": "Veilleuses pour situation spécifique",
       "role": "pilier",
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "veilleuse pour chambre",
+        "les veilleuses de chambre",
+        "veilleuse de chambre",
+        "chambre avec veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse voiture",
+      "volume": 480,
+      "kd": 23,
+      "cluster": "Veilleuses pour situation spécifique",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "voiture veilleuse",
+        "veilleuses voiture",
+        "les veilleuse voiture",
+        "les veilleuses voiture",
+        "veilleuse de voiture",
+        "veilleuse pour voiture",
+        "la veilleuse voiture",
+        "les veilleuses en voiture"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse allaitement",
+      "volume": 390,
+      "kd": 11,
+      "cluster": "Veilleuses pour situation spécifique",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pour allaitement"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse maternité",
+      "volume": 390,
+      "kd": 6,
+      "cluster": "Veilleuses pour situation spécifique",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pour maternité",
+        "veilleuse maternite",
+        "veilleuse pour la maternité"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse pour allaiter",
+      "volume": 320,
+      "kd": 13,
+      "cluster": "Veilleuses pour situation spécifique",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "allaiter avec une veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse chambre à coucher adulte",
+      "volume": 260,
+      "kd": 16,
+      "cluster": "Veilleuses pour situation spécifique",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse de nuit ehpad",
+      "volume": 260,
+      "kd": 23,
+      "cluster": "Veilleuses pour situation spécifique",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse de nuit en ehpad"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse chambre bebe",
+      "volume": 210,
+      "kd": 27,
+      "cluster": "Veilleuses pour situation spécifique",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse chambre bébé",
+        "veilleuse bebe chambre",
+        "chambre bébé avec veilleuse",
+        "chambre bébé veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse couloir",
+      "volume": 170,
+      "kd": 22,
+      "cluster": "Veilleuses pour situation spécifique",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pour couloir",
+        "veilleuse de couloir"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse de nuit emploi",
+      "volume": 170,
+      "kd": 25,
+      "cluster": "Veilleuses pour situation spécifique",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "emploi veilleuse de nuit",
+        "emploi veilleuse nuit"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse de nuit pour personne agee",
+      "volume": 170,
+      "kd": 6,
+      "cluster": "Veilleuses pour situation spécifique",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse de nuit pour personne âgée",
+        "veilleuse de nuit personne âgée"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "lampe torche veilleuse",
+      "volume": 140,
+      "kd": 13,
+      "cluster": "Veilleuses pour situation spécifique",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "lampe veilleuse torche",
+        "veilleuse et lampe torche",
+        "veilleuse lampe torche",
+        "lampe torche et veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse enfant 3 ans",
+      "volume": 590,
+      "kd": 18,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pour enfant 3 ans"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "lampe veilleuse enfant",
+      "volume": 480,
+      "kd": 26,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "lampe enfant veilleuse",
+        "lampe pour enfant veilleuse",
+        "lampe pour veilleuse enfant",
+        "lampe veilleuse enfants",
+        "lampe veilleuse pour enfant",
+        "lampes veilleuses enfants"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "reveil veilleuse enfant",
+      "volume": 480,
+      "kd": 19,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse reveil enfant",
+        "réveil veilleuse enfant",
+        "reveil enfant veilleuse",
+        "reveil et veilleuse enfant",
+        "réveil enfant veilleuse",
+        "veilleuse enfant reveil",
+        "veilleuse réveil enfant"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bébé fille",
+      "volume": 390,
+      "kd": 25,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe fille",
+        "bebe fille veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "lampe veilleuse bebe",
+      "volume": 320,
+      "kd": 19,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse lampe bebe",
+        "lampe veilleuse bébé",
+        "lampe bebe veilleuse",
+        "lampe bébé veilleuse",
+        "lampe de veilleuse bébé",
+        "lampe et veilleuse bebe",
+        "lampe pour veilleuse de bébé",
+        "lampe veilleuse pour bébé",
+        "lampes veilleuses bébé",
+        "lampes veilleuses pour bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bebe garcon",
+      "volume": 320,
+      "kd": 24,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bébé garçon",
+        "veilleuse pour bebe garcon"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse enfant 6 ans",
+      "volume": 260,
+      "kd": 24,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse fille",
+      "volume": 260,
+      "kd": 21,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "lampe veilleuse adulte",
+      "volume": 210,
+      "kd": 15,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "lampe veilleuse pour adulte",
+        "lampes veilleuses adultes"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse pour enfant",
+      "volume": 210,
+      "kd": 18,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse enfants",
+        "veilleuses enfant",
+        "veilleuses enfants",
+        "veilleuse pour enfants",
+        "veilleuse.enfant",
+        "+veilleuse +enfant",
+        "enfant pour veilleuse",
+        "enfant veilleuse",
+        "les enfants et la veilleuse",
+        "les enfants et les veilleuses",
+        "les veilleuses enfants"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse ado",
+      "volume": 170,
+      "kd": 22,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pour ado"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse enfant sur prise",
+      "volume": 170,
+      "kd": 19,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse prise enfant",
+        "prise veilleuse enfant",
+        "veilleuse enfant prise",
+        "veilleuse sur prise enfant"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse garcon",
+      "volume": 170,
+      "kd": 29,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pour garcon",
+        "veilleuse garçon",
+        "garçons veilleuses"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse enfant 2 ans",
+      "volume": 140,
+      "kd": 12,
+      "cluster": "Veilleuses par âge et genre",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "bougie veilleuse sans cire",
+      "volume": 480,
+      "kd": 23,
+      "cluster": "Veilleuses matériaux spécifiques",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse silicone",
+      "volume": 210,
+      "kd": 15,
+      "cluster": "Veilleuses matériaux spécifiques",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse en silicone"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "aquarium veilleuse",
+      "volume": 170,
+      "kd": 14,
+      "cluster": "Veilleuses matériaux spécifiques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse aquarium",
+        "veilleuse pour aquarium"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse boule de cristal",
+      "volume": 140,
+      "kd": 18,
+      "cluster": "Veilleuses matériaux spécifiques",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "boule de cristal veilleuse",
+        "veilleuse boule cristal"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse silicone souple",
+      "volume": 140,
+      "kd": 10,
+      "cluster": "Veilleuses matériaux spécifiques",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "tortue veilleuse bebe",
+      "volume": 480,
+      "kd": 16,
+      "cluster": "tortue veilleuse bebe",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe tortue",
+        "veilleuse tortue bebe",
+        "veilleuse bébé tortue",
+        "tortue bébé veilleuse",
+        "tortue veilleuse bébé",
+        "veilleuse tortue bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse lumière rouge",
+      "volume": 480,
+      "kd": 13,
+      "cluster": "Veilleuses lumière rouge",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse lumiere rouge",
+        "lumière rouge veilleuse",
+        "lumiere rouge veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse rouge",
+      "volume": 320,
+      "kd": 14,
+      "cluster": "Veilleuses lumière rouge",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "la veilleuse rouge"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse rouge bébé",
+      "volume": 320,
+      "kd": 13,
+      "cluster": "Veilleuses lumière rouge",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse rouge bebe",
+        "veilleuse bébé rouge",
+        "veilleuse bebe rouge"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "tortue veilleuse rose",
+      "volume": 260,
+      "kd": 16,
+      "cluster": "Veilleuses lumière rouge",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse tortue rose",
+        "tortue rose veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "tortue bleu veilleuse",
+      "volume": 210,
+      "kd": 16,
+      "cluster": "Veilleuses lumière rouge",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse tortue bleu",
+        "tortue veilleuse bleu"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "tortue bleue veilleuse",
+      "volume": 170,
+      "kd": 14,
+      "cluster": "Veilleuses lumière rouge",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "tortue veilleuse bleue",
+        "veilleuse tortue bleue"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bébé lumière rouge",
+      "volume": 140,
+      "kd": 11,
+      "cluster": "Veilleuses lumière rouge",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse lumiere rouge bebe",
+        "veilleuse lumière rouge bébé",
+        "veilleuse bebe lumiere rouge",
+        "lumiere rouge veilleuse bebe"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse animaux",
+      "volume": 390,
+      "kd": 7,
+      "cluster": "Veilleuses jungle et nature",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse pour animaux",
+        "animaux veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bebe renard",
+      "volume": 260,
+      "kd": 10,
+      "cluster": "Veilleuses jungle et nature",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bébé renard",
+        "veilleuse renard bebe",
+        "veilleuse renard bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bebe lapin",
+      "volume": 210,
+      "kd": 19,
+      "cluster": "Veilleuses jungle et nature",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse lapin bebe",
+        "lapin veilleuse bebe",
+        "veilleuse bébé lapin",
+        "veilleuse lapin bébé",
+        "lapin veilleuse bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bebe vtech",
+      "volume": 210,
+      "kd": 26,
+      "cluster": "Veilleuses jungle et nature",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bébé vtech"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bebe etoile",
+      "volume": 170,
+      "kd": 17,
+      "cluster": "Veilleuses jungle et nature",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse etoile bebe",
+        "veilleuse bebe etoiles",
+        "etoile veilleuse bebe",
+        "veilleuse bébé etoile",
+        "veilleuse bébé étoile"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bebe jungle",
+      "volume": 170,
+      "kd": 17,
+      "cluster": "Veilleuses jungle et nature",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bébé jungle",
+        "veilleuse jungle bebe"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bebe ours",
+      "volume": 170,
+      "kd": 12,
+      "cluster": "Veilleuses jungle et nature",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bébé ours"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse galaxie",
+      "volume": 140,
+      "kd": 7,
+      "cluster": "Veilleuses jungle et nature",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "gifi veilleuse",
+      "volume": 320,
+      "kd": 20,
+      "cluster": "Distributeurs et magasins",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse gifi"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "aubert veilleuse",
+      "volume": 210,
+      "kd": 22,
+      "cluster": "Distributeurs et magasins",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse aubert",
+        "aubert veilleuses"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "orchestra veilleuse",
+      "volume": 210,
+      "kd": 24,
+      "cluster": "Distributeurs et magasins",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse orchestra",
+        "orchestra veilleuses"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse leclerc",
+      "volume": 210,
+      "kd": 30,
+      "cluster": "Distributeurs et magasins",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "leclerc veilleuse",
+        "veilleuse chez leclerc"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse maison du monde",
+      "volume": 210,
+      "kd": 26,
+      "cluster": "Distributeurs et magasins",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse maisons du monde"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse amazone",
+      "volume": 170,
+      "kd": 0,
+      "cluster": "Distributeurs et magasins",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse king jouet",
+      "volume": 170,
+      "kd": 23,
+      "cluster": "Distributeurs et magasins",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "king jouet veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "bebe 9 veilleuse",
+      "volume": 140,
+      "kd": 18,
+      "cluster": "Distributeurs et magasins",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe 9",
+        "veilleuse bébé 9"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "bebe9 veilleuse",
+      "volume": 140,
+      "kd": 13,
+      "cluster": "Distributeurs et magasins",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe9",
+        "bébé9 veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "carrefour veilleuse",
+      "volume": 140,
+      "kd": 28,
+      "cluster": "Distributeurs et magasins",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "veilleuse carrefour"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "luciole veilleuse",
+      "volume": 140,
+      "kd": 14,
+      "cluster": "Distributeurs et magasins",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "veilleuse luciole"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse centrakor",
+      "volume": 140,
+      "kd": 23,
+      "cluster": "Distributeurs et magasins",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "centrakor veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse automatique",
+      "volume": 260,
+      "kd": 20,
+      "cluster": "veilleuse automatique",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "peluche veilleuse bebe",
+      "volume": 210,
+      "kd": 14,
+      "cluster": "peluche veilleuse bebe",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse peluche bebe",
+        "peluche veilleuse bébé",
+        "veilleuse bébé peluche",
+        "veilleuse peluche bébé",
+        "veilleuse bebe peluche",
+        "peluche bebe veilleuse",
+        "peluche veilleuse pour bebe",
+        "peluches veilleuses bebe"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bébé rechargeable",
+      "volume": 170,
+      "kd": 23,
+      "cluster": "veilleuse bébé rechargeable",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe rechargeable",
+        "veilleuse rechargeable bebe",
+        "veilleuse bébé rechargeable",
+        "veilleuse rechargeable bébé"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse angel",
+      "volume": 140,
+      "kd": 23,
+      "cluster": "veilleuse angel",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "angel veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse bébé baleine",
+      "volume": 140,
+      "kd": 15,
+      "cluster": "veilleuse bébé baleine",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bebe baleine",
+        "baleine veilleuse bebe",
+        "veilleuse baleine bebe",
+        "baleine bebe veilleuse",
+        "veilleuse baleine bébé",
+        "baleine bébé veilleuse"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "veilleuse nuage bebe",
+      "volume": 140,
+      "kd": 8,
+      "cluster": "veilleuse nuage bebe",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "veilleuse bébé nuage",
+        "veilleuse nuage bébé",
+        "veilleuse bebe nuage",
+        "nuage veilleuse bebe"
+      ],
       "statut": "libre"
     }
   ]

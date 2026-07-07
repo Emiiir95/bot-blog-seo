@@ -294,6 +294,20 @@ La validation tourne **AVANT** l'appel de publication Shopify. Rien ne passe en 
 
 ---
 
+## 21. Fixes anti-duplication & optimisations (audit du 2026-07-07)
+
+Suite à un grilling de stress-test, 7 correctifs pour garantir **contenu 100 % unique** + ranking/autonomie max :
+
+1. **Déduplication anti-cannibalisation** (`clusters.js` → `normaliserMotCle` + `loadKeywordRows`) : les variantes quasi-identiques d'un mot-clé (accents, pluriels, mots-outils, ordre — ex. « arbre à chat en bois » = « arbre a chat bois ») **fusionnent en UN seul thème**. Le plus gros volume devient l'article ; les autres deviennent des **variantes = mots-clés secondaires** injectés dans ce même article. Sans ça, ~50 % des articles se seraient cannibalisés. Résultat : 250 thèmes **uniques** (dédupliqués depuis le pool complet).
+2. **Séquencement cluster-complet-d'abord** (`keywords.js` → `pickNext`) : on complète un cluster (pilier → ses satellites) AVANT d'en ouvrir un nouveau → le maillage interne et l'indexation démarrent dès le 2e article (au lieu de ~jour 40 avec l'ancien « un pilier partout »).
+3. **Différenciation intra-cluster** (`generate.js` + `index.js`) : (a) rotation des archétypes entre satellites d'un cluster (variété de structure), (b) l'IA reçoit les titres des articles déjà publiés du cluster avec « ne répète pas, angle complémentaire » → contenu distinct même sur sujets proches.
+4. **Images uniques** (`images.js` + `index.js`) : le bot récupère plusieurs candidats Pexels et évite toute image déjà utilisée (`image_url` tracké dans `etat.json`).
+5. **Refresh quotidien** (`refresh.js`) : 1 article rafraîchi/jour/boutique (le plus vieux), dès ≥20 articles → chaque article rafraîchi tous les ~N jours (N = nb d'articles). Remplace l'ancien « 1×/semaine » (inutile à cette échelle).
+6. **IndexNow** : reporté (Bing/Yandex only, hébergement fichier-clé pénible sur Shopify). À reconsidérer plus tard.
+7. **Épuisement gracieux** : à court de thèmes → alerte Telegram + le refresh continue (le site reste frais, autonomie préservée). Ré-exporter un CSV pour relancer la production.
+
+---
+
 ## 20. Chiffres de référence
 
 - **Volume** : 10 boutiques × 1 article/jour = ~300 articles/mois.

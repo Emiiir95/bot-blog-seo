@@ -43,27 +43,40 @@ export function pickNext(state) {
   const libres = state.themes.filter((t) => t.statut === "libre");
   if (libres.length === 0) return null;
 
-  // Clusters déjà entamés (au moins un article publié).
   const clustersEntames = new Set(
     state.themes.filter((t) => t.statut === "utilise").map((t) => t.cluster)
   );
 
-  // 1. Piliers de clusters non encore entamés = priorité absolue.
-  const piliersNeufs = libres.filter(
-    (t) => t.role === "pilier" && !clustersEntames.has(t.cluster)
-  );
-  const pool = piliersNeufs.length ? piliersNeufs : libres;
+  // 1. COMPLÉTER un cluster déjà entamé (pilier publié → ses satellites) AVANT d'en ouvrir un nouveau.
+  //    → le maillage interne et l'indexation démarrent dès le 2e article d'un cluster.
+  const enCours = libres.filter((t) => clustersEntames.has(t.cluster));
+  if (enCours.length) {
+    // On finit UN cluster à la fois : celui le plus proche d'être complet (moins de restants).
+    const restants = new Map();
+    for (const t of enCours) restants.set(t.cluster, (restants.get(t.cluster) || 0) + 1);
+    const clusterCible = [...restants.entries()].sort((a, b) => a[1] - b[1])[0][0];
+    return choisirDans(enCours.filter((t) => t.cluster === clusterCible));
+  }
 
+  // 2. Sinon OUVRIR un nouveau cluster par son PILIER (meilleure opportunité).
+  const piliersNeufs = libres.filter((t) => t.role === "pilier");
+  if (piliersNeufs.length) return choisirDans(piliersNeufs);
+
+  // 3. Fallback.
+  return choisirDans(libres);
+}
+
+/** Meilleur candidat d'un pool : pilier d'abord, puis questions, puis volume ; KD croissant en filtre. */
+function choisirDans(pool) {
   for (const seuilKd of [30, 45, 100]) {
-    const candidats = pool.filter((t) => t.kd <= seuilKd);
-    if (!candidats.length) continue;
-    candidats.sort((a, b) => {
-      // questions d'abord
+    const c = pool.filter((t) => t.kd <= seuilKd);
+    if (!c.length) continue;
+    c.sort((a, b) => {
+      if ((a.role === "pilier") !== (b.role === "pilier")) return a.role === "pilier" ? -1 : 1;
       if (a.est_question !== b.est_question) return a.est_question ? -1 : 1;
-      // puis volume décroissant
       return b.volume - a.volume;
     });
-    return candidats[0];
+    return c[0];
   }
   return pool[0];
 }

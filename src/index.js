@@ -47,13 +47,18 @@ async function traiterBoutique(store, journal) {
 
   const clusterQuestions = questionsDuCluster(state, theme);
   const linkTargets = ciblesMaillage(state, theme, ctx.shop);
+  // Articles déjà publiés du même cluster (différenciation) + images déjà utilisées (anti-répétition).
+  const siblings = state.themes
+    .filter((t) => t.cluster === theme.cluster && t.statut === "utilise" && t.titre)
+    .map((t) => t.titre);
+  const usedImages = new Set(state.themes.filter((t) => t.image_url).map((t) => t.image_url));
 
   // Génération + 1 re-tentative en cas de mauvaise qualité.
   let article = null;
   let dernieresRaisons = [];
   const maxMots = 3200; // 600-3000 pour tous (petite tolérance pour "un peu plus")
   for (let attempt = 0; attempt < 2; attempt++) {
-    const gen = await genererArticle(ctx, theme, clusterQuestions, linkTargets);
+    const gen = await genererArticle(ctx, theme, clusterQuestions, linkTargets, siblings);
     const v = valider(gen.article, { langue: store.langue, stopReason: gen.stopReason, maxMots });
     if (v.ok) {
       article = gen.article;
@@ -91,8 +96,8 @@ async function traiterBoutique(store, journal) {
   article.slug = handle;
   const url = `https://${store.domaine}/blogs/${store.blog_handle}/${handle}`;
 
-  // Images.
-  const imgRes = await resoudreImages(store, article, theme.mot_cle);
+  // Images (avec anti-répétition via usedImages).
+  const imgRes = await resoudreImages(store, article, theme.mot_cle, usedImages);
   const published = !imgRes.imageManquante && !env.forceDraft;
 
   // SEO + corps final.
@@ -114,6 +119,7 @@ async function traiterBoutique(store, journal) {
     handle: res.handle,
     url: res.url,
     titre: article.titre,
+    image_url: article.image ? article.image.url : null,
     date_publication: today(),
     date_maj: today(),
   });

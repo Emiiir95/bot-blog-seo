@@ -88,7 +88,7 @@ function nettoyerHtml(txt) {
  * Génère un article complet.
  * @returns { article, stopReason, model }
  */
-export async function genererArticle(ctx, theme, clusterQuestions, linkTargets) {
+export async function genererArticle(ctx, theme, clusterQuestions, linkTargets, siblings = []) {
   const model = MODELS[theme.role] || MODELS.satellite;
   const maxTokens = 8000; // marge : un article FR jusqu'à ~3000 mots + HTML dépasse 6000 tokens -> évite la troncature
   // Longueur : 600-3000 mots pour TOUS. Cibles volontairement basses car le modèle a tendance
@@ -113,6 +113,12 @@ CLUSTER : ${theme.cluster}
 RÔLE : ${theme.role === "pilier" ? "PAGE PILIER (article central, large et complet)" : "article satellite (ciblé et précis)"}
 FORMAT : ${ARCHETYPES[theme.archetype] || ARCHETYPES.listicle}
 LONGUEUR : entre 600 et 3000 mots (vise ~${cible} mots pour ce type d'article, mais la longueur peut varier naturellement selon le sujet). Ne dépasse JAMAIS 3000 mots. Au moins ${nbH2} sections H2 réellement développées.
+
+Mots-clés SECONDAIRES (variantes de la même requête — intègre-les NATURELLEMENT dans le texte pour couvrir toutes les formulations, sans bourrage ni répétition mécanique) :
+${(theme.variantes && theme.variantes.length) ? theme.variantes.slice(0, 12).join(", ") : "(aucun)"}
+
+Articles DÉJÀ publiés dans ce cluster — NE répète PAS leur contenu, traite un angle DISTINCT et complémentaire :
+${siblings.length ? siblings.map((s) => `- ${s}`).join("\n") : "(aucun — tu es le premier du cluster)"}
 
 Questions liées du même cluster (à exploiter en H2/H3) :
 ${clusterQuestions.map((q) => `- ${q}`).join("\n") || "(aucune)"}

@@ -7,11 +7,23 @@
       "mot_cle": "arbre a chat maine coon",
       "volume": 4400,
       "kd": 15,
-      "cluster": "Arbres à chat pour Maine Coon",
+      "cluster": "Arbres à chat pour races spécifiques",
       "role": "pilier",
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "arbre a chat pour maine coon",
+        "maine coon arbre à chat",
+        "arbre a chats maine coon",
+        "maine coon arbre a chat",
+        "arbres a chat maine coon",
+        "arbres a chats maine coon",
+        "arbre a chat maine coon.de",
+        "arbre à chat a maine coon",
+        "arbres a chat pour maine coon",
+        "maine coon et arbre a chat"
+      ],
       "statut": "utilise",
       "article_id": "gid://shopify/Article/615240434002",
       "handle": "arbre-chat-maine-coon-guide-achat",
@@ -21,1873 +33,2659 @@
       "date_maj": "2026-07-07"
     },
     {
-      "mot_cle": "arbre a chat pour maine coon",
-      "volume": 1900,
-      "kd": 9,
-      "cluster": "Arbres à chat pour Maine Coon",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "maine coon arbre à chat",
-      "volume": 720,
-      "kd": 19,
-      "cluster": "Arbres à chat pour Maine Coon",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
       "mot_cle": "arbre a chat main coon",
       "volume": 590,
       "kd": 12,
-      "cluster": "Arbres à chat pour Maine Coon",
+      "cluster": "Arbres à chat pour races spécifiques",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbres a chat main coon",
-      "volume": 480,
-      "kd": 12,
-      "cluster": "Arbres à chat pour Maine Coon",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chats maine coon",
-      "volume": 390,
-      "kd": 12,
-      "cluster": "Arbres à chat pour Maine Coon",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "arbres a chat main coon",
+        "arbre a chat pour main coon",
+        "main coon arbre a chat",
+        "arbre a chats main coon"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre à chat xxl pour maine coon",
       "volume": 390,
       "kd": 13,
-      "cluster": "Arbres à chat pour Maine Coon",
+      "cluster": "Arbres à chat pour races spécifiques",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "meilleur arbre à chat pour gros chat",
-      "volume": 260,
-      "kd": 14,
-      "cluster": "Arbres à chat pour Maine Coon",
-      "role": "satellite",
-      "intention": "comparatif",
       "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "arbre à chat xxl maine coon",
+        "arbre à chat maine coon xxl",
+        "arbre a chat maine coon xxl",
+        "arbre a chat xxl maine coon",
+        "arbre a chat xxl pour maine coon"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre à chat maine coon xxl",
-      "volume": 170,
-      "kd": 16,
-      "cluster": "Arbres à chat pour Maine Coon",
+      "mot_cle": "arbre à chat maine coon maxi zoo",
+      "volume": 90,
+      "kd": 23,
+      "cluster": "Arbres à chat pour races spécifiques",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "arbre a chat maine coon maxi zoo"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat bois",
       "volume": 3600,
       "kd": 29,
-      "cluster": "Arbres à chat en bois",
+      "cluster": "Arbres à chat par matériau",
       "role": "pilier",
       "intention": "commerciale",
       "archetype": "guide_complet",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat en bois",
-      "volume": 2400,
-      "kd": 25,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat bois",
-      "volume": 1900,
-      "kd": 28,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "arbre à chat en bois",
+        "arbre à chat bois",
+        "arbre chat bois",
+        "arbres a chats en bois",
+        "arbre a chats en bois",
+        "arbre à chats en bois",
+        "arbre à chats bois",
+        "arbres a chat bois",
+        "arbre chat en bois",
+        "arbres à chat en bois",
+        "arbre a chats bois",
+        "arbres a chat en bois",
+        "bois arbre a chat",
+        "arbre à chat a bois",
+        "arbre a chat avec bois",
+        "arbre a chat avec du bois",
+        "arbre a chat boi",
+        "arbre a chat en.bois",
+        "bois pour arbre a chat"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat bois flotté",
       "volume": 1300,
       "kd": 11,
-      "cluster": "Arbres à chat en bois",
+      "cluster": "Arbres à chat par matériau",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat bois",
-      "volume": 1300,
-      "kd": 19,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbres a chats en bois",
-      "volume": 1000,
-      "kd": 29,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "arbre a chat bois flotte",
+        "arbre a chat en bois flotté",
+        "arbre a chat en bois flotte",
+        "bois flotté arbre a chat",
+        "arbre a chat avec bois flotté",
+        "arbre a chat en bois flottés",
+        "bois flotté pour arbre a chat"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre à chat en bois naturel",
       "volume": 720,
       "kd": 16,
-      "cluster": "Arbres à chat en bois",
+      "cluster": "Arbres à chat par matériau",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "comparatif",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat bois naturel",
-      "volume": 590,
-      "kd": 23,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "arbre à chat bois naturel",
+        "arbre chat bois naturel",
+        "arbre a chat bois naturel",
+        "arbre a chat en bois naturel",
+        "arbre a chats en bois naturel",
+        "arbre a chat naturel bois",
+        "arbre a chat avec bois naturel",
+        "arbres a chat en bois naturel",
+        "arbres a chats en bois naturel"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat naturel",
       "volume": 390,
       "kd": 12,
-      "cluster": "Arbres à chat en bois",
+      "cluster": "Arbres à chat par matériau",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "arbre à chat naturel",
+        "arbre chat naturel",
+        "arbre naturel pour chat",
+        "arbre à chats naturel",
+        "arbre a chats naturel",
+        "arbre naturel a chat",
+        "arbres a chat naturel"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat osier",
       "volume": 390,
       "kd": 26,
-      "cluster": "Arbres à chat en bois",
+      "cluster": "Arbres à chat par matériau",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "narratif",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat bois naturel",
-      "volume": 390,
-      "kd": 11,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat naturel",
-      "volume": 390,
-      "kd": 19,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat en osier",
-      "volume": 320,
-      "kd": 23,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat meuble",
-      "volume": 320,
-      "kd": 12,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre naturel pour chat",
-      "volume": 320,
-      "kd": 24,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chats en bois",
-      "volume": 320,
-      "kd": 28,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chats naturel",
-      "volume": 320,
-      "kd": 27,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "arbre a chat en osier",
+        "arbre chat osier",
+        "arbre à chat osier",
+        "arbre à chat en osier",
+        "arbre a chats en osier",
+        "arbre a chats et osier"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat bois massif",
       "volume": 260,
       "kd": 6,
-      "cluster": "Arbres à chat en bois",
+      "cluster": "Arbres à chat par matériau",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "guide_achat",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat en bois massif",
-      "volume": 260,
-      "kd": 12,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "arbre a chat en bois massif",
+        "arbre à chat bois massif",
+        "arbre à chat en bois massif",
+        "arbre a chats bois massif"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat rotin",
       "volume": 260,
       "kd": 25,
-      "cluster": "Arbres à chat en bois",
+      "cluster": "Arbres à chat par matériau",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "arbre a chat en rotin"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre à chats bois",
-      "volume": 260,
-      "kd": 30,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "meuble arbre a chat",
-      "volume": 260,
-      "kd": 18,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat en rotin",
+      "mot_cle": "arbre a chat tronc d'arbre",
       "volume": 210,
-      "kd": 23,
-      "cluster": "Arbres à chat en bois",
+      "kd": 15,
+      "cluster": "Arbres à chat par matériau",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbres a chat bois",
-      "volume": 210,
-      "kd": 24,
-      "cluster": "Arbres à chat en bois",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "arbre a chat avec tronc d'arbre",
+        "arbre a chat avec tronc d arbre",
+        "arbre a chat tronc d arbre"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre à chat design bois",
       "volume": 170,
       "kd": 21,
-      "cluster": "Arbres à chat en bois",
+      "cluster": "Arbres à chat par matériau",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "narratif",
       "est_question": false,
+      "variantes": [
+        "arbre à chat en bois design",
+        "arbre à chat design en bois",
+        "arbre a chat bois design",
+        "arbre a chat design bois",
+        "arbre a chat design en bois",
+        "arbre a chat en bois design",
+        "bois arbre a chat design"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre à chat en bois design",
-      "volume": 170,
-      "kd": 22,
-      "cluster": "Arbres à chat en bois",
+      "mot_cle": "arbre a chat carton",
+      "volume": 140,
+      "kd": 17,
+      "cluster": "Arbres à chat par matériau",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat en carton",
+        "arbre chat carton",
+        "carton arbre a chat",
+        "arbre a chat avec carton",
+        "arbre a chat cartons",
+        "arbre a chats en carton"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat colonne",
+      "volume": 140,
+      "kd": 12,
+      "cluster": "Arbres à chat par matériau",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "colonne arbre a chat",
+        "colonne pour arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat en palette",
+      "volume": 140,
+      "kd": 29,
+      "cluster": "Arbres à chat par matériau",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "arbre a chat palette",
+        "arbre a chat avec des palette",
+        "arbre a chat avec des palettes",
+        "arbre a chat avec palette",
+        "arbre a chat en palettes",
+        "arbre a chats palettes",
+        "arbres a chat en palette",
+        "arbres a chat et palette"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat mural bois",
+      "volume": 140,
+      "kd": 20,
+      "cluster": "Arbres à chat par matériau",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat bois mural",
+        "arbre a chat mural en bois"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat tronc",
+      "volume": 140,
+      "kd": 10,
+      "cluster": "Arbres à chat par matériau",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "tronc arbre a chat",
+        "tronc arbre à chat",
+        "tronc pour arbre a chat",
+        "arbre à chat tronc",
+        "tronc pour arbre à chat",
+        "tronc arbre chat",
+        "arbre a chat avec tronc",
+        "arbre a chat en tronc",
+        "arbres a chat avec troncs",
+        "tronc arbre a chats",
+        "tronc pour arbre a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat tube",
+      "volume": 140,
+      "kd": 28,
+      "cluster": "Arbres à chat par matériau",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "tube arbre a chat",
+        "tube pour arbre a chat",
+        "arbre a chat avec des tubes",
+        "tubes arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "tronc d arbre a chat",
+      "volume": 140,
+      "kd": 12,
+      "cluster": "Arbres à chat par matériau",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "fabriquer un arbre a chat avec une branche",
+      "volume": 110,
+      "kd": 6,
+      "cluster": "Arbres à chat par matériau",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat branche",
+      "volume": 90,
+      "kd": 26,
+      "cluster": "Arbres à chat par matériau",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat avec branche",
+        "arbre a chat en branche",
+        "branche arbre a chat",
+        "branche pour arbre a chat",
+        "arbre a chat avec une branche",
+        "arbre a chat branches",
+        "arbres a chats avec branches"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat design",
       "volume": 3600,
       "kd": 22,
-      "cluster": "Arbres à chat design et moderne",
+      "cluster": "Arbres à chat par style et design",
       "role": "pilier",
       "intention": "commerciale",
       "archetype": "guide_complet",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat design",
-      "volume": 1900,
-      "kd": 26,
-      "cluster": "Arbres à chat design et moderne",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat beige",
-      "volume": 1300,
-      "kd": 17,
-      "cluster": "Arbres à chat design et moderne",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "arbre à chat design",
+        "arbre chat design",
+        "design arbre à chat",
+        "arbres à chat design",
+        "arbres à chats design",
+        "design arbre a chat",
+        "arbre a chats design",
+        "arbres a chats design",
+        "arbre a.chat design",
+        "arbres a chat design"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat fleur",
       "volume": 1300,
       "kd": 8,
-      "cluster": "Arbres à chat design et moderne",
+      "cluster": "Arbres à chat par style et design",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "guide_achat",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat design",
-      "volume": 880,
-      "kd": 27,
-      "cluster": "Arbres à chat design et moderne",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat fleurs",
-      "volume": 720,
-      "kd": 22,
-      "cluster": "Arbres à chat design et moderne",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "design arbre à chat",
-      "volume": 720,
-      "kd": 15,
-      "cluster": "Arbres à chat design et moderne",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "arbre a chat fleurs",
+        "arbre à chat fleur",
+        "arbre à chat fleurs",
+        "arbre a chat en fleur",
+        "fleur arbre a chat",
+        "arbre a chat a fleur",
+        "arbre a chats fleurs"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat cactus",
       "volume": 590,
       "kd": 22,
-      "cluster": "Arbres à chat design et moderne",
+      "cluster": "Arbres à chat par style et design",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "cactus arbre a chat",
+        "arbre a chats cactus",
+        "arbres a chat cactus"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat moderne",
       "volume": 590,
       "kd": 30,
-      "cluster": "Arbres à chat design et moderne",
+      "cluster": "Arbres à chat par style et design",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "arbre chat moderne",
+        "arbre à chat moderne",
+        "arbres a chat moderne"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat sapin de noel",
       "volume": 590,
       "kd": 16,
-      "cluster": "Arbres à chat design et moderne",
+      "cluster": "Arbres à chat par style et design",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "narratif",
       "est_question": false,
+      "variantes": [
+        "sapin de noel arbre a chat",
+        "arbre a chat en sapin de noel",
+        "arbre a chat sapin noel",
+        "sapin noel arbre a chat",
+        "arbre a chat sapin de noël"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat scandinave",
       "volume": 480,
       "kd": 12,
-      "cluster": "Arbres à chat design et moderne",
+      "cluster": "Arbres à chat par style et design",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat blanc",
-      "volume": 390,
-      "kd": 23,
-      "cluster": "Arbres à chat design et moderne",
-      "role": "satellite",
-      "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat noir",
-      "volume": 390,
-      "kd": 13,
-      "cluster": "Arbres à chat design et moderne",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre chat original",
       "volume": 390,
       "kd": 17,
-      "cluster": "Arbres à chat design et moderne",
+      "cluster": "Arbres à chat par style et design",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "arbre a chats original",
+        "arbres a chat original",
+        "arbres a chats original",
+        "original arbre a chat"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre à chat originaux",
       "volume": 390,
       "kd": 23,
-      "cluster": "Arbres à chat design et moderne",
+      "cluster": "Arbres à chat par style et design",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "arbre a chat originaux",
+        "arbres a chats originaux"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat dinosaure",
       "volume": 320,
       "kd": 13,
-      "cluster": "Arbres à chat design et moderne",
+      "cluster": "Arbres à chat par style et design",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "narratif",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat rose",
-      "volume": 320,
-      "kd": 12,
-      "cluster": "Arbres à chat design et moderne",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat gris",
-      "volume": 260,
-      "kd": 22,
-      "cluster": "Arbres à chat design et moderne",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat nuage",
-      "volume": 260,
-      "kd": 15,
-      "cluster": "Arbres à chat design et moderne",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat simple",
-      "volume": 210,
-      "kd": 30,
-      "cluster": "Arbres à chat design et moderne",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "dinosaure arbre a chat"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat luxe",
       "volume": 170,
       "kd": 9,
-      "cluster": "Arbres à chat design et moderne",
+      "cluster": "Arbres à chat par style et design",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat de luxe",
+        "arbres a chat de luxe",
+        "arbres a chats de luxe"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat beau",
+      "volume": 140,
+      "kd": 25,
+      "cluster": "Arbres à chat par style et design",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "beau arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat joli",
+      "volume": 140,
+      "kd": 25,
+      "cluster": "Arbres à chat par style et design",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "joli arbre à chat",
+        "joli arbre a chat"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre a chat simple",
-      "volume": 170,
-      "kd": 30,
-      "cluster": "Arbres à chat design et moderne",
+      "mot_cle": "arbre a chat noel",
+      "volume": 140,
+      "kd": 7,
+      "cluster": "Arbres à chat par style et design",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "narratif",
       "est_question": false,
+      "variantes": [
+        "arbre a chat de noel",
+        "arbre de noel a chat",
+        "arbre a chat noël",
+        "noel avec arbre a chat"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre à chat beige",
-      "volume": 170,
+      "mot_cle": "arbre a chat palmier",
+      "volume": 140,
       "kd": 18,
-      "cluster": "Arbres à chat design et moderne",
+      "cluster": "Arbres à chat par style et design",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat avec des palmiers",
+        "arbre a chat avec palmier",
+        "arbre a chat en palmier"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat artisanal",
+      "volume": 110,
+      "kd": 19,
+      "cluster": "Arbres à chat par style et design",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat artisanal",
+        "artisanal arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat design moderne",
+      "volume": 110,
+      "kd": 18,
+      "cluster": "Arbres à chat par style et design",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "arbre a chat design moderne",
+        "arbre a chat moderne design"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat design naturel",
+      "volume": 110,
+      "kd": 22,
+      "cluster": "Arbres à chat par style et design",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat naturel design"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat esthétique",
+      "volume": 90,
+      "kd": 24,
+      "cluster": "Arbres à chat par style et design",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat esthetique",
+        "arbre a chat esthétique"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat mural",
       "volume": 2900,
       "kd": 26,
-      "cluster": "Arbres à chat muraux et plafond",
+      "cluster": "Arbres à chat mural et suspendu",
       "role": "pilier",
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "arbres a chat mural",
+        "arbre a chats mural",
+        "arbre a chat.mural",
+        "arbres a chats mural",
+        "mural arbre a chat"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat plafond",
       "volume": 590,
       "kd": 24,
-      "cluster": "Arbres à chat muraux et plafond",
+      "cluster": "Arbres à chat mural et suspendu",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "guide_achat",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat au plafond",
-      "volume": 480,
-      "kd": 14,
-      "cluster": "Arbres à chat muraux et plafond",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "arbre a chat au plafond",
+        "arbre chat plafond",
+        "arbre à chat plafond",
+        "arbre a chats plafond",
+        "arbres a chat plafond"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat murale",
       "volume": 390,
       "kd": 16,
-      "cluster": "Arbres à chat muraux et plafond",
+      "cluster": "Arbres à chat mural et suspendu",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "comparatif",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat mur",
-      "volume": 210,
-      "kd": 20,
-      "cluster": "Arbres à chat muraux et plafond",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat plafond",
-      "volume": 210,
-      "kd": 19,
-      "cluster": "Arbres à chat muraux et plafond",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat plafond",
-      "volume": 210,
-      "kd": 19,
-      "cluster": "Arbres à chat muraux et plafond",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat d angle",
       "volume": 170,
       "kd": 17,
-      "cluster": "Arbres à chat muraux et plafond",
+      "cluster": "Arbres à chat mural et suspendu",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "arbre a chat d'angle"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat sol plafond",
       "volume": 170,
       "kd": 19,
-      "cluster": "Arbres à chat muraux et plafond",
+      "cluster": "Arbres à chat mural et suspendu",
       "role": "satellite",
       "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat du sol au plafond",
+        "arbre a chat sol au plafond",
+        "arbre a chat plafond sol",
+        "arbre a chats plafond sol"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat porte",
+      "volume": 140,
+      "kd": 19,
+      "cluster": "Arbres à chat mural et suspendu",
+      "role": "satellite",
+      "intention": "generale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "arbre a chat de porte",
+        "arbre a chat pour porte",
+        "arbre a chat sur porte"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat fenetre",
+      "volume": 110,
+      "kd": 15,
+      "cluster": "Arbres à chat mural et suspendu",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat pour fenetre",
+        "arbre a chat de fenetre"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat suspendu",
+      "volume": 90,
+      "kd": 24,
+      "cluster": "Arbres à chat mural et suspendu",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat xxl",
       "volume": 1900,
       "kd": 20,
-      "cluster": "Arbres à chat XXL et grands",
+      "cluster": "Arbres à chat par taille",
       "role": "pilier",
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat xxl",
-      "volume": 1900,
-      "kd": 23,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "grand arbre a chat",
-      "volume": 880,
-      "kd": 22,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "grand arbre à chat",
-      "volume": 720,
-      "kd": 21,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat grand",
-      "volume": 590,
-      "kd": 19,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat haut",
-      "volume": 480,
-      "kd": 26,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a grand chat",
-      "volume": 390,
-      "kd": 21,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat gros chat",
-      "volume": 260,
-      "kd": 21,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat pour gros chat",
-      "volume": 260,
-      "kd": 21,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat xl",
-      "volume": 260,
-      "kd": 27,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat gros chat",
-      "volume": 260,
-      "kd": 22,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat géant",
-      "volume": 260,
-      "kd": 20,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat pour grand chat",
-      "volume": 210,
-      "kd": 19,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat pour grands chats",
-      "volume": 210,
-      "kd": 18,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chats géant",
-      "volume": 210,
-      "kd": 19,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "grand arbres a chat",
-      "volume": 210,
-      "kd": 0,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat maxizoo",
-      "volume": 170,
-      "kd": 19,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat pour gros chats",
-      "volume": 170,
-      "kd": 17,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat geant",
-      "volume": 170,
-      "kd": 26,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat grand chat",
-      "volume": 170,
-      "kd": 19,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat haut",
-      "volume": 170,
-      "kd": 26,
-      "cluster": "Arbres à chat XXL et grands",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat exterieur",
-      "volume": 1600,
-      "kd": 25,
-      "cluster": "Arbres à chat extérieur",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat pour exterieur",
-      "volume": 720,
-      "kd": 19,
-      "cluster": "Arbres à chat extérieur",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chats exterieur",
-      "volume": 390,
-      "kd": 11,
-      "cluster": "Arbres à chat extérieur",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat exterieur",
-      "volume": 390,
-      "kd": 19,
-      "cluster": "Arbres à chat extérieur",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat extérieur",
-      "volume": 390,
-      "kd": 18,
-      "cluster": "Arbres à chat extérieur",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat pour extérieur",
-      "volume": 260,
-      "kd": 19,
-      "cluster": "Arbres à chat extérieur",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat d'extérieur",
-      "volume": 170,
-      "kd": 18,
-      "cluster": "Arbres à chat extérieur",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "griffoir à chat",
-      "volume": 1600,
-      "kd": 26,
-      "cluster": "Perchoirs et maisons chat",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "maison pour les chats",
-      "volume": 1600,
-      "kd": 18,
-      "cluster": "Perchoirs et maisons chat",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "perchoir chat",
-      "volume": 390,
-      "kd": 23,
-      "cluster": "Perchoirs et maisons chat",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "perchoir pour chat",
-      "volume": 390,
-      "kd": 19,
-      "cluster": "Perchoirs et maisons chat",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "niche chat bois",
-      "volume": 210,
-      "kd": 19,
-      "cluster": "Perchoirs et maisons chat",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "perchoir à chat",
-      "volume": 210,
-      "kd": 13,
-      "cluster": "Perchoirs et maisons chat",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "arbre à chat xxl",
+        "arbres à chat xxl",
+        "arbre a chats xxl",
+        "arbres a chat xxl",
+        "xxl arbre a chat",
+        "arbres a chats xxl"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "petit arbre a chat",
       "volume": 1600,
       "kd": 27,
-      "cluster": "Arbres à chat petit et chaton",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chaton",
-      "volume": 1300,
-      "kd": 18,
-      "cluster": "Arbres à chat petit et chaton",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat petit",
-      "volume": 480,
-      "kd": 25,
-      "cluster": "Arbres à chat petit et chaton",
+      "cluster": "Arbres à chat par taille",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "arbre a chat petit",
+        "petit arbre à chat",
+        "arbre à chat petit",
+        "petit arbre chat",
+        "petit arbres a chat",
+        "petits arbres a chats"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre à chatons",
+      "mot_cle": "grand arbre a chat",
+      "volume": 880,
+      "kd": 22,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "grand arbre à chat",
+        "arbre a chat grand",
+        "arbre a grand chat",
+        "arbre à chat grand",
+        "grand arbres a chat",
+        "arbre pour grand chat",
+        "arbre grand chat",
+        "arbre à grand chat",
+        "grand arbre a chats",
+        "arbre a grand chats",
+        "grands arbres a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat haut",
       "volume": 480,
-      "kd": 21,
-      "cluster": "Arbres à chat petit et chaton",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chatons",
-      "volume": 390,
-      "kd": 19,
-      "cluster": "Arbres à chat petit et chaton",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbres à chatons",
-      "volume": 390,
-      "kd": 19,
-      "cluster": "Arbres à chat petit et chaton",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "petit arbre à chat",
-      "volume": 390,
       "kd": 26,
-      "cluster": "Arbres à chat petit et chaton",
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre à chat haut",
+        "haut arbre a chat",
+        "arbre a chats haut",
+        "hauts arbres a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat xxl solide",
+      "volume": 480,
+      "kd": 19,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat xxl solide"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat pour gros chat",
+      "volume": 390,
+      "kd": 20,
+      "cluster": "Arbres à chat par taille",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "arbre a chat gros chat",
+        "arbre a chat pour gros chat",
+        "arbre à chat gros chat",
+        "arbre a chat pour gros chats",
+        "arbres a chats pour gros chats",
+        "arbres a chat pour gros chat",
+        "arbre a chat gros chats",
+        "arbre a chats gros chat",
+        "arbre a chats gros chats",
+        "arbre a chats pour gros chat",
+        "arbre a chats pour gros chats",
+        "arbre a chats pour les gros chat",
+        "arbres a chat gros chat",
+        "gros chat arbre a chat"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre a chaton",
-      "volume": 260,
-      "kd": 15,
-      "cluster": "Arbres à chat petit et chaton",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat petit",
+      "mot_cle": "arbre a chat xl",
       "volume": 260,
       "kd": 27,
-      "cluster": "Arbres à chat petit et chaton",
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre à chat xl",
+        "arbres a chat xl"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat géant",
+      "volume": 260,
+      "kd": 20,
+      "cluster": "Arbres à chat par taille",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "arbre à chats géant",
+        "arbre chat geant",
+        "geant arbre a chat",
+        "arbre a chat géant",
+        "arbre à chat geant",
+        "arbre a chats geant",
+        "arbres a chat geant",
+        "arbres a chat géant",
+        "arbres a chats geants",
+        "arbres geants a chats"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "petit arbre chat",
+      "mot_cle": "meilleur arbre à chat pour gros chat",
       "volume": 260,
-      "kd": 25,
-      "cluster": "Arbres à chat petit et chaton",
+      "kd": 14,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "comparatif",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat 2m",
+      "volume": 210,
+      "kd": 18,
+      "cluster": "Arbres à chat par taille",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat grand chat",
+      "volume": 210,
+      "kd": 20,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat pour grand chat",
+        "arbre a chat pour grands chats",
+        "arbre à chat grand chat",
+        "arbre à chat pour grand chat",
+        "arbres a chats pour grand chat",
+        "arbre a chats grands chats",
+        "arbre a chats pour grand chats",
+        "arbre a chats pour grands chats",
+        "arbres a chat pour grands chats",
+        "arbres a chats pour grands chats",
+        "grand chat arbre a chat",
+        "un arbre a chat pour grand chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "gros arbre a chat",
+      "volume": 170,
+      "kd": 23,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre gros chat",
+        "arbre pour gros chat",
+        "arbre à gros chat",
+        "gros arbre à chat",
+        "arbre a gros chat",
+        "arbre a chat gros",
+        "arbre a gros chats",
+        "arbres a gros chat",
+        "gros arbres a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat 1m80",
+      "volume": 140,
+      "kd": 20,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat hauteur",
+      "volume": 140,
+      "kd": 19,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat en hauteur",
+        "hauteur arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat solide pour gros chat",
+      "volume": 140,
+      "kd": 16,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat gros chat solide",
+        "arbre a chat solide pour gros chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "mini arbre a chat",
+      "volume": 110,
+      "kd": 19,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat mini"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat 180 cm",
+      "volume": 90,
+      "kd": 19,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat 1m",
+      "volume": 90,
+      "kd": 15,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat 2 metres",
+      "volume": 90,
+      "kd": 19,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat 2 metre",
+        "arbre a chat de 2 metres"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat 1m50",
+      "volume": 70,
+      "kd": 19,
+      "cluster": "Arbres à chat par taille",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat exterieur",
+      "volume": 1600,
+      "kd": 25,
+      "cluster": "Arbres à chat pour extérieur",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat pour exterieur",
+        "arbre a chats exterieur",
+        "arbre chat exterieur",
+        "arbre à chat extérieur",
+        "arbre à chat pour extérieur",
+        "arbre a chat extérieur",
+        "arbre à chat exterieur"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat d'extérieur",
+      "volume": 170,
+      "kd": 18,
+      "cluster": "Arbres à chat pour extérieur",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat d exterieur",
+        "arbre a chat d'exterieur",
+        "arbre a chat d'extérieur",
+        "arbre a chat d extérieur"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat extérieur balcon",
+      "volume": 140,
+      "kd": 23,
+      "cluster": "Arbres à chat pour extérieur",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat exterieur balcon"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "griffoir à chat",
+      "volume": 1600,
+      "kd": 26,
+      "cluster": "Accessoires arbre à chat",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "griffoirs chat",
+        "griffoir chats",
+        "griffoirs chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "maison pour les chats",
+      "volume": 1600,
+      "kd": 18,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "corde arbre a chat",
+      "volume": 590,
+      "kd": 16,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat corde",
+        "corde pour arbre a chat",
+        "arbre a chat avec corde",
+        "corde a arbre a chat",
+        "corde arbre a chats",
+        "corde pour arbre a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "griffoire chat",
+      "volume": 590,
+      "kd": 27,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "griffoire pour chat",
+        "griffoire a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "griffoirs",
+      "volume": 590,
+      "kd": 17,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "poteau arbre a chat",
+      "volume": 590,
+      "kd": 13,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat poteau",
+        "poteau pour arbre a chat",
+        "poteau pour arbre à chat",
+        "poteau arbre a chats",
+        "poteau arbres a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat hamac",
+      "volume": 390,
+      "kd": 22,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "hamac arbre a chat",
+        "hamac pour arbre a chat",
+        "arbre a chat avec hamac",
+        "arbre à chat hamac",
+        "arbre chat hamac",
+        "arbre à chat avec hamac",
+        "arbre a chat a hamac",
+        "arbre a chat dans un hamac",
+        "arbres a chat avec hamac",
+        "arbres a chat avec hamacs",
+        "hamac a arbre a chat",
+        "hamac arbre a chats",
+        "hamac pour arbre a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat griffoir",
+      "volume": 390,
+      "kd": 28,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre griffoir pour chat",
+        "arbres à chat griffoirs",
+        "griffoir arbre à chat",
+        "arbre a chat griffoir",
+        "arbre à chat et griffoir",
+        "griffoir arbre a chat",
+        "griffoir pour arbre a chat",
+        "arbre a chat avec griffoir",
+        "arbre a chat et griffoir",
+        "arbre à chat avec griffoirs",
+        "arbre a chat + griffoir",
+        "arbre griffoir a chat",
+        "arbres a chats et griffoir",
+        "griffoir et arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "griffoir chat canapé",
+      "volume": 390,
+      "kd": 21,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "perchoir chat",
+      "volume": 390,
+      "kd": 23,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "perchoir pour chat",
+        "perchoir à chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "poteau griffoir chat",
+      "volume": 390,
+      "kd": 12,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "griffoir poteau chat",
+        "poteau griffoir pour chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "poteaux pour arbre a chat",
+      "volume": 390,
+      "kd": 13,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "poteaux arbre a chat",
+        "poteaux arbre a chats",
+        "poteaux arbres a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "grattoir a chat",
+      "volume": 320,
+      "kd": 27,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "grattoir pour chats",
+        "grattoirs pour chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "griffer chat",
+      "volume": 320,
+      "kd": 26,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat nuage",
+      "volume": 260,
+      "kd": 15,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat griffoire",
+      "volume": 260,
+      "kd": 25,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat griffoire",
+        "griffoire et arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "tour griffoir chat",
+      "volume": 260,
+      "kd": 14,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat gros poteau",
+      "volume": 210,
+      "kd": 19,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat avec gros poteau",
+        "gros poteau arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat tonneau",
+      "volume": 210,
+      "kd": 21,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "tonneau arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "griffoir chat mural",
+      "volume": 210,
+      "kd": 13,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "griffoir mural pour chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "accessoire arbre à chat",
+      "volume": 140,
+      "kd": 18,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "accessoires pour arbre à chat",
+        "accessoires arbre à chat",
+        "accessoire arbre a chat",
+        "accessoire pour arbre a chat",
+        "arbre a chat accessoire",
+        "accessoires arbre a chat",
+        "accessoires pour arbre a chat",
+        "arbre a chat et accessoires",
+        "des accessoires pour un arbre a chat",
+        "des arbres a chat et accessoires"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat gros poteaux",
+      "volume": 140,
+      "kd": 18,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat avec gros poteaux",
+        "arbres a chats gros poteaux"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat rond",
+      "volume": 140,
+      "kd": 27,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "rond arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "grand griffoir chat",
+      "volume": 140,
+      "kd": 11,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "griffoir chat maison",
+      "volume": 140,
+      "kd": 16,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "poteaux griffoir pour chat",
+      "volume": 140,
+      "kd": 15,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "corde sisal chat",
+      "volume": 110,
+      "kd": 12,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "poteau griffoir chat xxl",
+      "volume": 110,
+      "kd": 14,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "sisal arbre a chat",
+      "volume": 110,
+      "kd": 13,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "sisal pour arbre a chat",
+        "arbre a chat en sisal",
+        "arbre a chat sisal",
+        "sisal pour arbre à chat",
+        "arbre a chat avec sisal",
+        "sisal pour arbre a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat avec gamelle",
+      "volume": 90,
+      "kd": 17,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat gamelle"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "panier arbre a chat",
+      "volume": 90,
+      "kd": 11,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "panier pour arbre a chat",
+        "arbre a chat avec panier",
+        "arbre a chat panier",
+        "panier pour arbre à chat",
+        "arbre a chat un panier"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "plate forme arbre a chat",
+      "volume": 90,
+      "kd": 19,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat plate forme",
+        "plate forme pour arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "plateforme arbre a chat",
+      "volume": 90,
+      "kd": 19,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "plateforme pour arbre a chat",
+        "arbre a chat avec plateforme",
+        "arbre a chat plateforme"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "poteau arbre à chat gros diamètre",
+      "volume": 90,
+      "kd": 10,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "poteau arbre a chat gros diametre"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "poteau chat",
+      "volume": 90,
+      "kd": 16,
+      "cluster": "Accessoires arbre à chat",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "poteau pour chat",
+        "poteau à chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat beige",
+      "volume": 1300,
+      "kd": 17,
+      "cluster": "Arbres à chat par couleur",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre à chat beige",
+        "arbre a chats beige"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat blanc",
+      "volume": 390,
+      "kd": 23,
+      "cluster": "Arbres à chat par couleur",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre chat blanc",
+        "arbre à chat blanc"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat noir",
+      "volume": 390,
+      "kd": 13,
+      "cluster": "Arbres à chat par couleur",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre à chat noir"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat rose",
+      "volume": 320,
+      "kd": 12,
+      "cluster": "Arbres à chat par couleur",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat et rose"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat gris",
+      "volume": 260,
+      "kd": 22,
+      "cluster": "Arbres à chat par couleur",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre chat gris",
+        "arbre à chat gris"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat marron",
+      "volume": 140,
+      "kd": 25,
+      "cluster": "Arbres à chat par couleur",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat vert",
+      "volume": 140,
+      "kd": 15,
+      "cluster": "Arbres à chat par couleur",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat xxl beige",
+      "volume": 110,
+      "kd": 16,
+      "cluster": "Arbres à chat par couleur",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat beige xxl"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat maxi zoo",
       "volume": 1300,
       "kd": 21,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "pilier",
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "maxi zoo arbre a chat",
+        "arbre à chat maxi zoo",
+        "maxi zoo arbre à chat",
+        "arbre a chats maxi zoo",
+        "arbre a chat chez maxi zoo",
+        "arbre a chat a maxi zoo",
+        "arbres a chat chez maxi zoo",
+        "arbres a chat maxi zoo",
+        "arbres a chats maxi zoo",
+        "maxi zoo arbres a chat",
+        "maxi zoo arbres a chats"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre à chat leclerc",
       "volume": 1000,
       "kd": 28,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "arbre chat leclerc",
+        "leclerc arbre à chat",
+        "arbre a chat leclerc",
+        "leclerc arbre a chat",
+        "arbre a chat chez leclerc"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat trixie",
       "volume": 880,
       "kd": 19,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "arbre à chat trixie",
+        "trixie arbre à chat",
+        "arbre chat trixie",
+        "trixie arbre chat",
+        "arbres a chat trixie",
+        "trixie arbre a chat",
+        "arbres a chats trixie"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat lidl",
       "volume": 720,
       "kd": 30,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "listicle",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat leclerc",
-      "volume": 720,
-      "kd": 28,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "lidl arbre a chat",
+        "arbres a chat lidl",
+        "arbre a chats lidl",
+        "arbre a chat chez lidl",
+        "arbres a chats a lidl"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre à chat animalis",
       "volume": 720,
       "kd": 19,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "narratif",
       "est_question": false,
+      "variantes": [
+        "animalis arbre à chat",
+        "animalis arbre a chat",
+        "arbre a chat animalis",
+        "arbre a chats animalis",
+        "arbre a chat chez animalis",
+        "animalis arbre a chats",
+        "animalis arbres a chat",
+        "arbres a chats animalis"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre à chat jardiland",
       "volume": 720,
       "kd": 19,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "maxi zoo arbre a chat",
-      "volume": 720,
-      "kd": 21,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "animalis arbre à chat",
-      "volume": 590,
-      "kd": 21,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "arbre à chats jardiland",
+        "jardiland arbre à chat",
+        "arbre chat jardiland",
+        "arbre a chat jardiland",
+        "jardiland arbre a chat",
+        "arbre a chat chez jardiland",
+        "arbre a chat a jardiland",
+        "arbres a chat jardiland",
+        "arbres a chats jardiland",
+        "jardiland arbre a chats",
+        "jardiland arbres a chat",
+        "jardiland arbres a chats",
+        "les arbres a chats chez jardiland"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat cdiscount",
       "volume": 590,
       "kd": 22,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "cdiscount arbre a chat",
+        "arbre à chat cdiscount",
+        "cdiscount arbre à chat",
+        "arbre a chat chez cdiscount",
+        "arbre a chat sur cdiscount",
+        "arbres a chat cdiscount",
+        "arbres a chats cdiscount",
+        "cdiscount arbre a chats",
+        "cdiscount arbres a chat",
+        "cdiscount arbres a chats"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat feandrea",
       "volume": 590,
       "kd": 22,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chats jardiland",
-      "volume": 590,
-      "kd": 25,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "jardiland arbre à chat",
-      "volume": 590,
-      "kd": 25,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "leclerc arbre à chat",
-      "volume": 590,
-      "kd": 30,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "feandrea arbre a chat"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "zooplus arbre à chat",
       "volume": 590,
       "kd": 27,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "narratif",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat zooplus",
-      "volume": 480,
-      "kd": 27,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat jardiland",
-      "volume": 480,
-      "kd": 23,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "arbre a chat zooplus",
+        "zooplus arbre chat",
+        "arbre à chat zooplus",
+        "zooplus arbre a chat",
+        "arbres a chats zooplus",
+        "arbre a chat chez zooplus",
+        "arbre a chat zooplu",
+        "arbres a chat zooplus",
+        "zooplus arbre a chats",
+        "zooplus arbres a chats"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre à chat truffaut",
       "volume": 480,
       "kd": 26,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "arbres à chat truffaut",
+        "truffaut arbre à chat",
+        "arbre chat truffaut",
+        "arbre a chat truffaut",
+        "truffaut arbre a chat",
+        "arbre a chats truffaut",
+        "arbre a chat chez truffaut",
+        "truffaut arbres a chat"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbres à chat truffaut",
+      "mot_cle": "arbres a chats amazon",
       "volume": 480,
-      "kd": 26,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "cdiscount arbre a chat",
-      "volume": 480,
-      "kd": 28,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "truffaut arbre à chat",
-      "volume": 480,
-      "kd": 20,
-      "cluster": "Marques et revendeurs",
+      "kd": 27,
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "arbres à chat amazon",
+        "arbre à chat sur amazon",
+        "amazon arbre a chats",
+        "arbre a chat sur amazon",
+        "arbre a chats amazon",
+        "arbre a chats sur amazon",
+        "arbres a chat amazon"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat temu",
       "volume": 390,
       "kd": 30,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat maxi zoo",
-      "volume": 390,
-      "kd": 22,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat trixie",
-      "volume": 390,
-      "kd": 11,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "trixie arbre à chat",
-      "volume": 390,
-      "kd": 19,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "animalis arbre a chat",
-      "volume": 320,
-      "kd": 19,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat animalis",
-      "volume": 320,
-      "kd": 21,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "temu arbre a chat"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat b&m",
       "volume": 320,
       "kd": 19,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "narratif",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat en solde",
-      "volume": 320,
-      "kd": 29,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "b&m arbre a chat",
+        "arbre à chat b&m",
+        "arbre a chat b et m",
+        "b et m arbre a chat"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat petrebels",
       "volume": 320,
       "kd": 26,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat truffaut",
-      "volume": 320,
-      "kd": 27,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "leclerc arbre a chat",
-      "volume": 320,
-      "kd": 29,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "solde arbre a chat",
-      "volume": 320,
-      "kd": 26,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "temu arbre a chat",
-      "volume": 320,
-      "kd": 29,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "trixie arbre chat",
-      "volume": 320,
-      "kd": 18,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "zooplus arbre chat",
-      "volume": 320,
-      "kd": 24,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "petrebels arbre à chat",
+        "petrebel arbre a chat",
+        "arbre a chat petrebel",
+        "petrebels arbre a chat",
+        "arbres a chat petrebels"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat bm",
       "volume": 260,
       "kd": 22,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "bm arbre a chat",
+        "arbre a chat chez bm"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat foir fouille",
       "volume": 260,
       "kd": 19,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat foir'fouille",
-      "volume": 260,
-      "kd": 22,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat jardiland",
-      "volume": 260,
-      "kd": 22,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat la foir fouille",
-      "volume": 260,
-      "kd": 21,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "lidl arbre a chat",
-      "volume": 260,
-      "kd": 25,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "petrebels arbre à chat",
-      "volume": 260,
-      "kd": 26,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "arbre a chat foir'fouille",
+        "arbre a chat la foir fouille",
+        "la foir fouille arbre a chat",
+        "foir fouille arbre a chat",
+        "arbre a chat la foir'fouille",
+        "foir'fouille arbre a chat",
+        "arbre a chat a la foir fouille",
+        "la foir'fouille arbre a chat"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "zoomalia arbre à chat",
       "volume": 260,
       "kd": 22,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "narratif",
       "est_question": false,
+      "variantes": [
+        "arbre a chat zoomalia",
+        "arbre à chat zoomalia",
+        "zoomalia arbre a chat",
+        "arbre a chat chez zoomalia",
+        "arbre a chats zoomalia"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat centrakor",
       "volume": 210,
       "kd": 21,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "centrakor arbre a chat",
+        "arbre a chats centrakor"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat le bon coin",
       "volume": 210,
       "kd": 30,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "le bon coin arbre a chat",
+        "arbre a chats le bon coin",
+        "arbres a chat le bon coin",
+        "sur le bon coin arbres a chat"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat manomano",
       "volume": 210,
       "kd": 24,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "listicle",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat promo",
-      "volume": 210,
-      "kd": 30,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat truffaut",
-      "volume": 210,
-      "kd": 25,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "manomano arbre a chat",
+        "arbre a chats manomano",
+        "manomano arbre a chats"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat zolux",
       "volume": 210,
       "kd": 19,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "narratif",
       "est_question": false,
+      "variantes": [
+        "zolux arbre a chat",
+        "arbres a chat zolux"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre à chat cdiscount",
+      "mot_cle": "arbre à chat simple",
       "volume": 210,
-      "kd": 27,
-      "cluster": "Marques et revendeurs",
+      "kd": 30,
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
-      "intention": "commerciale",
+      "intention": "generale",
       "archetype": "guide_achat",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "zolux arbre a chat",
-      "volume": 210,
-      "kd": 19,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat black friday",
-      "volume": 170,
-      "kd": 15,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "arbre a chat simple",
+        "simple arbre a chat"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat botanic",
       "volume": 170,
       "kd": 20,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "botanic arbre a chat",
+        "botanic arbre à chat",
+        "arbre a chat chez botanic",
+        "arbre a chats chez botanic",
+        "arbres a chat botanic",
+        "botanic arbre a chats",
+        "botanic arbres a chats",
+        "les arbres a chats chez botanic"
+      ],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat ebi",
       "volume": 170,
       "kd": 10,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "ebi arbre a chat",
+        "arbres a chats ebi"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre a chat promotion",
-      "volume": 170,
-      "kd": 30,
-      "cluster": "Marques et revendeurs",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat zoomalia",
+      "mot_cle": "arbre a chat maxizoo",
       "volume": 170,
       "kd": 19,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "maxizoo arbre a chat",
+        "arbre a chat chez maxizoo",
+        "arbres a chat maxizoo",
+        "maxizoo les arbres a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat stokomani",
+      "volume": 170,
+      "kd": 18,
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "arbre a chat stokomani",
+        "stokomani arbre a chat",
+        "arbres a chat stokomani"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre chat solde",
+      "mot_cle": "auchan arbre a chat",
       "volume": 170,
+      "kd": 28,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat auchan",
+        "arbre a chat a auchan",
+        "un arbre de chat a auchan"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat carrefour",
+      "volume": 140,
       "kd": 29,
-      "cluster": "Marques et revendeurs",
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "carrefour arbre a chat",
+        "arbre a chat chez carrefour",
+        "arbre a chat a carrefour",
+        "arbre a chats carrefour"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat gamm vert",
+      "volume": 140,
+      "kd": 21,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre à chat gamm vert",
+        "gamm vert arbre à chat",
+        "gamm vert arbre a chat",
+        "arbre a chat chez gamm vert",
+        "arbres a chats gamm vert",
+        "gamm vert arbres a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat magasin",
+      "volume": 140,
+      "kd": 29,
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "arbre a chat en magasin",
+        "arbre a chat dans magasin"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre à chat pas cher gifi",
-      "volume": 170,
-      "kd": 26,
-      "cluster": "Marques et revendeurs",
+      "mot_cle": "arbre a chat more",
+      "volume": 140,
+      "kd": 14,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "more arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat azkara",
+      "volume": 110,
+      "kd": 8,
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "azkara arbre a chat"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre à chat solde",
-      "volume": 170,
-      "kd": 30,
-      "cluster": "Marques et revendeurs",
+      "mot_cle": "arbre a chat jmt",
+      "volume": 110,
+      "kd": 28,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "jmt arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat noz",
+      "volume": 110,
+      "kd": 27,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "noz arbre a chat",
+        "arbre a chat chez noz"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat occasion",
+      "volume": 110,
+      "kd": 27,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbres a chat occasion",
+        "arbre a chat occasions",
+        "occasion arbre a chat",
+        "occasions arbres a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat shein",
+      "volume": 110,
+      "kd": 0,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "shein arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat vesper",
+      "volume": 110,
+      "kd": 18,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "vesper arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "nugget arbre a chat",
+      "volume": 110,
+      "kd": 9,
+      "cluster": "Marques et distributeurs",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "arbre a chat nugget",
+        "nuggets arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat hamiform",
+      "volume": 90,
+      "kd": 11,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "hamiform arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat natural paradise",
+      "volume": 90,
+      "kd": 17,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat pawhut",
+      "volume": 90,
+      "kd": 17,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "pawhut arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat tectake",
+      "volume": 90,
+      "kd": 23,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "tectake arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat villaverde",
+      "volume": 90,
+      "kd": 14,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "villaverde arbre a chat",
+        "arbre a chat chez villaverde"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "fukumaru arbre à chat",
+      "volume": 90,
+      "kd": 20,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat fukumaru"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "rhrquality arbre à chat",
+      "volume": 90,
+      "kd": 11,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat rhrquality",
+        "rhrquality arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat aliexpress",
+      "volume": 70,
+      "kd": 29,
+      "cluster": "Marques et distributeurs",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "aliexpress arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chaton",
+      "volume": 1300,
+      "kd": 18,
+      "cluster": "Arbres à chat par âge",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre à chatons",
+        "arbre chatons",
+        "arbres chatons",
+        "arbres à chatons",
+        "arbre a chaton"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre chat adulte",
+      "volume": 170,
+      "kd": 24,
+      "cluster": "Arbres à chat par âge",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre pour chat adulte",
+        "arbre a chat pour adulte",
+        "arbre a chat adultes",
+        "arbres a chat adultes"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat chaton",
+      "volume": 110,
+      "kd": 17,
+      "cluster": "Arbres à chat par âge",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre à chat pour chaton",
+        "arbre a chat pour chaton",
+        "arbre à chat chaton",
+        "chaton arbre a chat",
+        "arbre a chat pour chatons",
+        "chaton et arbre a chat",
+        "chaton et arbre a chats"
+      ],
       "statut": "libre"
     },
     {
@@ -1899,6 +2697,10 @@
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "arbres a chat fait maison",
+        "arbres a chats fait maison"
+      ],
       "statut": "libre"
     },
     {
@@ -1908,8 +2710,15 @@
       "cluster": "DIY et fabrication maison",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "fabriquer arbre a chat",
+        "arbre a chat fabriquer",
+        "arbre a chat a fabriquer",
+        "fabriquer arbre a chat de",
+        "fabriquer un arbres a chat"
+      ],
       "statut": "libre"
     },
     {
@@ -1919,8 +2728,13 @@
       "cluster": "DIY et fabrication maison",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "diy arbre a chat",
+        "arbre a chats diy",
+        "arbres a chat diy"
+      ],
       "statut": "libre"
     },
     {
@@ -1930,52 +2744,13 @@
       "cluster": "DIY et fabrication maison",
       "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "fabrication d un arbre a chat",
-      "volume": 480,
-      "kd": 26,
-      "cluster": "DIY et fabrication maison",
-      "role": "satellite",
-      "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "fabriquer arbre a chat",
-      "volume": 480,
-      "kd": 24,
-      "cluster": "DIY et fabrication maison",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat fabriquer",
-      "volume": 390,
-      "kd": 22,
-      "cluster": "DIY et fabrication maison",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "diy arbre a chat",
-      "volume": 390,
-      "kd": 21,
-      "cluster": "DIY et fabrication maison",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
+      "variantes": [
+        "fabrication d un arbre a chat",
+        "fabrication d'un arbre a chat",
+        "la fabrication d un arbre a chat"
+      ],
       "statut": "libre"
     },
     {
@@ -1985,8 +2760,11 @@
       "cluster": "DIY et fabrication maison",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "narratif",
       "est_question": false,
+      "variantes": [
+        "do it yourself arbre a chat"
+      ],
       "statut": "libre"
     },
     {
@@ -1996,8 +2774,12 @@
       "cluster": "DIY et fabrication maison",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "fabrication arbre a chat",
+        "fabrication un arbre a chat"
+      ],
       "statut": "libre"
     },
     {
@@ -2007,8 +2789,9 @@
       "cluster": "DIY et fabrication maison",
       "role": "satellite",
       "intention": "generale",
-      "archetype": "listicle",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [],
       "statut": "libre"
     },
     {
@@ -2020,468 +2803,126 @@
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "arbre a chat fait a la main"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "construction d un arbre a chat",
+      "volume": 170,
+      "kd": 0,
+      "cluster": "DIY et fabrication maison",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "construction d'un arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "construire arbre a chat",
+      "volume": 170,
+      "kd": 27,
+      "cluster": "DIY et fabrication maison",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "construire un arbre a chat",
+        "arbre a chat a construire",
+        "arbre a chat construire",
+        "construire pour arbre a chat",
+        "construire un arbre a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "idée arbre à chat fait maison",
+      "volume": 170,
+      "kd": 21,
+      "cluster": "DIY et fabrication maison",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "idee arbre a chat fait maison"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "faire un arbre a chat",
+      "volume": 140,
+      "kd": 21,
+      "cluster": "DIY et fabrication maison",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "faire arbre a chat",
+        "arbre a chat a faire",
+        "arbre a chat faire",
+        "faire un arbre a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat a faire soi meme",
+      "volume": 90,
+      "kd": 16,
+      "cluster": "DIY et fabrication maison",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat faire soi meme",
+        "arbre à chat a faire soi meme",
+        "faire soi meme un arbre a chat",
+        "faire un arbre a chat soi meme",
+        "arbre a chat a faire soi même",
+        "arbre a chat a faire sois meme",
+        "arbre a chat à faire soi-même",
+        "arbre a chats a faire soi meme",
+        "arbre pour chat a faire soi meme",
+        "faire soi meme arbre a chat",
+        "faire sois meme un arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat mural fait maison",
+      "volume": 90,
+      "kd": 8,
+      "cluster": "DIY et fabrication maison",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
       "statut": "libre"
     },
     {
       "mot_cle": "arbre a chat maison",
       "volume": 590,
       "kd": 25,
-      "cluster": "Autres et variantes",
+      "cluster": "arbre a chat maison",
       "role": "pilier",
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat xxl solide",
-      "volume": 480,
-      "kd": 19,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbres a chats",
-      "volume": 480,
-      "kd": 29,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat solide",
-      "volume": 390,
-      "kd": 25,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a",
-      "volume": 320,
-      "kd": 20,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chien",
-      "volume": 260,
-      "kd": 19,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbres a chats solides",
-      "volume": 260,
-      "kd": 19,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat 2m",
-      "volume": 210,
-      "kd": 18,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "meilleur arbre a chat",
-      "volume": 210,
-      "kd": 22,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "comparatif",
-      "archetype": "comparatif",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a achat",
-      "volume": 170,
-      "kd": 30,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a xhat",
-      "volume": 170,
-      "kd": 30,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat adulte",
-      "volume": 170,
-      "kd": 24,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre pour chat adulte",
-      "volume": 170,
-      "kd": 24,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre pour grand chat",
-      "volume": 170,
-      "kd": 19,
-      "cluster": "Autres et variantes",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "corde arbre a chat",
-      "volume": 590,
-      "kd": 16,
-      "cluster": "Poteaux pour arbres à chat",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "poteau arbre a chat",
-      "volume": 590,
-      "kd": 13,
-      "cluster": "Poteaux pour arbres à chat",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat poteau",
-      "volume": 480,
-      "kd": 12,
-      "cluster": "Poteaux pour arbres à chat",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat corde",
-      "volume": 390,
-      "kd": 17,
-      "cluster": "Poteaux pour arbres à chat",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "poteau pour arbre a chat",
-      "volume": 390,
-      "kd": 16,
-      "cluster": "Poteaux pour arbres à chat",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "poteaux pour arbre a chat",
-      "volume": 390,
-      "kd": 13,
-      "cluster": "Poteaux pour arbres à chat",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat gros poteau",
-      "volume": 210,
-      "kd": 19,
-      "cluster": "Poteaux pour arbres à chat",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat tonneau",
-      "volume": 210,
-      "kd": 21,
-      "cluster": "Poteaux pour arbres à chat",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat tour",
-      "volume": 210,
-      "kd": 12,
-      "cluster": "Poteaux pour arbres à chat",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat tronc d'arbre",
-      "volume": 210,
-      "kd": 15,
-      "cluster": "Poteaux pour arbres à chat",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "griffoire chat",
-      "volume": 590,
-      "kd": 27,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "griffoirs",
-      "volume": 590,
-      "kd": 17,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat griffoir",
-      "volume": 390,
-      "kd": 28,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "griffoir chat canapé",
-      "volume": 390,
-      "kd": 21,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "poteau griffoir chat",
-      "volume": 390,
-      "kd": 12,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre griffoir pour chat",
-      "volume": 320,
-      "kd": 30,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "grattoir a chat",
-      "volume": 320,
-      "kd": 27,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "grattoir pour chats",
-      "volume": 320,
-      "kd": 29,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "griffer chat",
-      "volume": 320,
-      "kd": 26,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "griffoir poteau chat",
-      "volume": 320,
-      "kd": 16,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat griffoire",
-      "volume": 260,
-      "kd": 25,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbres à chat griffoirs",
-      "volume": 260,
-      "kd": 24,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "griffoir arbre à chat",
-      "volume": 260,
-      "kd": 21,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "griffoire pour chat",
-      "volume": 260,
-      "kd": 22,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "poteau griffoir pour chat",
-      "volume": 260,
-      "kd": 14,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "tour griffoir chat",
-      "volume": 260,
-      "kd": 14,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat et griffoir",
-      "volume": 210,
-      "kd": 22,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "griffoir chat mural",
-      "volume": 210,
-      "kd": 13,
-      "cluster": "Griffoirs et accessoires grattage",
-      "role": "satellite",
-      "intention": "commerciale",
-      "archetype": "guide_achat",
-      "est_question": false,
+      "variantes": [
+        "arbre chat maison",
+        "arbre a chat avec maison",
+        "arbre a chats maison",
+        "maison arbre a chat",
+        "arbres a chat maison"
+      ],
       "statut": "libre"
     },
     {
@@ -2493,171 +2934,806 @@
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "arbre à chat avec litière",
+        "arbre a chat avec litiere",
+        "arbre à chat litière",
+        "litiere arbre a chat",
+        "arbre a chat litière",
+        "arbre a chat avec litière",
+        "arbre a chat et litiere",
+        "litière et arbre a chat"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre à chat avec litière",
-      "volume": 480,
-      "kd": 22,
+      "mot_cle": "arbre a chat avec cache litiere",
+      "volume": 110,
+      "kd": 17,
+      "cluster": "Arbres à chat avec litière",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat cache litiere"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat avec litiere intégrée",
+      "volume": 110,
+      "kd": 17,
+      "cluster": "Arbres à chat avec litière",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat litiere intégrée",
+        "arbre a chat avec litiere integree"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat litiere intégré",
+      "volume": 110,
+      "kd": 16,
       "cluster": "Arbres à chat avec litière",
       "role": "satellite",
       "intention": "generale",
       "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "arbre a chat avec litiere integre",
+        "arbre a chat litiere integre"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre a chat avec litiere",
-      "volume": 170,
+      "mot_cle": "meuble litiere arbre a chat",
+      "volume": 110,
       "kd": 19,
       "cluster": "Arbres à chat avec litière",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat avec meuble litiere",
+        "arbre a chat meuble litiere",
+        "meuble arbre a chat litiere",
+        "meuble litiere et arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbres a chats",
+      "volume": 480,
+      "kd": 29,
+      "cluster": "Variantes de recherche et typos",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "chat sur un arbre",
+        "un arbre à chat",
+        "arbre a the chat",
+        "arbre a the pour chat",
+        "arbre a. chat",
+        "les arbres a chat",
+        "un arbre a chat",
+        "arbre. a chat",
+        "arbre.a chat",
+        "pour arbre a chat",
+        "arbre a a chats",
+        "arbre a chat &",
+        "arbre a chat .",
+        "arbre a chat a",
+        "arbre a chat des",
+        "arbre a the et chat",
+        "arbre a thé chat",
+        "arbres a chat avec",
+        "arbres a chat pour un",
+        "le arbres a chat",
+        "les arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat solide",
+      "volume": 390,
+      "kd": 25,
+      "cluster": "Variantes de recherche et typos",
       "role": "satellite",
       "intention": "commerciale",
       "archetype": "guide_achat",
       "est_question": false,
+      "variantes": [
+        "arbres a chats solides",
+        "arbre à chat solide",
+        "arbre a chats solide",
+        "arbres a chat solide",
+        "solide arbre a chat"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre a chats en bois",
-      "volume": 480,
-      "kd": 19,
-      "cluster": "arbre a chats en bois",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbres a chats amazon",
-      "volume": 480,
-      "kd": 27,
-      "cluster": "arbres a chats amazon",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat hamac",
-      "volume": 390,
-      "kd": 22,
-      "cluster": "Arbres à chat avec hamac",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "hamac arbre a chat",
+      "mot_cle": "arbre a",
       "volume": 320,
-      "kd": 15,
-      "cluster": "Arbres à chat avec hamac",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "hamac pour arbre a chat",
-      "volume": 320,
-      "kd": 14,
-      "cluster": "Arbres à chat avec hamac",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat avec hamac",
-      "volume": 260,
-      "kd": 14,
-      "cluster": "Arbres à chat avec hamac",
-      "role": "satellite",
-      "intention": "generale",
-      "archetype": "listicle",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat pour gros chat",
-      "volume": 390,
       "kd": 20,
-      "cluster": "arbre à chat pour gros chat",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbres chatons",
-      "volume": 390,
-      "kd": 19,
-      "cluster": "arbres chatons",
-      "role": "pilier",
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
       "intention": "generale",
-      "archetype": "guide_complet",
+      "archetype": "comparatif",
       "est_question": false,
+      "variantes": [
+        "arbre à"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre a chat leclerc",
-      "volume": 320,
-      "kd": 27,
-      "cluster": "arbre a chat leclerc",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat naturel",
-      "volume": 320,
-      "kd": 21,
-      "cluster": "arbre chat naturel",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre chat trixie",
+      "mot_cle": "arbre a chat meuble",
       "volume": 320,
       "kd": 12,
-      "cluster": "arbre chat trixie",
-      "role": "pilier",
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
       "intention": "commerciale",
-      "archetype": "guide_complet",
+      "archetype": "listicle",
       "est_question": false,
+      "variantes": [
+        "meuble arbre a chat",
+        "arbre a chat avec meuble",
+        "arbre a chat avec un meuble"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre à chat grand",
-      "volume": 320,
-      "kd": 25,
-      "cluster": "arbre à chat grand",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
+      "mot_cle": "arbre a chat mur",
+      "volume": 210,
+      "kd": 20,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
       "est_question": false,
+      "variantes": [
+        "arbre a chat au mur",
+        "arbre a chat sur le mur",
+        "arbre a chat sur mur",
+        "mur arbre a chat",
+        "arbre a chat dans le mur"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre à chat xxl maine coon",
-      "volume": 320,
+      "mot_cle": "arbre a chat tour",
+      "volume": 210,
+      "kd": 12,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "tour arbre à chat",
+        "arbre à chat tour",
+        "tour arbre a chat",
+        "arbre a chat la tour",
+        "arbre a chat tours",
+        "arbres a chat tour"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "niche chat bois",
+      "volume": 210,
+      "kd": 19,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a achat",
+      "volume": 170,
+      "kd": 30,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat arbre",
+      "volume": 170,
+      "kd": 29,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat en arbre",
+        "arbre a chat avec arbre",
+        "arbre arbre a chat",
+        "arbre a chat avec un arbre"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a xhat",
+      "volume": 170,
+      "kd": 30,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "truffaut chat",
+      "volume": 170,
+      "kd": 24,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "chat truffaut"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "étagère chat",
+      "volume": 170,
+      "kd": 11,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat deluxe",
+      "volume": 140,
+      "kd": 6,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "enclos chat occasion",
+      "volume": 140,
+      "kd": 27,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat grand plateau",
+      "volume": 110,
+      "kd": 11,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat avec grand plateau",
+        "arbre a chats grand plateau"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "harnais pour chien anione",
+      "volume": 110,
+      "kd": 24,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "herbe à chat maxi zoo",
+      "volume": 110,
+      "kd": 20,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "jardiland arbre",
+      "volume": 110,
+      "kd": 24,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "meubles chat",
+      "volume": 110,
+      "kd": 13,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "tour pour chats",
+      "volume": 110,
+      "kd": 18,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "tronc à griffer chat",
+      "volume": 110,
+      "kd": 12,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "tronc à griffer pour chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "animalis villeneuve-d'ascq photos",
+      "volume": 90,
+      "kd": 23,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbe à chat",
+      "volume": 90,
+      "kd": 30,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat cylindre",
+      "volume": 90,
+      "kd": 17,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "cylindre pour arbre a chat",
+        "cylindre arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat en forme d'arbre",
+      "volume": 90,
+      "kd": 16,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat en forme d arbre",
+        "arbre a chat en forme d'arbres",
+        "arbre a chat forme d'arbre"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat etagere",
+      "volume": 90,
+      "kd": 23,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "etagere arbre a chat",
+        "arbre a chat avec etagere",
+        "etagere pour arbre a chat",
+        "etageres arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat jolie",
+      "volume": 90,
+      "kd": 23,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "jolie arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat large",
+      "volume": 90,
+      "kd": 23,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat sur mesure",
+      "volume": 90,
       "kd": 14,
-      "cluster": "arbre à chat xxl maine coon",
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chats sur mesure"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "panier pour chat animalis",
+      "volume": 90,
+      "kd": 28,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat 2 m",
+      "volume": 70,
+      "kd": 17,
+      "cluster": "Variantes de recherche et typos",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat en solde",
+      "volume": 320,
+      "kd": 29,
+      "cluster": "Promotions et prix",
       "role": "pilier",
       "intention": "commerciale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "solde arbre a chat",
+        "arbres à chats soldes",
+        "arbre chat solde",
+        "arbre à chat solde",
+        "soldes arbre à chat",
+        "solde arbre à chat",
+        "arbres a chats soldes",
+        "arbre a chat en soldes",
+        "soldes arbres a chat",
+        "arbre a chat soldé",
+        "arbre a chats en solde",
+        "arbre a chats solde",
+        "arbre a chats soldes",
+        "arbres a chat en soldes",
+        "arbres a chat solde",
+        "arbres a chat soldes",
+        "soldes arbre a chats",
+        "soldes arbres a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat promo",
+      "volume": 210,
+      "kd": 30,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "promo arbre a chat",
+        "arbre à chat en promo",
+        "arbre a chats promo",
+        "arbres a chats en promos",
+        "arbres a chats promo",
+        "arbres a chats promos",
+        "promos sur arbres a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "meilleur arbre a chat",
+      "volume": 210,
+      "kd": 22,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "comparatif",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat meilleur",
+        "le meilleur des arbres a chats",
+        "les arbres a chats les meilleur",
+        "les meilleurs arbre a chat",
+        "les meilleurs arbres a chat",
+        "meilleurs arbre a chat",
+        "meilleurs arbres a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat black friday",
+      "volume": 170,
+      "kd": 15,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre à chat black friday",
+        "black friday arbre a chat",
+        "black friday arbres a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat promotion",
+      "volume": 170,
+      "kd": 30,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "promotion arbre à chat",
+        "arbre à chat en promotion",
+        "promotion arbre a chat",
+        "arbre a chat promotions",
+        "arbre a chats en promotion",
+        "arbre a chats promotions",
+        "arbres a chats en promotion",
+        "promotion arbres a chat",
+        "promotion sur arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat pas cher gifi",
+      "volume": 170,
+      "kd": 26,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat gifi pas cher",
+        "arbre a chat pas cher gifi"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "prix d un arbre a chat",
+      "volume": 140,
+      "kd": 30,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "prix d un arbre à chat",
+        "le prix d un arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbres a chat pas chere",
+      "volume": 110,
+      "kd": 0,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat pas chère",
+        "arbre a chat pas chére",
+        "arbres a chat pas chères"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "griffoir pour chat pas cher",
+      "volume": 110,
+      "kd": 24,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "griffoir chat pas cher"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "meilleure arbre a chat",
+      "volume": 110,
+      "kd": 19,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "comparatif",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "soldes arbre a chat gifi",
+      "volume": 110,
+      "kd": 26,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat gifi soldes",
+        "arbre a chat solde gifi",
+        "arbre a chat soldes gifi"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat pas cher la foir'fouille",
+      "volume": 90,
+      "kd": 20,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "generale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat pas cher la foir fouille"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat xxl en promotion",
+      "volume": 90,
+      "kd": 19,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "narratif",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat xxl en promotion"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "grand arbre à chat pas cher",
+      "volume": 90,
+      "kd": 25,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "guide_achat",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat grand pas cher",
+        "grand arbre a chat pas cher",
+        "des grand arbre a chat pas cher",
+        "grand arbre a chats pas cher"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "griffoire chat pas cher",
+      "volume": 90,
+      "kd": 30,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "comparatif",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat de qualité",
+      "volume": 70,
+      "kd": 23,
+      "cluster": "Promotions et prix",
+      "role": "satellite",
+      "intention": "commerciale",
+      "archetype": "listicle",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat qualité",
+        "arbre a chat de qualite",
+        "arbre a chat qualite"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chien",
+      "volume": 260,
+      "kd": 19,
+      "cluster": "arbre a chien",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [],
       "statut": "libre"
     },
     {
@@ -2669,94 +3745,299 @@
       "intention": "generale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "arbre a chat anione",
+        "anione arbre à chat"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre a chat anione",
-      "volume": 210,
-      "kd": 24,
-      "cluster": "arbre a chat anione",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat grand chat",
-      "volume": 210,
-      "kd": 20,
-      "cluster": "arbre a chat grand chat",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat griffoir",
-      "volume": 210,
-      "kd": 30,
-      "cluster": "arbre a chat griffoir",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat fleur",
-      "volume": 210,
-      "kd": 21,
-      "cluster": "arbre à chat fleur",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbres à chats soldes",
-      "volume": 210,
-      "kd": 28,
-      "cluster": "arbres à chats soldes",
-      "role": "pilier",
-      "intention": "commerciale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre a chat arbre",
+      "mot_cle": "arbres à chat pas cher",
       "volume": 170,
-      "kd": 29,
-      "cluster": "arbre a chat arbre",
+      "kd": 25,
+      "cluster": "arbres à chat pas cher",
       "role": "pilier",
-      "intention": "generale",
+      "intention": "commerciale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [
+        "arbre à chats pas cher",
+        "arbre à chat a pas cher",
+        "arbre a chat pas.cher",
+        "arbre a chats pas cher",
+        "arbres a chat pas cher",
+        "arbre a chat pas chers",
+        "arbre a chats pa cher",
+        "arbre a. chat pas cher",
+        "arbres a chat pas chers"
+      ],
       "statut": "libre"
     },
     {
-      "mot_cle": "arbre chat en bois",
-      "volume": 170,
-      "kd": 29,
-      "cluster": "arbre chat en bois",
-      "role": "pilier",
-      "intention": "generale",
-      "archetype": "guide_complet",
-      "est_question": false,
-      "statut": "libre"
-    },
-    {
-      "mot_cle": "arbre à chat pour grand chat",
+      "mot_cle": "sapin arbre a chat",
       "volume": 170,
       "kd": 19,
-      "cluster": "arbre à chat pour grand chat",
+      "cluster": "sapin arbre a chat",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat sapin",
+        "arbre a chat en sapin",
+        "sapin en arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "construction arbre a chat",
+      "volume": 140,
+      "kd": 18,
+      "cluster": "construction arbre a chat",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat construction",
+        "construction arbre a chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat design luxe",
+      "volume": 110,
+      "kd": 13,
+      "cluster": "arbre a chat design luxe",
       "role": "pilier",
       "intention": "commerciale",
       "archetype": "guide_complet",
       "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat fabrication maison",
+      "volume": 110,
+      "kd": 20,
+      "cluster": "arbre a chat fabrication maison",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "fabrication arbre a chat maison"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat plante",
+      "volume": 110,
+      "kd": 11,
+      "cluster": "arbre a chat plante",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "plante arbre a chat",
+        "arbre a chat avec plante",
+        "arbre a chat plantes"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat pour 2 chats",
+      "volume": 110,
+      "kd": 19,
+      "cluster": "arbre a chat pour 2 chats",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat 2 chats",
+        "arbre a chat pour 2 chat",
+        "arbre a chats pour 2 chats"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat en bois xxl",
+      "volume": 110,
+      "kd": 19,
+      "cluster": "arbre à chat en bois xxl",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat xxl bois",
+        "arbre a chat en bois xxl",
+        "arbre a chat bois xxl",
+        "arbre a chat xxl en bois"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "chatxl",
+      "volume": 110,
+      "kd": 22,
+      "cluster": "chatxl",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "tissu arbre à chat",
+      "volume": 110,
+      "kd": 19,
+      "cluster": "tissu arbre à chat",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "tissu arbre a chat",
+        "tissus pour arbre a chat",
+        "tissu pour arbre a chat",
+        "arbre a chat tissu",
+        "arbre a chat en tissu",
+        "tissu pour un arbre a chat",
+        "tissus arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre a chat geant xxl",
+      "volume": 90,
+      "kd": 26,
+      "cluster": "arbre a chat geant xxl",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "geant arbre a chat xxl"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat bricomarché",
+      "volume": 90,
+      "kd": 25,
+      "cluster": "arbre à chat bricomarché",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat bricomarché",
+        "bricomarché arbre a chat",
+        "arbre a chat a bricomarche",
+        "arbre a chat bricomarche",
+        "bricomarche arbre a chat"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat grande plateforme",
+      "volume": 90,
+      "kd": 18,
+      "cluster": "arbre à chat grande plateforme",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat avec grande plateforme",
+        "arbre a chat grande plateforme"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat gros tronc",
+      "volume": 90,
+      "kd": 17,
+      "cluster": "arbre à chat gros tronc",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat avec gros tronc",
+        "arbre a chat gros tronc",
+        "arbre a chats gros.tronc"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat petit espace",
+      "volume": 90,
+      "kd": 26,
+      "cluster": "arbre à chat petit espace",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat petit espace",
+        "arbre a chat pour petit espace",
+        "arbre a chat pour petits espace"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbre à chat solide et stable",
+      "volume": 90,
+      "kd": 14,
+      "cluster": "arbre à chat solide et stable",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat solide et stable"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "arbres a chat action",
+      "volume": 90,
+      "kd": 30,
+      "cluster": "arbres a chat action",
+      "role": "pilier",
+      "intention": "commerciale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat a action",
+        "arbre a chat chez action",
+        "action arbre a chats",
+        "arbre a chats action"
+      ],
+      "statut": "libre"
+    },
+    {
+      "mot_cle": "amazone arbre a chat",
+      "volume": 70,
+      "kd": 0,
+      "cluster": "amazone arbre a chat",
+      "role": "pilier",
+      "intention": "generale",
+      "archetype": "guide_complet",
+      "est_question": false,
+      "variantes": [
+        "arbre a chat amazone",
+        "arbre a chat chez amazone",
+        "arbre a chat sur amazone",
+        "amazone arbre a chats",
+        "arbre a chats sur amazone",
+        "arbres a chat amazones"
+      ],
       "statut": "libre"
     }
   ]
