@@ -29,6 +29,18 @@ const ARCHETYPES = {
   narratif: "Article narratif : storytelling, ton chaleureux, exemples vécus.",
 };
 
+// Style de TITRE attendu par archétype -> évite que tous les titres soient "Guide Complet pour…".
+const TITRE_HINTS = {
+  guide_complet: "'Guide complet' ou 'Tout savoir sur …' accepté (c'est le pilier).",
+  guide_etape: "commence par 'Comment …' ou finit par '… en X étapes'.",
+  comparatif: "oppose deux options : 'X ou Y : lequel choisir ?' ou 'Comparatif : …'.",
+  guide_achat: "axé sur le choix : 'Comment choisir …', 'Bien choisir sa/son …'. N'utilise PAS 'Guide complet'.",
+  explicatif: "pose/répond à une question : 'Pourquoi …', 'À quel âge …', 'Faut-il … ?'.",
+  listicle: "chiffré : 'X astuces pour …', 'X idées de …', 'X façons de …'.",
+  erreurs: "'X erreurs à éviter avec …' ou 'Les pièges de …'.",
+  narratif: "évocateur et chaleureux, sans le mot 'guide'.",
+};
+
 // Règles de rédaction du CORPS (partie stable -> mise en cache).
 const REGLES_BODY = `Tu es un rédacteur web SEO expert francophone. Tu écris des articles de blog conçus pour RANKER sur Google.
 
@@ -88,7 +100,7 @@ function nettoyerHtml(txt) {
  * Génère un article complet.
  * @returns { article, stopReason, model }
  */
-export async function genererArticle(ctx, theme, clusterQuestions, linkTargets, siblings = []) {
+export async function genererArticle(ctx, theme, clusterQuestions, linkTargets, siblings = [], titresPublies = []) {
   const model = MODELS[theme.role] || MODELS.satellite;
   const maxTokens = 8000; // marge : un article FR jusqu'à ~3000 mots + HTML dépasse 6000 tokens -> évite la troncature
   // Longueur : 600-3000 mots pour TOUS. Cibles volontairement basses car le modèle a tendance
@@ -152,16 +164,20 @@ ${articlesListe || "(aucun)"}`;
 
 MOT-CLÉ CIBLE : "${theme.mot_cle}"
 CLUSTER : ${theme.cluster}
+FORMAT DE L'ARTICLE : ${theme.archetype}
 Questions du cluster (pour la FAQ) :
 ${clusterQuestions.map((q) => `- ${q}`).join("\n") || "(aucune)"}
 
+TITRES DÉJÀ PUBLIÉS SUR CE BLOG (ton titre doit être NETTEMENT différent — surtout PAS les mêmes mots simplement réordonnés) :
+${titresPublies.length ? titresPublies.map((t) => `- ${t}`).join("\n") : "(aucun — premier article du blog)"}
+
 Contraintes :
-- titre : contient le mot-clé, **entre 45 et 60 caractères** (un titre trop court performe moins en SEO — étoffe-le), accrocheur. N'inclus une année QUE si le sujet l'exige vraiment (tendances, nouveautés, "meilleures X de l'année", actualité). Pour un guide/tuto intemporel, PAS d'année. Si tu mets une année, ce doit être EXCLUSIVEMENT "${ANNEE}".
+- titre : contient le mot-clé, **entre 45 et 60 caractères** (un titre trop court performe moins en SEO — étoffe-le), accrocheur. STYLE DE TITRE IMPOSÉ PAR LE FORMAT (${theme.archetype}) : ${TITRE_HINTS[theme.archetype] || TITRE_HINTS.listicle} N'utilise "Guide complet" QUE si le format est réellement 'guide_complet' ; sinon varie la formulation. INTERDIT : reprendre un titre de la liste ci-dessus ou une simple permutation de ses mots — trouve un angle et une formulation distincts. N'inclus une année QUE si le sujet l'exige vraiment (tendances, nouveautés, "meilleures X de l'année", actualité). Pour un guide/tuto intemporel, PAS d'année. Si tu mets une année, ce doit être EXCLUSIVEMENT "${ANNEE}".
 - slug : court, basé sur le mot-clé, minuscules-avec-tirets, sans accents, SANS année (l'URL doit rester permanente).
 - meta_description : 110-160 caractères, avec le mot-clé et une accroche. L'année "${ANNEE}" est permise, aucune autre.
 - Nous sommes en ${ANNEE}. La SEULE année autorisée partout est ${ANNEE}. N'invente aucune date.
 - faq : 3 à 5 questions/réponses pertinentes (issues ou inspirées des questions du cluster), réponses concises.
-- images : 0, 1 ou 2 images selon la pertinence, chaque requête de recherche EN ANGLAIS + sa position.
+- images : 0, 1 ou 2 images selon la pertinence. Pour chaque image, une "requete" de recherche EN ANGLAIS, DESCRIPTIVE et SPÉCIFIQUE (sujet + décor + ambiance, ex. "baby nursery soft night light glowing beside crib" plutôt que "night light") pour tomber sur une vraie photo pertinente. ÉVITE les termes génériques d'un seul mot, tout texte, et toute marque. Précise aussi sa "position".
 - tags : 3-6 tags dont "${theme.cluster}".
 
 ARTICLE :

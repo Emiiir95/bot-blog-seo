@@ -1,7 +1,27 @@
-// Récupération d'images via banques gratuites (Pexels, fallback Unsplash), avec anti-répétition.
+// Images : génération IA (OpenAI) OU banques gratuites (Pexels/Unsplash), avec anti-répétition.
 import { withRetry } from "./utils.js";
+import { genererImageIA } from "./image-gen.js";
+import { uploadImageBytes } from "./shopify.js";
+import { slugify } from "./utils.js";
 
-async function searchPexels(query, key, count = 10) {
+/**
+ * Image générée par IA puis hébergée sur Shopify.
+ * @returns { featured: {url, alt}, credits: [], imageManquante } — imageManquante=true si KO (repli).
+ */
+export async function resoudreImageIA(store, article, motCle, niche) {
+  const sujet = article.images?.[0]?.requete || article.titre || motCle;
+  try {
+    const img = await genererImageIA(sujet, niche);
+    if (!img) return { featured: null, credits: [], imageManquante: true }; // pas de clé -> repli
+    const url = await uploadImageBytes(store, img.buffer, `${slugify(motCle) || "image"}.png`, img.mime);
+    return { featured: { url, alt: motCle }, credits: [], imageManquante: false };
+  } catch (e) {
+    console.warn(`  ⚠️ image IA KO (${e.message}) — repli sur photo.`);
+    return { featured: null, credits: [], imageManquante: true };
+  }
+}
+
+async function searchPexels(query, key, count = 20) {
   if (!key) return [];
   const url = `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=${count}&orientation=landscape`;
   const res = await fetch(url, { headers: { Authorization: key } });
@@ -17,7 +37,7 @@ async function searchPexels(query, key, count = 10) {
   }));
 }
 
-async function searchUnsplash(query, key, count = 10) {
+async function searchUnsplash(query, key, count = 20) {
   if (!key) return [];
   const url = `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=${count}&orientation=landscape`;
   const res = await fetch(url, { headers: { Authorization: `Client-ID ${key}` } });

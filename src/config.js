@@ -33,10 +33,15 @@ export function loadStores() {
 
 export const env = {
   anthropicKey: process.env.ANTHROPIC_API_KEY,
+  openaiKey: process.env.OPENAI_API_KEY,
   telegramToken: process.env.TELEGRAM_BOT_TOKEN,
   telegramChatId: process.env.TELEGRAM_CHAT_ID,
   commitState: process.env.COMMIT_STATE === "1",
   forceDraft: process.env.FORCE_DRAFT === "1",
+  // Source des images : "ai" = génération OpenAI (gpt-image-1), "stock" = Pexels/Unsplash.
+  // En "ai" sans clé OpenAI, on retombe automatiquement sur "stock".
+  imageMode: (process.env.IMAGE_MODE || "ai").toLowerCase(),
+  imageQuality: process.env.IMAGE_QUALITY || "medium", // low | medium | high
 };
 
 // Version de l'API Admin Shopify (à vérifier au fil des mises à jour Shopify).

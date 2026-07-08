@@ -1,34 +1,53 @@
 // Seed des thèmes depuis les CSV + choix du prochain mot-clé selon la priorisation.
-import { buildThemes, loadClusterMap, loadKeywordRows, clusterWithAI } from "./clusters.js";
+import { buildThemes, loadClusterMap, loadKeywordRows, clusterWithAI, normaliserMotCle, filtrerPertinenceIA } from "./clusters.js";
 import { today } from "./utils.js";
 
 /**
- * Remplit state.themes depuis keywords.csv s'il est vide, ou fusionne les nouveaux
- * mots-clés apparus (sans écraser le statut des existants). Renvoie true si régénéré.
+ * (Re)génère la liste des thèmes DISTINCTS via SYNTHÈSE IA à partir des mots-clés réels.
  *
- * Clusters : depuis clusters.csv s'il existe, sinon regroupement automatique par l'IA
- * (un seul appel, uniquement quand il y a de nouveaux mots-clés à intégrer).
+ * La synthèse IA est coûteuse -> elle ne tourne QUE :
+ *   - au tout premier seed (état vide), ou
+ *   - sur rebuild explicite (commande `node src/themes.js`, quand on ajoute un nouveau CSV).
+ * Les runs quotidiens (rebuild=false, état déjà peuplé) ne resynthétisent pas.
+ *
+ * Les thèmes déjà rédigés/publiés (`utilise`/`problematique`) sont TOUJOURS préservés ;
+ * le backlog `libre` est remplacé par la nouvelle synthèse (sans recréer un sujet déjà couvert).
+ * Renvoie true si c'était le premier seed.
  */
-export async function seedThemes(storeId, state, niche) {
-  const rows = loadKeywordRows(storeId);
+export async function seedThemes(storeId, state, niche, { rebuild = false } = {}) {
+  let rows = loadKeywordRows(storeId);
   if (rows.length === 0) return false;
 
-  const known = new Set(state.themes.map((t) => t.mot_cle.toLowerCase()));
-  const nouveaux = rows.filter((r) => !known.has(r.mot_cle.toLowerCase()));
-  if (nouveaux.length === 0) return false; // rien de neuf -> aucun appel IA
+  const wasEmpty = state.themes.length === 0;
+  if (!wasEmpty && !rebuild) return false; // pas de resynthèse coûteuse au quotidien
 
+  // 1) FILTRE DE PERTINENCE : ne garder que les vrais mots-clés de la niche (retire lieux,
+  //    idiomes, produits homonymes, enseignes, emplois — ce qu'un filtre par mots ne peut pas voir).
+  rows = await filtrerPertinenceIA(rows, niche);
+
+  // 2) CLUSTERING : clusters.csv s'il couvre l'essentiel, sinon clustering IA complet.
   let clusterMap = loadClusterMap(storeId);
+  if (clusterMap) {
+    const couverts = rows.filter((r) => clusterMap.has(r.mot_cle.trim().toLowerCase())).length;
+    if (couverts / rows.length < 0.6) clusterMap = null; // csv trop partiel -> IA
+  }
   if (!clusterMap) clusterMap = await clusterWithAI(rows, niche);
 
-  const fromCsv = buildThemes(storeId, clusterMap);
-  const added = fromCsv.filter((t) => !known.has(t.mot_cle.toLowerCase()));
+  // 3) SYNTHÈSE : thèmes distincts, variantes absorbées.
+  const synth = await buildThemes(rows, clusterMap, niche);
 
-  const wasEmpty = state.themes.length === 0;
-  if (added.length) {
-    state.themes.push(...added);
-    state.derniere_generation_themes = today();
+  // Préserver ce qui est déjà rédigé ; ne pas recréer un thème sur un sujet déjà couvert.
+  const conserves = state.themes.filter((t) => t.statut === "utilise" || t.statut === "problematique");
+  const couverts = new Set();
+  for (const t of conserves) {
+    couverts.add(normaliserMotCle(t.mot_cle));
+    for (const v of t.variantes || []) couverts.add(normaliserMotCle(v));
   }
-  return wasEmpty && added.length > 0;
+  const nouveaux = synth.filter((t) => !couverts.has(normaliserMotCle(t.mot_cle)));
+
+  state.themes = [...conserves, ...nouveaux];
+  state.derniere_generation_themes = today();
+  return wasEmpty;
 }
 
 /**

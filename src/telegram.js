@@ -6,14 +6,18 @@ export function createJournal() {
   const actions = []; // ACTION REQUISE (brouillons à valider)
   const compteurs = { publies: 0, brouillons: 0, echecs: 0, regen: 0 };
 
+  // Libellé de la source d'image (pour que l'utilisateur sache quoi vérifier).
+  const labelImage = (src) =>
+    src === "ia" ? "🖼️ image IA" : src === "pexels" ? "📷 image Pexels (à vérifier)" : "❌ sans image";
+
   return {
-    publie({ storeId, domaine, titre, mots, image }) {
+    publie({ storeId, domaine, titre, mots, imageSource }) {
       compteurs.publies++;
-      lignes.push(`✅ ${storeId} (${domaine})\n   « ${titre} »\n   ${image ? "image ✓" : "sans image"} · ${mots} mots`);
+      lignes.push(`✅ ${storeId} (${domaine})\n   « ${titre} »\n   ${labelImage(imageSource)} · ${mots} mots`);
     },
-    brouillon({ storeId, domaine, titre, adminUrl, raison }) {
+    brouillon({ storeId, domaine, titre, adminUrl, raison, imageSource }) {
       compteurs.brouillons++;
-      lignes.push(`📝 ${storeId} (${domaine}) — À VALIDER\n   « ${titre} »\n   ⚠️ ${raison} → BROUILLON`);
+      lignes.push(`📝 ${storeId} (${domaine}) — À VALIDER\n   « ${titre} »\n   ${labelImage(imageSource)} · ⚠️ ${raison} → BROUILLON`);
       actions.push(`• ${storeId} : ${raison} 👉 ${adminUrl}`);
     },
     echec({ storeId, domaine, raison }) {
@@ -33,7 +37,8 @@ export function createJournal() {
       msg += `✅ ${compteurs.publies} publiés · 📝 ${compteurs.brouillons} brouillons · ❌ ${compteurs.echecs} échecs`;
       if (compteurs.regen) msg += ` · ♻️ ${compteurs.regen}`;
       msg += `\n\n━━━━━━━━━━━━━━━━━━\n${lignes.join("\n\n")}\n━━━━━━━━━━━━━━━━━━\n`;
-      msg += `\n💰 Coût IA du jour : ${cost.eurJour} € · projeté ~${cost.eurMois} €/mois`;
+      msg += `\n💰 Coût du jour : ${cost.eurJour} € · projeté ~${cost.eurMois} €/mois`;
+      msg += `\n   ✍️ Texte : ${cost.texteEurJour} € · 🖼️ Images : ${cost.imagesEurJour} € (${cost.images})`;
       if (actions.length) msg += `\n\n⚠️ ACTION REQUISE\n${actions.join("\n")}`;
       return msg;
     },

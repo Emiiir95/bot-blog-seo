@@ -80,6 +80,25 @@ export async function getBlogId(store) {
 }
 
 /**
+ * Cherche un article existant par son handle dans un blog (idempotence anti-doublon).
+ * @returns { id, handle } ou null
+ */
+export async function findArticleByHandle(store, blogId, handle) {
+  // On liste les articles du blog et on matche le handle côté code (les filtres serveur
+  // par handle ne sont pas dispo sur Blog.articles). first: 250 suffit largement comme filet
+  // anti-doublon ; au-delà, la garde `utilise` au niveau des thèmes empêche déjà les republications.
+  const data = await shopifyGraphQL(
+    store,
+    `query($id: ID!) {
+      blog(id: $id) { articles(first: 250) { nodes { id handle } } }
+    }`,
+    { id: blogId }
+  );
+  const nodes = data.blog?.articles?.nodes || [];
+  return nodes.find((a) => a.handle === handle) || null;
+}
+
+/**
  * Crée un article de blog.
  * @returns { id, handle, url }
  */
@@ -122,6 +141,37 @@ export async function createArticle(store, blogId, article, { published }) {
     handle: created.handle,
     url: `https://${store.domaine}/blogs/${store.blog_handle}/${created.handle}`,
   };
+}
+
+/**
+ * Héberge des octets d'image sur Shopify (staged upload) et renvoie une URL exploitable
+ * comme image d'article. Sert aux images générées par IA (qu'on ne peut pas passer par URL).
+ */
+export async function uploadImageBytes(store, buffer, filename, mimeType = "image/png") {
+  const staged = await shopifyGraphQL(
+    store,
+    `mutation($input: [StagedUploadInput!]!) {
+      stagedUploadsCreate(input: $input) {
+        stagedTargets { url resourceUrl parameters { name value } }
+        userErrors { field message }
+      }
+    }`,
+    { input: [{ filename, mimeType, resource: "IMAGE", httpMethod: "POST" }] }
+  );
+  const errs = staged.stagedUploadsCreate?.userErrors || [];
+  if (errs.length) throw new Error(`stagedUploadsCreate: ${JSON.stringify(errs)}`);
+  const target = staged.stagedUploadsCreate?.stagedTargets?.[0];
+  if (!target) throw new Error("stagedUploadsCreate: aucune cible");
+
+  // POST multipart des octets vers la cible (GCS/S3) avec les paramètres fournis par Shopify.
+  const form = new FormData();
+  for (const p of target.parameters) form.append(p.name, p.value);
+  form.append("file", new Blob([buffer], { type: mimeType }), filename);
+  const up = await fetch(target.url, { method: "POST", body: form });
+  if (!up.ok) throw new Error(`upload image staged HTTP ${up.status}`);
+
+  // resourceUrl = URL que Shopify peut ré-ingérer comme image d'article.
+  return target.resourceUrl;
 }
 
 /** Met à jour le corps HTML d'un article (maillage bidirectionnel + refresh). */

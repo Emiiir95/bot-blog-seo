@@ -3,10 +3,10 @@ import { loadStores, env } from "./config.js";
 import { loadState, saveState, commitState } from "./state.js";
 import { seedThemes, pickNext } from "./keywords.js";
 import { buildContext } from "./store-context.js";
-import { getBlogId, createArticle } from "./shopify.js";
+import { getBlogId, createArticle, findArticleByHandle } from "./shopify.js";
 import { genererArticle } from "./generate.js";
 import { valider } from "./validate.js";
-import { resoudreImages } from "./images.js";
+import { resoudreImages, resoudreImageIA } from "./images.js";
 import { assemblerBody } from "./seo.js";
 import { ciblesMaillage, maillageBidirectionnel } from "./linking.js";
 import { pingIndexNow } from "./indexnow.js";
@@ -45,11 +45,37 @@ async function traiterBoutique(store, journal) {
   const ctx = await buildContext(store);
   const blogId = await getBlogId(store); // peut throw -> échec boutique
 
+  // Slug DÉTERMINISTE basé sur le mot-clé -> même thème = même URL (idempotent, §10).
+  const handle = slugify(theme.mot_cle);
+
+  // Garde anti-doublon : si l'article existe déjà en ligne (état désynchronisé),
+  // on l'adopte au lieu d'en recréer un second sur le même sujet.
+  const dejaEnLigne = await findArticleByHandle(store, blogId, handle);
+  if (dejaEnLigne) {
+    Object.assign(theme, {
+      statut: "utilise",
+      article_id: dejaEnLigne.id,
+      handle: dejaEnLigne.handle,
+      url: `https://${store.domaine}/blogs/${store.blog_handle}/${dejaEnLigne.handle}`,
+      titre: theme.titre || dejaEnLigne.handle,
+      date_publication: theme.date_publication || today(),
+      date_maj: today(),
+    });
+    saveState(store.id, state);
+    commitState(store.id, `état ${store.id}: réconcilié "${dejaEnLigne.handle}" (anti-doublon)`);
+    journal.info(`${store.id} : "${theme.mot_cle}" déjà en ligne — thème réconcilié, aucun doublon créé.`);
+    return;
+  }
+
   const clusterQuestions = questionsDuCluster(state, theme);
   const linkTargets = ciblesMaillage(state, theme, ctx.shop);
-  // Articles déjà publiés du même cluster (différenciation) + images déjà utilisées (anti-répétition).
+  // Articles déjà publiés du même cluster (différenciation d'angle) + images déjà utilisées (anti-répétition).
   const siblings = state.themes
     .filter((t) => t.cluster === theme.cluster && t.statut === "utilise" && t.titre)
+    .map((t) => t.titre);
+  // TOUS les titres déjà publiés sur la boutique -> le nouveau titre doit être NETTEMENT différent.
+  const titresPublies = state.themes
+    .filter((t) => t.statut === "utilise" && t.titre)
     .map((t) => t.titre);
   const usedImages = new Set(state.themes.filter((t) => t.image_url).map((t) => t.image_url));
 
@@ -58,7 +84,7 @@ async function traiterBoutique(store, journal) {
   let dernieresRaisons = [];
   const maxMots = 3200; // 600-3000 pour tous (petite tolérance pour "un peu plus")
   for (let attempt = 0; attempt < 2; attempt++) {
-    const gen = await genererArticle(ctx, theme, clusterQuestions, linkTargets, siblings);
+    const gen = await genererArticle(ctx, theme, clusterQuestions, linkTargets, siblings, titresPublies);
     const v = valider(gen.article, { langue: store.langue, stopReason: gen.stopReason, maxMots });
     if (v.ok) {
       article = gen.article;
@@ -92,12 +118,24 @@ async function traiterBoutique(store, journal) {
 
   // Finalisation article.
   article.auteur = ctx.auteur;
-  const handle = slugify(article.slug || article.titre);
-  article.slug = handle;
+  article.slug = handle; // slug déterministe calculé plus haut
   const url = `https://${store.domaine}/blogs/${store.blog_handle}/${handle}`;
 
-  // Images (avec anti-répétition via usedImages).
-  const imgRes = await resoudreImages(store, article, theme.mot_cle, usedImages);
+  // Images : génération IA (OpenAI) en priorité si IMAGE_MODE=ai, sinon/à défaut banque gratuite.
+  let imgRes;
+  let imageSource = "aucune"; // "ia" | "pexels" | "aucune"
+  if (env.imageMode === "ai") {
+    imgRes = await resoudreImageIA(store, article, theme.mot_cle, ctx.niche);
+    if (!imgRes.imageManquante) {
+      imageSource = "ia";
+    } else {
+      imgRes = await resoudreImages(store, article, theme.mot_cle, usedImages); // repli photo
+      if (!imgRes.imageManquante) imageSource = "pexels";
+    }
+  } else {
+    imgRes = await resoudreImages(store, article, theme.mot_cle, usedImages);
+    if (!imgRes.imageManquante) imageSource = "pexels";
+  }
   const published = !imgRes.imageManquante && !env.forceDraft;
 
   // SEO + corps final.
@@ -134,7 +172,7 @@ async function traiterBoutique(store, journal) {
       domaine: store.domaine,
       titre: article.titre,
       mots: article._mots,
-      image: !!article.image,
+      imageSource,
     });
   } else {
     journal.brouillon({
@@ -143,6 +181,7 @@ async function traiterBoutique(store, journal) {
       titre: article.titre,
       adminUrl: adminArticleUrl(store, res.id),
       raison: imgRes.imageManquante ? "aucune image trouvée" : "mode brouillon (à valider)",
+      imageSource,
     });
   }
 }

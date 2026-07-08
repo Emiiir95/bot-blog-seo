@@ -117,15 +117,20 @@ La validation tourne **AVANT** l'appel de publication Shopify. Rien ne passe en 
 
 ## 8. Génération de contenu — mots-clés, clusters, priorisation
 
-**Décision : le backlog de thèmes = les mots-clés SEMrush réels (pas du brainstorm IA).**
+**Décision (révisée 2026-07-08) : les thèmes sont SYNTHÉTISÉS par l'IA à partir des mots-clés SEMrush réels (synthèse *ancrée*, PAS du brainstorm inventé).**
 
 - L'utilisateur a **SEMrush mais PAS l'API** → il **exporte des CSV manuellement**.
 - Fichiers : `boutiques/boutique-N/semrush/keywords.csv` (**obligatoire**) + `boutiques/boutique-N/semrush/clusters.csv` (**OPTIONNEL**).
-- **`clusters.csv` optionnel** : s'il est absent (l'utilisateur ne peut souvent exporter que les mots-clés), le bot **regroupe automatiquement les mots-clés en clusters via l'IA** (un appel Haiku, une seule fois au premier seed, quand il y a de nouveaux mots-clés). Implémenté dans `src/clusters.js` → `clusterWithAI()`. Le clustering SEMrush reste préférable (basé sur le SERP) mais l'IA fait un bon fallback sémantique.
-- **Exporter seulement le top filtré** (KD < 30 + volume correct), **pas les 55 000 mots-clés** → repo léger + meilleur ciblage. Une seule export = des **années** de contenu (55K variations + 1,5K questions).
-- **Priorisation « facile d'abord »** : filtrer **KD < 30** (mots-clés faciles/verts), puis trier par **volume décroissant**. **Prioriser les « Questions »** (intention claire + potentiel de featured snippet).
-- **Pourquoi vrais mots-clés et pas brainstorm IA** : du contenu IA que personne ne cherche ne rank pas. Les vrais mots-clés SEMrush = alignés sur la demande réelle = vrai potentiel de ranking.
-- **Régénération quasi-théorique** : avec des dizaines de milliers de mots-clés, on ne tombe jamais à court. Si un jour épuisé → alerte Telegram « exporte un nouveau CSV » (on garde du vrai SEO, pas de l'invention IA).
+- **`clusters.csv` optionnel** : s'il est absent (l'utilisateur ne peut souvent exporter que les mots-clés), le bot **regroupe automatiquement les mots-clés en clusters via l'IA** (`src/clusters.js` → `clusterWithAI()`). Le clustering SEMrush reste préférable (basé sur le SERP) mais l'IA fait un bon fallback sémantique.
+- **Synthèse des thèmes (NOUVEAU)** : au lieu de « 1 mot-clé = 1 article » (qui créait des articles jumeaux, ex. « arbre à chat maine coon » vs « arbre à chat xxl pour maine coon »), une IA (`synthetiserCluster()` dans `src/clusters.js`) transforme les mots-clés de chaque cluster en **articles de blog DISTINCTS**. Les mots-clés quasi-identiques / traités dans le même article **fusionnent en UN thème** (le plus gros volume = principal, les autres = secondaires injectés dans l'article). Résultat : une liste de thèmes tous différents, **zéro cannibalisation**.
+  - **Toujours ancré sur les vrais mots-clés** : chaque thème vient d'un mot-clé SEMrush réel → on garde le potentiel de ranking. Ce n'est PAS de l'invention de sujets que personne ne cherche.
+  - Synthèse **coûteuse → lancée seulement** au 1er seed (état vide) ou via la commande de planification `node --env-file=.env src/themes.js boutique-N` (rebuild). Les runs quotidiens ne resynthétisent jamais.
+  - Les thèmes déjà rédigés (`utilise`) sont **préservés** lors d'un rebuild ; seul le backlog `libre` est régénéré.
+  - Fallback mécanique (1 mot-clé = 1 thème) si l'appel IA échoue sur un cluster → jamais bloquant.
+- **Filtre anti-concurrents** : les mots-clés contenant une enseigne concurrente (« maxi zoo », « gifi », « temu », « lidl »…) sont **écartés** (`JUNK_RE` dans `clusters.js`) — on n'écrit pas un article pour la boutique d'un concurrent.
+- **Exporter seulement le top filtré** (KD < 30 + volume correct) → repo léger + meilleur ciblage.
+- **Priorisation « facile d'abord »** : **KD < 30**, puis volume décroissant, **Questions** priorisées (featured snippet).
+- **Régénération quasi-théorique** : avec des dizaines de milliers de mots-clés, on ne tombe jamais à court. Si épuisé → alerte Telegram « exporte un nouveau CSV ».
 
 ---
 
@@ -217,17 +222,22 @@ La validation tourne **AVANT** l'appel de publication Shopify. Rien ne passe en 
 
 ---
 
-## 15. Images — banques d'images gratuites uniquement
+## 15. Images
 
-**Décision : UNIQUEMENT des API de banques d'images gratuites (Pexels / Unsplash). 0 à 2 images par article, « au feeling ».**
+**Décision (révisée 2026-07-08) : GÉNÉRATION IA par défaut (OpenAI `gpt-image-1`), avec repli sur banques gratuites.**
 
+- **Pourquoi le changement** : Pexels/Unsplash sont des banques de photos *lifestyle génériques* — elles n'ont pas les produits de niche (« veilleuse tortue », « arbre à chat Maine Coon ») → images hors-sujet. La génération IA produit une image pertinente au **format blog uniforme** pour chaque article.
+- **Implémentation** : `src/image-gen.js` (`genererImageIA` → OpenAI `gpt-image-1`, paysage 1536×1024, style éditorial imposé, sans texte/logo) → `src/shopify.js` (`uploadImageBytes`, staged upload → URL) → attachée à l'article. Piloté par `IMAGE_MODE` (`ai` par défaut, `stock` pour repli manuel) et `IMAGE_QUALITY` (`low`/`medium`/`high`). Clé requise : `OPENAI_API_KEY`.
+- **Repli automatique, jamais bloquant** : pas de clé OpenAI ou erreur de génération → bascule sur Pexels/Unsplash ; si ça échoue aussi → **BROUILLON + alerte Telegram**.
+- **Coût** : ~0,04 €/image en qualité `medium` → ~12 €/mois pour 10 boutiques (les images deviennent le poste dominant vs ~6 €/mois de texte). Assumé par l'utilisateur pour la pertinence/qualité. `IMAGE_QUALITY=low` (~1 cent) possible pour diviser le coût.
 - **JAMAIS d'images Google** (droit d'auteur → contrefaçon, risque DMCA / fermeture boutique, mauvais SEO). Décision ferme.
+- **Alternative écartée pour l'instant** : réutiliser les vraies photos produits Shopify (gratuit, très pertinent, pousse vers la fiche) — l'utilisateur a préféré le tout-IA pour un style de blog homogène. À reconsidérer si le coût ou le rendu artificiel gênent.
 - **Attribution** : Unsplash **exige** un crédit (auteur + lien) ; Pexels le recommande. L'API renvoie l'auteur → à automatiser (légende / bas d'article).
 - **Rate limits** : Unsplash prod 5000 req/h, Pexels 200 req/h / 20 000/mois → très largement suffisant (~20 req/jour max).
 - **L'IA décide 0 à 2 images** : la génération renvoie un tableau `images[]` structuré `{ position, requete }` ; le script cherche sur Pexels/Unsplash et insère. Tableau vide = 0 image.
 - **Image introuvable** → article en **BROUILLON + alerte Telegram** (voir §5/§7).
 - **PAS de ligne « Crédits photos »** dans l'article : Pexels et Unsplash ne l'exigent PAS (licence libre, attribution appréciée mais optionnelle). Décision de l'utilisateur : rien de superflu dans le contenu publié.
-- Coût images = **0 €**. (Génération d'images IA explicitement écartée : coûterait plus cher que le texte pour peu de valeur ajoutée ici.)
+- Coût images : **~12 €/mois** en mode IA `medium` (voir plus haut), ou **0 €** en repli banque gratuite (`IMAGE_MODE=stock`).
 
 ---
 
@@ -283,7 +293,7 @@ La validation tourne **AVANT** l'appel de publication Shopify. Rien ne passe en 
 | **Base de données pour l'état** | Overkill à 10 boutiques ; JSON committé suffit |
 | **Cron parallèle (matrix)** | Conflits de `git push` concurrents |
 | **Un template global partagé par jour** | Empreinte croisée détectable entre boutiques |
-| **Brainstorm IA pur pour les thèmes** | Ne rank pas ; on utilise les vrais mots-clés SEMrush |
+| **Brainstorm IA *pur* pour les thèmes** (sujets inventés) | Ne rank pas. ⚠️ NUANCE (2026-07-08) : la **synthèse IA *ancrée* sur les vrais mots-clés SEMrush est, elle, ADOPTÉE** (voir §8) — elle regroupe les mots-clés réels en thèmes distincts, elle n'invente rien. |
 | **IA-juge de qualité (au début)** | Coût inutile ; checks déterministes suffisent |
 | **Ping sitemap Google** | Déprécié par Google en 2023, ne marche plus |
 | **Google Indexing API pour blogs** | Contre les règles Google (réservée emploi/événements) |
@@ -305,6 +315,20 @@ Suite à un grilling de stress-test, 7 correctifs pour garantir **contenu 100 % 
 5. **Refresh quotidien** (`refresh.js`) : 1 article rafraîchi/jour/boutique (le plus vieux), dès ≥20 articles → chaque article rafraîchi tous les ~N jours (N = nb d'articles). Remplace l'ancien « 1×/semaine » (inutile à cette échelle).
 6. **IndexNow** : reporté (Bing/Yandex only, hébergement fichier-clé pénible sur Shopify). À reconsidérer plus tard.
 7. **Épuisement gracieux** : à court de thèmes → alerte Telegram + le refresh continue (le site reste frais, autonomie préservée). Ré-exporter un CSV pour relancer la production.
+
+---
+
+## 22. Fixes anti-doublon v2 (session du 2026-07-08)
+
+Suite à des articles de test dupliqués (même sujet republié, titres jumeaux « mots réordonnés », même image), 5 correctifs :
+
+1. **Synthèse IA des thèmes** (voir §8) : remplace « 1 mot-clé = 1 article » → thèmes tous distincts, variantes absorbées. C'est le correctif de fond contre les articles sur le même sujet.
+2. **Slug déterministe + garde anti-doublon** (`index.js` + `shopify.js` → `findArticleByHandle`) : le slug vient du mot-clé (URL stable, §10) ; avant publication, si un article avec ce handle existe déjà sur Shopify, le bot l'**adopte** (réconcilie l'état) au lieu d'en recréer un. → republier le même sujet devient **impossible**, même si l'état a été désynchronisé/reset.
+3. **Titres distincts sur TOUT le blog** (`generate.js` + `index.js`) : la génération du titre reçoit **tous les titres déjà publiés** + interdiction de reprendre un titre ou une simple permutation de ses mots.
+4. **Titre calé sur l'archétype** (`generate.js` → `TITRE_HINTS`) : le prompt de titre reçoit l'archétype et un style imposé (guide_achat → « Comment choisir… », comparatif → « X ou Y ? », listicle → « 5 astuces… ») → fini le « Guide Complet » systématique.
+5. **Images** (décision : rester GRATUIT, améliorer d'abord) : requêtes de recherche EN ANGLAIS plus **descriptives et spécifiques** (sujet + décor + ambiance) ; pool de candidats élargi 10→20 pour l'anti-répétition. Génération d'images IA (OpenAI) évaluée (~12 €/mois en qualité moyenne) mais **non retenue pour l'instant** (coût > texte + rendu artificiel ; §15 maintenu).
+
+> ⚠️ **Après ces changements, il faut RE-SEED les thèmes** : `node --env-file=.env src/themes.js boutique-N` (régénère le backlog `libre` via synthèse IA, préserve les articles déjà publiés).
 
 ---
 

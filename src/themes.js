@@ -32,7 +32,7 @@ async function main() {
 
   console.log(`\n🧩 Génération de la liste des thèmes pour ${store.id}...\n`);
   const state = loadState(store.id);
-  await seedThemes(store.id, state, store.niche); // lit keywords.csv (+ clustering si besoin)
+  await seedThemes(store.id, state, store.niche, { rebuild: true }); // synthèse IA des thèmes distincts
   saveState(store.id, state);
   commitState(store.id, `themes ${store.id}: liste (re)générée`);
 
@@ -48,7 +48,8 @@ async function main() {
     for (const t of list) {
       const marque = t.statut === "utilise" ? "✅" : "•";
       const role = t.role === "pilier" ? "[PILIER]" : "         ";
-      console.log(`   ${marque} ${role} ${t.mot_cle}`);
+      const sujet = t.titre_indicatif ? `${t.titre_indicatif}  (mc: ${t.mot_cle})` : t.mot_cle;
+      console.log(`   ${marque} ${role} ${sujet}`);
     }
     console.log("");
   }
