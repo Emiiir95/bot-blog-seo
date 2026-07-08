@@ -91,7 +91,14 @@
         "lampes de veilleuse",
         "lampes veilleuse"
       ],
-      "statut": "libre"
+      "statut": "utilise",
+      "article_id": "gid://shopify/Article/631285580123",
+      "handle": "lampe-veilleuse",
+      "url": "https://latelier-veilleuse.com/blogs/le-blog-de-latelier-veilleuse/lampe-veilleuse",
+      "titre": "Lampe Veilleuse : Guide Complet pour Bien Choisir",
+      "image_url": "https://images.pexels.com/photos/34897529/pexels-photo-34897529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "date_publication": "2026-07-08",
+      "date_maj": "2026-07-08"
     },
     {
       "mot_cle": "veilleuse adulte",
