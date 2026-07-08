@@ -30,9 +30,13 @@ jobs:
         run: node src/index.js
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           STORES_SECRETS: ${{ secrets.STORES_SECRETS }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Images : "ai" = génération OpenAI (gpt-image-1) · "stock" = Pexels/Unsplash. Qualité : low|medium|high.
+          IMAGE_MODE: "ai"
+          IMAGE_QUALITY: "medium"
           COMMIT_STATE: "1"
           # "1" = publie en BROUILLON · "0" = publie en PUBLIC. (Repasser à "1" pour revenir en brouillon.)
           FORCE_DRAFT: "0"
