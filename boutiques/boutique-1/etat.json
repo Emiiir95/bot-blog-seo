@@ -990,7 +990,14 @@
         "veilleuse lumineuse"
       ],
       "titre_indicatif": "Veilleuses jour-nuit : variation d'intensité lumineuse",
-      "statut": "libre"
+      "statut": "utilise",
+      "article_id": "gid://shopify/Article/631716544859",
+      "handle": "veilleuse-jour-nuit",
+      "url": "https://latelier-veilleuse.com/blogs/le-blog-de-latelier-veilleuse/veilleuse-jour-nuit",
+      "titre": "Pourquoi une veilleuse jour nuit transforme les nuits apaisées",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/96149733723/files/f0042dc1-0048-4e82-983c-f8af0ee18b9c/veilleuse-jour-nuit.png",
+      "date_publication": "2026-08-06",
+      "date_maj": "2026-08-06"
     },
     {
       "mot_cle": "veilleuse solaire",
