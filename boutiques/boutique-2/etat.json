@@ -1391,7 +1391,14 @@
         "meubles chat"
       ],
       "titre_indicatif": "Guide complet des maisons pour chats",
-      "statut": "libre"
+      "statut": "utilise",
+      "article_id": "gid://shopify/Article/616238252370",
+      "handle": "maison-pour-les-chats",
+      "url": "https://perchoirduchat.com/blogs/le-blog-du-perchoir-du-chat/maison-pour-les-chats",
+      "titre": "Tout savoir sur la maison pour les chats : choix, types et intégration",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/106744512850/files/76ec22d1-d084-4271-90e7-cce92088e5ee/maison-pour-les-chats.png",
+      "date_publication": "2026-08-29",
+      "date_maj": "2026-08-29"
     },
     {
       "mot_cle": "arbre a chat meuble",
